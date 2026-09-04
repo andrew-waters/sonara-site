@@ -1,25 +1,35 @@
 // Theme toggle + theme-aware screenshots.
 // The pre-paint script in <head> resolves the initial data-theme; this owns the
 // toggle button and swaps any img[data-light] to its light-mode capture when the
-// page is light. A missing light file falls back to the dark shot, so screenshots
-// can be recaptured theme-by-theme (scripts/capture-screenshots.sh --light).
+// page is light. Each screenshot sits in a <picture> with a WebP source and the
+// PNG as the fallback (scripts/webp-screenshots.sh makes the WebPs), so the
+// source is pointed at the same theme's WebP. A missing light file falls back
+// to the dark shot, so screenshots can be recaptured theme-by-theme
+// (scripts/capture-screenshots.sh --light).
 (function () {
   var root = document.documentElement;
   function dark() { return root.getAttribute('data-theme') === 'dark'; }
+
+  function point(img, png) {
+    var picture = img.parentElement;
+    var source = picture && picture.tagName === 'PICTURE' ? picture.querySelector('source[type="image/webp"]') : null;
+    if (source) source.srcset = png.replace(/\.png$/, '.webp');
+    img.src = png;
+  }
 
   function applyImages() {
     Array.prototype.forEach.call(document.querySelectorAll('img[data-light]'), function (img) {
       if (!img.getAttribute('data-dark')) img.setAttribute('data-dark', img.getAttribute('src'));
       if (dark()) {
-        img.src = img.getAttribute('data-dark');
+        point(img, img.getAttribute('data-dark'));
         return;
       }
       img.onerror = function () {
         img.onerror = null;
         img.removeAttribute('data-light');
-        img.src = img.getAttribute('data-dark');
+        point(img, img.getAttribute('data-dark'));
       };
-      img.src = img.getAttribute('data-light');
+      point(img, img.getAttribute('data-light'));
     });
   }
 

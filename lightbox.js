@@ -4,7 +4,7 @@
   var lb = document.getElementById('lightbox');
   var lbImg = document.getElementById('lb-img');
   var i = 0;
-  function show(n) { i = (n + imgs.length) % imgs.length; lbImg.src = imgs[i].src; lbImg.alt = imgs[i].alt; }
+  function show(n) { i = (n + imgs.length) % imgs.length; lbImg.src = imgs[i].currentSrc || imgs[i].src; lbImg.alt = imgs[i].alt; }
   function open(n) { show(n); lb.classList.add('open'); lb.setAttribute('aria-hidden', 'false'); document.body.style.overflow = 'hidden'; }
   function close() { lb.classList.remove('open'); lb.setAttribute('aria-hidden', 'true'); document.body.style.overflow = ''; }
   imgs.forEach(function (im, idx) { im.addEventListener('click', function () { open(idx); }); });

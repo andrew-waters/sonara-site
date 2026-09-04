@@ -15,7 +15,7 @@
   --bg-3: #1a1a1d;
   --ink: #f3f3f0;
   --ink-2: #a9a9a2;
-  --ink-3: #6f6f69;
+  --ink-3: #7f7f78;
   --line: #232326;
   --line-2: #2e2e32;
   --accent: #2f6bff;
@@ -31,7 +31,7 @@
   --bg-3: #ebebe7;
   --ink: #101012;
   --ink-2: #55554f;
-  --ink-3: #8a8a83;
+  --ink-3: #66665f;
   --line: #e2e2dd;
   --line-2: #d2d2cc;
   --accent: #0044cc;
@@ -154,6 +154,9 @@ header.scrolled .brand { opacity: 1; }
 .story { padding: var(--s16) 0 0; }
 .story-grid { display: grid; grid-template-columns: 5fr 7fr; gap: var(--s16); align-items: start; }
 .step { min-height: 100vh; display: flex; align-items: center; padding: var(--s10) 0; }
+/* The steps whose page pans through the frame are sized by story.js so the
+   page moves no faster than the scroll (one pixel of page per pixel scrolled);
+   this is the floor for a short page or before the image has loaded. */
 .step--long { min-height: 220vh; }
 .step-copy .mono { display: block; margin-bottom: var(--s4); }
 .step-copy .mono b { color: var(--accent); font-weight: 400; margin-right: var(--s3); }
@@ -172,8 +175,15 @@ header.scrolled .brand { opacity: 1; }
 .layer.active { opacity: 1; pointer-events: auto; }
 .layer .crop { position: absolute; inset: 0; aspect-ratio: auto; border: 0; border-radius: 0; box-shadow: none; }
 .layer--tall img.pan { position: absolute; left: 0; top: 0; width: 100%; will-change: transform; }
-.layer--compare .compare { position: absolute; inset: 0; display: grid; grid-template-rows: 1fr 1fr; gap: var(--s3); }
-.layer--compare .compare .crop { position: relative; inset: auto; }
+/* Before and after in the frame: one crop of the same figures, the treated
+   room fading in over the untreated one as the reader scrolls through the
+   step (story.js sets --flip from 0 to 1), so the treatment reads as
+   happening rather than as two pictures to compare. */
+.flip img.after { opacity: var(--flip, 0); }
+.flip .crop-label { display: grid; }
+.flip .crop-label span { grid-area: 1 / 1; transition: opacity 200ms ease; }
+.flip .flip-before { opacity: calc(1 - var(--flip, 0)); }
+.flip .flip-after { opacity: var(--flip, 0); }
 
 /* A zoomed crop of a screenshot: the image is scaled past the frame and
    offset so the detail that sells the view is what shows. */
@@ -204,7 +214,7 @@ header.scrolled .brand { opacity: 1; }
   background: var(--bg); border: 1px solid var(--line-2); color: var(--ink-2); font-size: 11px;
 }
 
-/* Before and after: two wide crops of the same figures, stacked. */
+/* Before and after, inline on narrow screens: two wide crops of the same figures, stacked. */
 .compare { display: grid; gap: var(--s3); }
 .crop--wide { aspect-ratio: 3 / 1; }
 .crop-label {
@@ -222,7 +232,7 @@ header.scrolled .brand { opacity: 1; }
 
 /* ---------- Closing ---------- */
 .closing { padding: var(--s32) 0; border-top: 1px solid var(--line); text-align: center; }
-.closing h2 { font-size: clamp(56px, 9vw, 128px); margin: 0 0 var(--s8); }
+.closing h2 { font-size: clamp(48px, 7vw, 96px); margin: 0 0 var(--s8); }
 .closing h2 em { font-style: normal; color: var(--ink-3); }
 
 /* ---------- Footer ---------- */
@@ -257,6 +267,11 @@ footer { padding: var(--s8) 0 var(--s10); border-top: 1px solid var(--line); col
   .step--long { min-height: 0; }
   .step-media { display: block; margin-top: var(--s8); }
   .hero-row { margin-bottom: var(--s8); }
+  /* A desktop page at phone width is unreadable at full width; show its
+     left two thirds at a legible size and let it scroll, in a taller panel. */
+  .tall { aspect-ratio: 4 / 3; }
+  .tall img { width: 170%; max-width: none; }
+  .crop--wide { aspect-ratio: 2 / 1; }
 }
 @media (max-width: 560px) {
   .spec-grid { grid-template-columns: repeat(2, 1fr); }

@@ -7,9 +7,13 @@
   <meta name="description" content="Sonara is a Mac app for planning studios and live setups: draw the room, place the gear, wire it, plan the patchbays and treat the acoustics, all on one plan that checks itself." />
   <meta property="og:title" content="Sonara - design the room before you build it" />
   <meta property="og:description" content="A Mac app for planning studios and live setups. Coming soon to the Mac App Store." />
-  <meta property="og:image" content="https://sonara.andon.dev/assets/screens/layout.png" />
+  <meta property="og:image" content="https://sonara.andon.dev/assets/og.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Sonara: design your studio space before you build it. The plan view of a studio with gear placed and reflections traced." />
   <meta property="og:url" content="https://sonara.andon.dev/" />
   <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://sonara.andon.dev/assets/og.jpg" />
   <link rel="icon" type="image/png" href="assets/icon-256.png" />
   <link rel="apple-touch-icon" href="assets/icon-256.png" />
   <script>(function(){var t;try{t=localStorage.getItem('theme')}catch(e){}if(!t)t=(window.matchMedia&&matchMedia('(prefers-color-scheme: light)').matches)?'light':'dark';document.documentElement.setAttribute('data-theme',t);})();</script>
@@ -46,7 +50,7 @@
         </div>
         <div class="hero-shot">
           <span class="dot dot--tl"></span><span class="dot dot--tr"></span><span class="dot dot--bl"></span><span class="dot dot--br"></span>
-          <img class="zoomable" src="assets/screens/layout.png" data-light="assets/screens/light/layout.png" alt="The Sonara plan view: a studio drawn to scale with the gear placed, cable runs shown, first reflections traced from each monitor to the walls, and the inspector listing every connection" />
+          <picture><source type="image/webp" srcset="assets/screens/layout.webp" /><img class="zoomable" src="assets/screens/layout.png" data-light="assets/screens/light/layout.png" fetchpriority="high" decoding="async" alt="The Sonara plan view: a studio drawn to scale with the gear placed, cable runs shown, first reflections traced from each monitor to the walls, and the inspector listing every connection" /></picture>
         </div>
       </div>
     </section>
@@ -73,7 +77,7 @@
               <h2 class="display">Model the room.</h2>
               <p>Draw it to scale: walls, ceiling, doors, windows, outlets and finishes. Put the desk, the monitors and the seat where they are, or where they might go. Every object knows its size.</p>
             </div>
-            <div class="step-media"><div class="crop" style="--zoom: 1.8; --x: -40%; --y: -41%"><img class="zoomable" src="assets/screens/layout-untreated.png" data-light="assets/screens/light/layout-untreated.png" alt="The plan view of an untreated room: monitors aimed at the listening position, first reflections traced to the walls and marked as still needing treatment" /></div></div>
+            <div class="step-media"><div class="crop" style="--zoom: 1.8; --x: -40%; --y: -41%"><picture><source type="image/webp" srcset="assets/screens/layout-untreated.webp" /><img class="zoomable" src="assets/screens/layout-untreated.png" data-light="assets/screens/light/layout-untreated.png" loading="lazy" decoding="async" alt="The plan view of an untreated room: monitors aimed at the listening position, first reflections traced to the walls and marked as still needing treatment" /></picture></div></div>
           </article>
           <article class="step step--long" data-step="listen">
             <div class="step-copy">
@@ -81,7 +85,7 @@
               <h2 class="display">See what the room does.</h2>
               <p>Room modes, reverberation per octave band, every first reflection and where it lands, speaker-boundary cancellations, and a worst-first list of what to do about each with the fix attached.</p>
             </div>
-            <div class="step-media"><div class="tall"><img src="assets/screens/acoustics-full.png" data-light="assets/screens/light/acoustics-full.png" alt="The complete acoustics report: headline figures, what to do, reverberation time by band, early reflections, speaker aim, boundary cancellations, room modes and the treatment in the room" /><span class="mono tall-hint">Scroll</span></div></div>
+            <div class="step-media"><div class="tall"><picture><source type="image/webp" srcset="assets/screens/acoustics-full.webp" /><img src="assets/screens/acoustics-full.png" data-light="assets/screens/light/acoustics-full.png" loading="lazy" decoding="async" alt="The complete acoustics report: headline figures, what to do, reverberation time by band, early reflections, speaker aim, boundary cancellations, room modes and the treatment in the room" /></picture><span class="mono tall-hint">Scroll</span></div></div>
           </article>
           <article class="step" data-step="treat">
             <div class="step-copy">
@@ -89,7 +93,7 @@
               <h2 class="display">Treat it virtually.</h2>
               <p>Hang panels where the reflections land, fill the corners, float a cloud. Or draw an absorber to the shape of the corner, give it a fill and a thickness, and its absorption is worked out from the material.</p>
             </div>
-            <div class="step-media"><div class="crop" style="--zoom: 1.4; --x: -18%; --y: -20%"><img class="zoomable" src="assets/screens/absorber-designer.png" data-light="assets/screens/light/absorber-designer.png" alt="The absorber designer: a winged corner trap drawn against two walls with the room's reflection points marked" /></div></div>
+            <div class="step-media"><div class="crop" style="--zoom: 1.4; --x: -18%; --y: -20%"><picture><source type="image/webp" srcset="assets/screens/absorber-designer.webp" /><img class="zoomable" src="assets/screens/absorber-designer.png" data-light="assets/screens/light/absorber-designer.png" loading="lazy" decoding="async" alt="The absorber designer: a winged corner trap drawn against two walls with the room's reflection points marked" /></picture></div></div>
           </article>
           <article class="step" data-step="impact">
             <div class="step-copy">
@@ -97,15 +101,15 @@
               <h2 class="display">See the impact.</h2>
               <p>The figures update as you place each piece. The same room, before and after: decay against target, treated area, reflections still to fix.</p>
             </div>
-            <div class="step-media"><div class="compare"><div class="crop crop--wide" style="--zoom: 2.1; --x: -55%; --y: -50%"><span class="mono crop-label">Before</span><img class="zoomable" src="assets/screens/acoustics-untreated.png" data-light="assets/screens/light/acoustics-untreated.png" alt="The acoustics headline figures for the untreated room: decay 0.51 seconds against a 0.19 second target, nothing treated, ten reflections to fix" /></div><div class="crop crop--wide" style="--zoom: 2.1; --x: -55%; --y: -50%"><span class="mono crop-label">After</span><img class="zoomable" src="assets/screens/acoustics.png" data-light="assets/screens/light/acoustics.png" alt="The same figures with seven pieces of treatment placed: decay 0.21 seconds, 14.8 square metres treated, two reflections to fix" /></div></div></div>
+            <div class="step-media"><div class="compare"><div class="crop crop--wide" style="--zoom: 2.1; --x: -53%; --y: -24%"><span class="mono crop-label">Before</span><picture><source type="image/webp" srcset="assets/screens/acoustics-untreated.webp" /><img class="zoomable" src="assets/screens/acoustics-untreated.png" data-light="assets/screens/light/acoustics-untreated.png" loading="lazy" decoding="async" alt="The acoustics headline figures for the untreated room: decay 0.51 seconds against a 0.19 second target, nothing treated, ten reflections to fix" /></picture></div><div class="crop crop--wide" style="--zoom: 2.1; --x: -53%; --y: -24%"><span class="mono crop-label">After</span><picture><source type="image/webp" srcset="assets/screens/acoustics.webp" /><img class="zoomable" src="assets/screens/acoustics.png" data-light="assets/screens/light/acoustics.png" loading="lazy" decoding="async" alt="The same figures with seven pieces of treatment placed: decay 0.21 seconds, 14.8 square metres treated, two reflections to fix" /></picture></div></div></div>
           </article>
         </div>
         <div class="stage" aria-hidden="true">
           <div class="stage-frame">
-        <div class="layer" data-layer="model"><div class="crop" style="--zoom: 1.8; --x: -40%; --y: -41%"><img class="zoomable" src="assets/screens/layout-untreated.png" data-light="assets/screens/light/layout-untreated.png" alt="The plan view of an untreated room: monitors aimed at the listening position, first reflections traced to the walls and marked as still needing treatment" /></div></div>
-        <div class="layer layer--tall" data-layer="listen"><img class="pan" src="assets/screens/acoustics-full.png" data-light="assets/screens/light/acoustics-full.png" alt="The complete acoustics report: headline figures, what to do, reverberation time by band, early reflections, speaker aim, boundary cancellations, room modes and the treatment in the room" /></div>
-        <div class="layer" data-layer="treat"><div class="crop" style="--zoom: 1.4; --x: -18%; --y: -20%"><img class="zoomable" src="assets/screens/absorber-designer.png" data-light="assets/screens/light/absorber-designer.png" alt="The absorber designer: a winged corner trap drawn against two walls with the room's reflection points marked" /></div></div>
-        <div class="layer layer--compare" data-layer="impact"><div class="compare"><div class="crop crop--wide" style="--zoom: 2.1; --x: -55%; --y: -50%"><span class="mono crop-label">Before</span><img class="zoomable" src="assets/screens/acoustics-untreated.png" data-light="assets/screens/light/acoustics-untreated.png" alt="The acoustics headline figures for the untreated room: decay 0.51 seconds against a 0.19 second target, nothing treated, ten reflections to fix" /></div><div class="crop crop--wide" style="--zoom: 2.1; --x: -55%; --y: -50%"><span class="mono crop-label">After</span><img class="zoomable" src="assets/screens/acoustics.png" data-light="assets/screens/light/acoustics.png" alt="The same figures with seven pieces of treatment placed: decay 0.21 seconds, 14.8 square metres treated, two reflections to fix" /></div></div></div>
+        <div class="layer" data-layer="model"><div class="crop" style="--zoom: 1.8; --x: -40%; --y: -41%"><picture><source type="image/webp" srcset="assets/screens/layout-untreated.webp" /><img class="zoomable" src="assets/screens/layout-untreated.png" data-light="assets/screens/light/layout-untreated.png" loading="lazy" decoding="async" alt="The plan view of an untreated room: monitors aimed at the listening position, first reflections traced to the walls and marked as still needing treatment" /></picture></div></div>
+        <div class="layer layer--tall" data-layer="listen"><picture><source type="image/webp" srcset="assets/screens/acoustics-full.webp" /><img class="pan" src="assets/screens/acoustics-full.png" data-light="assets/screens/light/acoustics-full.png" loading="lazy" decoding="async" alt="The complete acoustics report: headline figures, what to do, reverberation time by band, early reflections, speaker aim, boundary cancellations, room modes and the treatment in the room" /></picture></div>
+        <div class="layer" data-layer="treat"><div class="crop" style="--zoom: 1.4; --x: -18%; --y: -20%"><picture><source type="image/webp" srcset="assets/screens/absorber-designer.webp" /><img class="zoomable" src="assets/screens/absorber-designer.png" data-light="assets/screens/light/absorber-designer.png" loading="lazy" decoding="async" alt="The absorber designer: a winged corner trap drawn against two walls with the room's reflection points marked" /></picture></div></div>
+        <div class="layer layer--compare" data-layer="impact"><div class="crop flip" style="--zoom: 2.1; --x: -53%; --y: -24%"><picture><source type="image/webp" srcset="assets/screens/acoustics-untreated.webp" /><img class="zoomable before" src="assets/screens/acoustics-untreated.png" data-light="assets/screens/light/acoustics-untreated.png" loading="lazy" decoding="async" alt="The acoustics headline figures for the untreated room: decay 0.51 seconds against a 0.19 second target, nothing treated, ten reflections to fix" /></picture><picture><source type="image/webp" srcset="assets/screens/acoustics.webp" /><img class="zoomable after" src="assets/screens/acoustics.png" data-light="assets/screens/light/acoustics.png" loading="lazy" decoding="async" alt="The same figures with seven pieces of treatment placed: decay 0.21 seconds, 14.8 square metres treated, two reflections to fix" /></picture><span class="mono crop-label"><span class="flip-before">Before</span><span class="flip-after">After</span></span></div></div>
           </div>
         </div>
       </div>
@@ -118,7 +122,7 @@
           <p>Treatment on the walls and in the corners, the gear where it stands, reflections traced through the space.</p>
         </div>
         <div class="crop" style="--zoom: 1.7; --x: -30%; --y: -70%">
-          <img class="zoomable" src="assets/screens/room-3d.png" data-light="assets/screens/light/room-3d.png" alt="The 3D view of the room with corner traps, wall panels, a ceiling cloud and the equipment in place" />
+          <picture><source type="image/webp" srcset="assets/screens/room-3d.webp" /><img class="zoomable" src="assets/screens/room-3d.png" data-light="assets/screens/light/room-3d.png" loading="lazy" decoding="async" alt="The 3D view of the room with corner traps, wall panels, a ceiling cloud and the equipment in place" /></picture>
         </div>
       </div>
     </div>
@@ -132,7 +136,7 @@
               <h2 class="display">Every cable checked.</h2>
               <p>Drag an output to an input. Connector, gender and level are validated. A pad, a DI or a converter is suggested where one is needed, and anything that would damage gear is refused.</p>
             </div>
-            <div class="step-media"><div class="crop" style="--zoom: 1.7; --x: -37%; --y: -25%"><img class="zoomable" src="assets/screens/wiring.png" data-light="assets/screens/light/wiring.png" alt="The wiring view: gear as blocks with port chips down their sides, cables colour-coded by signal and numbered at both ends" /></div></div>
+            <div class="step-media"><div class="crop" style="--zoom: 1.7; --x: -37%; --y: -25%"><picture><source type="image/webp" srcset="assets/screens/wiring.webp" /><img class="zoomable" src="assets/screens/wiring.png" data-light="assets/screens/light/wiring.png" loading="lazy" decoding="async" alt="The wiring view: gear as blocks with port chips down their sides, cables colour-coded by signal and numbered at both ends" /></picture></div></div>
           </article>
           <article class="step step--long" data-step="patch">
             <div class="step-copy">
@@ -140,7 +144,7 @@
               <h2 class="display">Design the patchbays.</h2>
               <p>Sources on row A, destinations on row B. Sonara counts the points, tells you how many bays that is, and lets you lay every channel out with its normal. The schedule and the cable runs follow from the design.</p>
             </div>
-            <div class="step-media"><div class="tall"><img src="assets/screens/patchbays-full.png" data-light="assets/screens/light/patchbays-full.png" alt="The complete patchbay designer: the point count, three bays each with its 24 channels drawn as a strip, and the channel schedule with the normal for every pair" /><span class="mono tall-hint">Scroll</span></div></div>
+            <div class="step-media"><div class="tall"><picture><source type="image/webp" srcset="assets/screens/patchbays-full.webp" /><img src="assets/screens/patchbays-full.png" data-light="assets/screens/light/patchbays-full.png" loading="lazy" decoding="async" alt="The complete patchbay designer: the point count, three bays each with its 24 channels drawn as a strip, and the channel schedule with the normal for every pair" /></picture><span class="mono tall-hint">Scroll</span></div></div>
           </article>
           <article class="step" data-step="gear">
             <div class="step-copy">
@@ -148,14 +152,14 @@
               <h2 class="display">Your gear, on hand.</h2>
               <p>Mark what you own once. The library filters down to your gear, with a nickname for each unit and a count of what is placed, so the room is built from what is actually in it.</p>
             </div>
-            <div class="step-media"><div class="crop" style="--zoom: 2.4; --x: -2%; --y: -12%"><img class="zoomable" src="assets/screens/inventory.png" data-light="assets/screens/light/inventory.png" alt="The My Gear inventory in the sidebar: each owned model with its size, nickname and how many are placed" /></div></div>
+            <div class="step-media"><div class="crop" style="--zoom: 2.4; --x: -2%; --y: -12%"><picture><source type="image/webp" srcset="assets/screens/inventory.webp" /><img class="zoomable" src="assets/screens/inventory.png" data-light="assets/screens/light/inventory.png" loading="lazy" decoding="async" alt="The My Gear inventory in the sidebar: each owned model with its size, nickname and how many are placed" /></picture></div></div>
           </article>
         </div>
         <div class="stage" aria-hidden="true">
           <div class="stage-frame">
-        <div class="layer" data-layer="wire"><div class="crop" style="--zoom: 1.7; --x: -37%; --y: -25%"><img class="zoomable" src="assets/screens/wiring.png" data-light="assets/screens/light/wiring.png" alt="The wiring view: gear as blocks with port chips down their sides, cables colour-coded by signal and numbered at both ends" /></div></div>
-        <div class="layer layer--tall" data-layer="patch"><img class="pan" src="assets/screens/patchbays-full.png" data-light="assets/screens/light/patchbays-full.png" alt="The complete patchbay designer: the point count, three bays each with its 24 channels drawn as a strip, and the channel schedule with the normal for every pair" /></div>
-        <div class="layer" data-layer="gear"><div class="crop" style="--zoom: 2.4; --x: -2%; --y: -12%"><img class="zoomable" src="assets/screens/inventory.png" data-light="assets/screens/light/inventory.png" alt="The My Gear inventory in the sidebar: each owned model with its size, nickname and how many are placed" /></div></div>
+        <div class="layer" data-layer="wire"><div class="crop" style="--zoom: 1.7; --x: -37%; --y: -25%"><picture><source type="image/webp" srcset="assets/screens/wiring.webp" /><img class="zoomable" src="assets/screens/wiring.png" data-light="assets/screens/light/wiring.png" loading="lazy" decoding="async" alt="The wiring view: gear as blocks with port chips down their sides, cables colour-coded by signal and numbered at both ends" /></picture></div></div>
+        <div class="layer layer--tall" data-layer="patch"><picture><source type="image/webp" srcset="assets/screens/patchbays-full.webp" /><img class="pan" src="assets/screens/patchbays-full.png" data-light="assets/screens/light/patchbays-full.png" loading="lazy" decoding="async" alt="The complete patchbay designer: the point count, three bays each with its 24 channels drawn as a strip, and the channel schedule with the normal for every pair" /></picture></div>
+        <div class="layer" data-layer="gear"><div class="crop" style="--zoom: 2.4; --x: -2%; --y: -12%"><picture><source type="image/webp" srcset="assets/screens/inventory.webp" /><img class="zoomable" src="assets/screens/inventory.png" data-light="assets/screens/light/inventory.png" loading="lazy" decoding="async" alt="The My Gear inventory in the sidebar: each owned model with its size, nickname and how many are placed" /></picture></div></div>
           </div>
         </div>
       </div>
@@ -163,7 +167,7 @@
 
     <section class="closing">
       <div class="wrap">
-        <h2 class="display">Coming soon <em>to the Mac App Store.</em></h2>
+        <h2 class="display">Design the room <em>before you build it.</em></h2>
         <span class="button button--static">Coming soon to the Mac App Store</span>
       </div>
     </section>
