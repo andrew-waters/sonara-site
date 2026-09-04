@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sonara - design the room before you build it</title>
+  <meta name="description" content="Sonara is a Mac app for planning studios and live setups: draw the room, place the gear, wire it, plan the patchbays and treat the acoustics, all on one plan that checks itself." />
+  <meta property="og:title" content="Sonara - design the room before you build it" />
+  <meta property="og:description" content="A Mac app for planning studios and live setups. Coming to the Mac App Store." />
+  <meta property="og:image" content="https://sonara.andon.dev/assets/icon.png" />
+  <meta property="og:url" content="https://sonara.andon.dev/" />
+  <meta name="twitter:card" content="summary" />
+  <link rel="icon" type="image/png" href="assets/icon-256.png" />
+  <link rel="apple-touch-icon" href="assets/icon-256.png" />
+  <script>(function(){var t;try{t=localStorage.getItem('theme')}catch(e){}if(!t&&window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches)t='dark';if(t==='dark')document.documentElement.setAttribute('data-theme','dark');})();</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=JetBrains+Mono&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body id="top">
+  <header>
+    <div class="wrap nav">
+      <a href="#top" class="brand" aria-label="Sonara">
+        <svg viewBox="0 0 100 100" aria-hidden="true"><path d="M33 30 V70 H73" fill="none" stroke="currentColor" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/><circle cx="64" cy="40" r="7" fill="currentColor"/></svg>
+        <span class="name">Sonara<i>.</i></span>
+      </a>
+      <nav class="nav-links">
+        <a class="nav-link" href="#features">What it does</a>
+        <button id="theme-toggle" class="theme-btn" aria-label="Toggle dark and light theme">☀︎</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <p class="eyebrow mono-xs" style="text-align:left">For macOS</p>
+        <h1 class="hero-title">Design the room<br /><em>before you build it.</em></h1>
+        <div class="hero-split">
+          <div class="hero-copy">
+            <p class="sub">Sonara is a Mac app for planning studios and live setups. Draw the room, place the gear, wire it, plan the patchbays and treat the acoustics, all on one plan that checks itself.</p>
+            <p class="sub">Every cable is validated for fit and level. Every panel is checked against where the sound actually lands. The shopping list falls out of the drawing.</p>
+          </div>
+          <div class="hero-actions">
+            <span class="soon mono-xs">Coming to the Mac App Store</span>
+            <hr class="hero-divider" />
+            <p class="hero-note">Native Swift, no web views. Built for macOS 15 and later. Your projects are files you own.</p>
+          </div>
+        </div>
+        <div class="hero-shot plan-shot lined">
+          <span class="dot dot--tl"></span><span class="dot dot--tr"></span><span class="dot dot--bl"></span><span class="dot dot--br"></span>
+          <svg class="plan" viewBox="0 0 960 440" role="img" aria-label="A studio floor plan: two monitors aimed at a listening position, first reflections marked on the side walls with absorbers over them, corner traps, a desk, a rack and a sofa, with the room dimensions">
+            <!-- room -->
+            <rect class="wall" x="80" y="40" width="800" height="340" />
+            <!-- door on the back wall, drawn as a gap and a swing -->
+            <line class="open" x1="170" y1="380" x2="250" y2="380" />
+            <path class="swing" d="M170 380 A80 80 0 0 1 250 300" />
+            <line class="dim" x1="170" y1="380" x2="170" y2="300" />
+            <!-- window on the right wall -->
+            <line class="open" x1="880" y1="250" x2="880" y2="330" />
+            <line class="dim" x1="876" y1="250" x2="876" y2="330" />
+            <line class="dim" x1="884" y1="250" x2="884" y2="330" />
+            <!-- corner traps -->
+            <line class="panel" x1="84" y1="84" x2="124" y2="44" />
+            <line class="panel" x1="836" y1="44" x2="876" y2="84" />
+            <!-- first reflections: speaker to side wall to listening position -->
+            <path class="bounce" d="M340 100 L80 168 L480 262" />
+            <path class="bounce" d="M620 100 L880 168 L480 262" />
+            <!-- absorbers where they land -->
+            <line class="panel" x1="83" y1="140" x2="83" y2="196" />
+            <line class="panel" x1="877" y1="140" x2="877" y2="196" />
+            <!-- ceiling cloud over the desk -->
+            <rect class="dim" x="400" y="150" width="160" height="60" stroke-dasharray="6 4" />
+            <text class="tag" x="480" y="185" text-anchor="middle">cloud</text>
+            <!-- sightlines -->
+            <line class="sight" x1="340" y1="100" x2="480" y2="262" />
+            <line class="sight" x1="620" y1="100" x2="480" y2="262" />
+            <!-- desk -->
+            <rect class="gear" x="360" y="212" width="240" height="44" rx="2" />
+            <text class="tag" x="480" y="239" text-anchor="middle">desk</text>
+            <!-- monitors, toed in -->
+            <g transform="rotate(30 340 100)"><rect class="gear" x="322" y="78" width="36" height="44" rx="2" /><line class="dim" x1="322" y1="122" x2="358" y2="122" stroke-width="2.5" /></g>
+            <g transform="rotate(-30 620 100)"><rect class="gear" x="602" y="78" width="36" height="44" rx="2" /><line class="dim" x1="602" y1="122" x2="638" y2="122" stroke-width="2.5" /></g>
+            <!-- listening position -->
+            <circle class="lp" cx="480" cy="262" r="6" />
+            <circle class="dim" cx="480" cy="262" r="14" stroke-dasharray="3 3" />
+            <!-- rack -->
+            <rect class="gear" x="760" y="280" width="60" height="80" rx="2" />
+            <text class="tag" x="790" y="325" text-anchor="middle">12u</text>
+            <!-- synth stand at the left -->
+            <g transform="rotate(-12 180 250)"><rect class="gear" x="130" y="230" width="100" height="40" rx="2" /></g>
+            <!-- sofa along the back wall -->
+            <rect class="soft" x="330" y="322" width="300" height="46" rx="8" />
+            <rect class="soft" x="330" y="322" width="300" height="14" rx="6" />
+            <!-- dimensions -->
+            <line class="dim" x1="80" y1="412" x2="880" y2="412" />
+            <line class="dim" x1="80" y1="406" x2="80" y2="418" />
+            <line class="dim" x1="880" y1="406" x2="880" y2="418" />
+            <text class="label" x="480" y="432" text-anchor="middle">5 000 mm</text>
+            <line class="dim" x1="920" y1="40" x2="920" y2="380" />
+            <line class="dim" x1="914" y1="40" x2="926" y2="40" />
+            <line class="dim" x1="914" y1="380" x2="926" y2="380" />
+            <text class="label" transform="translate(944 210) rotate(90)" text-anchor="middle">4 000 mm</text>
+            <!-- readout -->
+            <text class="label" x="80" y="26">RT60 0.31 s at 500 Hz · first reflections covered 4 of 4 · 2 bays, 96 points</text>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <section id="features">
+      <div class="wrap">
+        <div class="split-header">
+          <h2><em>One plan.</em>Everything the room needs.</h2>
+          <p>The floor plan, the wiring, the patchbays and the acoustics are the same document. Change one and the others answer.</p>
+        </div>
+        <div class="feature-frame">
+        <div class="feature-grid">
+          <div class="feature-item feature-item--wide">
+            <div class="feature-item-content">
+              <h3>Plan</h3>
+              <p>Draw the room to scale. Place desks, racks, stands and seating, mark the doors, windows and power outlets, hang screens and speakers on mounts. Everything is in millimetres and everything knows how big it is, so a synth that does not fit the stand says so.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-item-content">
+              <h3>Wire</h3>
+              <p>Drag an output to an input. Sonara checks the connector, the gender and the signal level, tells you when you need a pad or a DI, and refuses the connections that damage gear.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-item-content">
+              <h3>Patch</h3>
+              <p>Count the room's I/O and see how many bays it really needs. Assign every point, read the normals off the design, and the channel schedule and cable runs come out for free.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-item-content">
+              <h3>Treat</h3>
+              <p>Room modes, reverberation per band and first reflections plotted on the walls. Place absorbers, traps and clouds, or draw your own to the shape of the corner, and watch the numbers move.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-item-content">
+              <h3>Power</h3>
+              <p>Mark the outlets where they are and see which racks can live there, how many sockets are free and what the room draws.</p>
+            </div>
+          </div>
+          <div class="feature-item feature-item--wide">
+            <div class="feature-item-content">
+              <h3>Buy</h3>
+              <p>A cable schedule with lengths, a parts list for the patchbays and a treatment list, all from the same drawing. Fix the plan and the list fixes itself. No spreadsheet.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-item-content">
+              <h3>See it</h3>
+              <p>A 3D view of the room as drawn, with the treatment on the walls and the gear where it stands, so what the numbers say and what the room looks like are the same thing.</p>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap foot">
+      <div>© 2026 Andrew Waters. Sonara is coming to the Mac App Store.</div>
+      <div>
+        <a href="https://orchard.andon.dev">Orchard, by the same author</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="theme.js"></script>
+</body>
+</html>
