@@ -1,6 +1,6 @@
 /* Sonara site design system.
    Adapted from orchard.andon.dev: a warm, light, mono-accented language,
-   Figtree for text, JetBrains Mono for eyebrows and badges, one hue (copper)
+   Figtree for text, JetBrains Mono for eyebrows and badges, one hue (blue)
    and corner-dotted "blueprint" containers, which suit a plan-drawing app. */
 
 :root {
@@ -22,8 +22,8 @@
   --bg-3: #ebebeb;
   --bg-contrast: #141412;
 
-  --primary-bg: #a8461c;
-  --primary-bg-hover: #87381a;
+  --primary-bg: #0044cc;
+  --primary-bg-hover: #0036a3;
 
   --neutral-fg-1: #141412;
   --neutral-fg-2: #52504a;
@@ -33,9 +33,9 @@
   --neutral-outline-2: #e0e0e0;
   --neutral-outline-3: #ccc;
 
-  --primary-fg: #a8461c;
-  --primary-badge-bg: #f7e9e2;
-  --primary-badge-outline: #ecd0c2;
+  --primary-fg: #0044cc;
+  --primary-badge-bg: #e5ecfa;
+  --primary-badge-outline: #ccdaf5;
 
   --color-success: #006633;
   --color-success-outline: #cce6d9;
@@ -45,7 +45,7 @@
   --color-warning-outline: #ffe066;
   --color-warning-surface: #fff5cc;
 
-  --primary-surface: #fbf5f1;
+  --primary-surface: #f4f7fd;
   --header-bg: rgba(250, 250, 248, 0.9);
   color-scheme: light;
 
@@ -94,9 +94,9 @@
   --neutral-outline-2: #353533;
   --neutral-outline-3: #52504a;
 
-  --primary-fg: #e6a88c;
-  --primary-badge-bg: #3a1a0d;
-  --primary-badge-outline: #87381a;
+  --primary-fg: #99b4eb;
+  --primary-badge-bg: #001b52;
+  --primary-badge-outline: #0036a3;
 
   --color-success: #99ccb3;
   --color-success-outline: #006633;
@@ -106,7 +106,7 @@
   --color-warning-outline: #665200;
   --color-warning-surface: #332900;
 
-  --primary-surface: #221712;
+  --primary-surface: #10182b;
   --header-bg: rgba(20, 20, 18, 0.88);
   color-scheme: dark;
 
@@ -539,7 +539,9 @@ img.zoomable { cursor: zoom-in; }
   color: var(--primary-fg); font-size: 12px;
 }
 .soon::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: currentColor; }
-.hero-note { margin: 0; color: var(--neutral-fg-3); font-size: 14px; max-width: 360px; }
+/* A button that is a statement rather than an action: no hover, no hand cursor. */
+.button--static { cursor: default; }
+.button--static:hover { background-color: var(--primary-bg); }
 .hero-shot.plan-shot { padding: var(--s6); }
 
 /* The hero plan is an inline SVG so it follows the theme. */
