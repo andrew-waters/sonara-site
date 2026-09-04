@@ -1,8 +1,8 @@
 name: Deploy to GitHub Pages
 
-# The content of main is pushed here by the private sonara repo's publish
-# workflow. This job deploys whatever is on main through the Actions Pages
-# path, which queues overlapping deploys instead of failing them.
+# The content of main is pushed here by Sonara's build pipeline. This job
+# deploys whatever is on main through the Actions Pages path, which
+# queues overlapping deploys instead of failing them.
 on:
   push:
     branches: [main]
