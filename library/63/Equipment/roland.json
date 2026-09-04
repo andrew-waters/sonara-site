@@ -1,0 +1,693 @@
+{
+  "equipment": [
+    {
+      "id": "roland-tr-8s",
+      "manufacturer": "Roland",
+      "model": "TR-8S",
+      "category": "drum_machine",
+      "dimensions": {
+        "widthMM": 409,
+        "heightMM": 65,
+        "depthMM": 263
+      },
+      "weightKG": 2.1,
+      "powerDrawWatts": 8,
+      "ports": [
+        {
+          "id": "main_out_l",
+          "label": "Mix Out L",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level"
+          ],
+          "channels": 1
+        },
+        {
+          "id": "main_out_r",
+          "label": "Mix Out R",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level"
+          ],
+          "channels": 1
+        },
+        {
+          "id": "assign_out_1",
+          "label": "Assignable Out 1",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level"
+          ],
+          "channels": 1
+        },
+        {
+          "id": "assign_out_2",
+          "label": "Assignable Out 2",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level"
+          ],
+          "channels": 1
+        },
+        {
+          "id": "ext_in_l",
+          "label": "External In L",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level"
+          ],
+          "channels": 1
+        },
+        {
+          "id": "ext_in_r",
+          "label": "External In R",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level"
+          ],
+          "channels": 1
+        },
+        {
+          "id": "phones",
+          "label": "Phones",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "headphone_level"
+          ]
+        },
+        {
+          "id": "trigger_out",
+          "label": "Trigger Out",
+          "connector": "ts_eighth",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "clock",
+            "gate"
+          ]
+        },
+        {
+          "id": "midi_in",
+          "label": "MIDI In",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "midi_out",
+          "label": "MIDI Out",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "usb",
+          "label": "USB",
+          "connector": "usb_b",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "usb_audio",
+            "usb_midi",
+            "usb_data"
+          ]
+        },
+        {
+          "id": "power",
+          "label": "DC In",
+          "connector": "dc_barrel",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "dc_power"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "roland-tr-1000",
+      "manufacturer": "Roland",
+      "model": "TR-1000",
+      "category": "drum_machine",
+      "dimensions": {
+        "widthMM": 486,
+        "heightMM": 125,
+        "depthMM": 311
+      },
+      "weightKG": 5.5,
+      "powerDrawWatts": 38,
+      "notes": "Mix, FX and individual outs are all unbalanced (per Roland support). Individual outs are switchable to analog trigger outs.",
+      "ports": [
+        {
+          "id": "phones",
+          "label": "Phones",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "headphone_level"
+          ]
+        },
+        {
+          "id": "mix_out_l",
+          "label": "Mix Out L/Mono",
+          "connector": "ts_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level"
+          ],
+          "balanced": false
+        },
+        {
+          "id": "mix_out_r",
+          "label": "Mix Out R",
+          "connector": "ts_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level"
+          ],
+          "balanced": false
+        },
+        {
+          "id": "fx_out_l",
+          "label": "Analog FX Out L/Mono",
+          "connector": "ts_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level"
+          ],
+          "balanced": false
+        },
+        {
+          "id": "fx_out_r",
+          "label": "Analog FX Out R",
+          "connector": "ts_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level"
+          ],
+          "balanced": false
+        },
+        {
+          "id": "ind_out_bd",
+          "label": "Individual Out BD",
+          "connector": "ts_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "gate"
+          ],
+          "balanced": false
+        },
+        {
+          "id": "ind_out_sd",
+          "label": "Individual Out SD",
+          "connector": "ts_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "gate"
+          ],
+          "balanced": false
+        },
+        {
+          "id": "ind_out_lt",
+          "label": "Individual Out LT",
+          "connector": "ts_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "gate"
+          ],
+          "balanced": false
+        },
+        {
+          "id": "ind_out_ht",
+          "label": "Individual Out HT",
+          "connector": "ts_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "gate"
+          ],
+          "balanced": false
+        },
+        {
+          "id": "ind_out_rs",
+          "label": "Individual Out RS",
+          "connector": "ts_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "gate"
+          ],
+          "balanced": false
+        },
+        {
+          "id": "ind_out_hc",
+          "label": "Individual Out HC",
+          "connector": "ts_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "gate"
+          ],
+          "balanced": false
+        },
+        {
+          "id": "ind_out_ch",
+          "label": "Individual Out CH",
+          "connector": "ts_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "gate"
+          ],
+          "balanced": false
+        },
+        {
+          "id": "ind_out_oh",
+          "label": "Individual Out OH",
+          "connector": "ts_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "gate"
+          ],
+          "balanced": false
+        },
+        {
+          "id": "ind_out_cc",
+          "label": "Individual Out CC",
+          "connector": "ts_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "gate"
+          ],
+          "balanced": false
+        },
+        {
+          "id": "ind_out_rc",
+          "label": "Individual Out RC",
+          "connector": "ts_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "gate"
+          ],
+          "balanced": false
+        },
+        {
+          "id": "ext_in_l",
+          "label": "External In L/Mono 1",
+          "connector": "ts_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level"
+          ]
+        },
+        {
+          "id": "ext_in_r",
+          "label": "External In R/Mono 2",
+          "connector": "ts_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level"
+          ]
+        },
+        {
+          "id": "trigger_in",
+          "label": "Trigger In",
+          "connector": "ts_eighth",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "gate",
+            "clock"
+          ]
+        },
+        {
+          "id": "trigger_out",
+          "label": "Trigger Out",
+          "connector": "ts_eighth",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "gate",
+            "clock"
+          ]
+        },
+        {
+          "id": "filter_cv_in",
+          "label": "Filter CV In",
+          "connector": "ts_eighth",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "cv"
+          ]
+        },
+        {
+          "id": "clk_out",
+          "label": "Clock Out",
+          "connector": "ts_eighth",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "clock"
+          ]
+        },
+        {
+          "id": "pedal",
+          "label": "Pedal",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "cv",
+            "gate"
+          ]
+        },
+        {
+          "id": "midi_in",
+          "label": "MIDI In",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "midi_out_1",
+          "label": "MIDI Out 1 / DIN Sync",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "midi",
+            "clock"
+          ]
+        },
+        {
+          "id": "midi_out_2",
+          "label": "MIDI Out 2/Thru / DIN Sync",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "midi",
+            "clock"
+          ]
+        },
+        {
+          "id": "usb_computer",
+          "label": "USB (Computer)",
+          "connector": "usb_c",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "usb_audio",
+            "usb_midi",
+            "usb_data"
+          ]
+        },
+        {
+          "id": "usb_host",
+          "label": "USB (External Device)",
+          "connector": "usb_a",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "usb_data"
+          ]
+        },
+        {
+          "id": "power",
+          "label": "AC In",
+          "connector": "iec_c14",
+          "gender": "male",
+          "direction": "input",
+          "signals": [
+            "mains_power"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "roland-tb-03",
+      "manufacturer": "Roland",
+      "model": "TB-03",
+      "category": "synthesizer",
+      "dimensions": {
+        "widthMM": 308,
+        "heightMM": 52,
+        "depthMM": 130
+      },
+      "weightKG": 0.94,
+      "notes": "Boutique series. Powered over micro-USB (or 4× AA batteries), with no separate PSU jack. All audio jacks are 3.5mm.",
+      "ports": [
+        {
+          "id": "output",
+          "label": "Output",
+          "connector": "trs_eighth",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level"
+          ],
+          "channels": 2
+        },
+        {
+          "id": "phones",
+          "label": "Phones",
+          "connector": "trs_eighth",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "headphone_level"
+          ]
+        },
+        {
+          "id": "mix_in",
+          "label": "Mix In",
+          "connector": "trs_eighth",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level"
+          ],
+          "channels": 2
+        },
+        {
+          "id": "trigger_in",
+          "label": "Trigger In",
+          "connector": "ts_eighth",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "gate",
+            "clock"
+          ]
+        },
+        {
+          "id": "cv_out",
+          "label": "CV Output",
+          "connector": "ts_eighth",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "cv"
+          ]
+        },
+        {
+          "id": "gate_out",
+          "label": "Gate Output",
+          "connector": "ts_eighth",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "gate"
+          ]
+        },
+        {
+          "id": "midi_in",
+          "label": "MIDI In",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "midi_out",
+          "label": "MIDI Out",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "usb",
+          "label": "USB",
+          "connector": "usb_micro_b",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "usb_audio",
+            "usb_midi",
+            "usb_data"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "roland-sh-101",
+      "manufacturer": "Roland",
+      "model": "SH-101",
+      "category": "synthesizer",
+      "dimensions": {
+        "widthMM": 570,
+        "heightMM": 80,
+        "depthMM": 311
+      },
+      "weightKG": 4.1,
+      "powerDrawWatts": 1,
+      "notes": "1982 original. CV/gate/clock jacks are 3.5mm (Roland PCS-4 adapter needed for 1/4\" gear). Runs on 6× C batteries or a Roland PSA adapter.",
+      "ports": [
+        {
+          "id": "output",
+          "label": "Output",
+          "connector": "ts_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "instrument_level"
+          ],
+          "balanced": false
+        },
+        {
+          "id": "phones",
+          "label": "Phones",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "headphone_level"
+          ]
+        },
+        {
+          "id": "cv_out",
+          "label": "CV Out",
+          "connector": "ts_eighth",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "cv"
+          ]
+        },
+        {
+          "id": "gate_out",
+          "label": "Gate Out",
+          "connector": "ts_eighth",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "gate"
+          ]
+        },
+        {
+          "id": "ext_cv_in",
+          "label": "Ext CV In",
+          "connector": "ts_eighth",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "cv"
+          ]
+        },
+        {
+          "id": "gate_in",
+          "label": "Gate In",
+          "connector": "ts_eighth",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "gate"
+          ]
+        },
+        {
+          "id": "ext_clk_in",
+          "label": "Ext Clock In",
+          "connector": "ts_eighth",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "clock"
+          ]
+        },
+        {
+          "id": "hold",
+          "label": "Hold (Pedal)",
+          "connector": "ts_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "gate"
+          ]
+        },
+        {
+          "id": "power",
+          "label": "DC In (9V)",
+          "connector": "dc_barrel",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "dc_power"
+          ]
+        }
+      ]
+    }
+  ]
+}

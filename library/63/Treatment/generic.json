@@ -1,0 +1,48 @@
+{
+  "treatment": [
+    {
+      "id": "generic-heavy-curtain",
+      "manufacturer": "Generic",
+      "model": "Heavy curtain, gathered (2000 × 2400)",
+      "kind": "curtain",
+      "dimensions": { "widthMM": 2000, "heightMM": 2400, "depthMM": 100 },
+      "absorption": { "125": 0.14, "250": 0.35, "500": 0.55, "1000": 0.72, "2000": 0.70, "4000": 0.65 },
+      "mountings": ["wall"],
+      "weightKG": 6.0,
+      "notes": "Lined velour or wool of about 610 g/m² hung in folds to roughly half its flat width, spaced off the wall. The single most effective thing you can do about glazing, and it can be drawn back when the room needs to be live again. Standard published figures for heavy velour, 18 oz/sq yd, draped to half area: a class figure, not a measurement of a specific curtain. Set the drop on the placed piece if it is not full height."
+    },
+    {
+      "id": "generic-medium-curtain",
+      "manufacturer": "Generic",
+      "model": "Medium curtain, gathered (2000 × 2400)",
+      "kind": "curtain",
+      "dimensions": { "widthMM": 2000, "heightMM": 2400, "depthMM": 100 },
+      "absorption": { "125": 0.07, "250": 0.31, "500": 0.49, "1000": 0.75, "2000": 0.70, "4000": 0.60 },
+      "mountings": ["wall"],
+      "weightKG": 4.0,
+      "notes": "A lined curtain of about 475 g/m² gathered to roughly half its flat width, spaced off the wall, an ordinary good domestic curtain rather than stage velour. Standard published figures for medium velour, 14 oz/sq yd, draped to half area; a class figure, not a measurement of a specific curtain."
+    },
+    {
+      "id": "generic-light-curtain-flat",
+      "manufacturer": "Generic",
+      "model": "Light curtain, hung flat (2000 × 2400)",
+      "kind": "curtain",
+      "dimensions": { "widthMM": 2000, "heightMM": 2400, "depthMM": 30 },
+      "absorption": { "125": 0.03, "250": 0.04, "500": 0.11, "1000": 0.17, "2000": 0.24, "4000": 0.35 },
+      "mountings": ["wall"],
+      "weightKG": 2.0,
+      "notes": "An unlined curtain of about 340 g/m² hung straight and flat against the wall, which is how most curtains in a house actually hang. Here to be modelled honestly rather than recommended: it takes the top off and does nothing below 500 Hz. Gathering the same fabric to half its width is worth far more than buying heavier cloth and hanging it flat. Standard published figures for light velour, 10 oz/sq yd, hung straight in contact with the wall."
+    },
+    {
+      "id": "generic-foam-wedge-50mm",
+      "manufacturer": "Generic",
+      "model": "50 mm acoustic foam tile (600 × 600)",
+      "kind": "absorber_panel",
+      "dimensions": { "widthMM": 600, "heightMM": 600, "depthMM": 50 },
+      "absorption": { "125": 0.11, "250": 0.30, "500": 0.91, "1000": 1.05, "2000": 1.03, "4000": 1.00 },
+      "mountings": ["wall", "ceiling"],
+      "weightKG": 0.4,
+      "notes": "Open-cell polyurethane wedge foam. In the library so a room covered in it can be modelled honestly: strong above 500 Hz, almost nothing at 125 Hz, so a wall of it produces a room that is dull on top and still boomy underneath. Mineral wool of the same thickness costs less and does more."
+    }
+  ]
+}

@@ -1,0 +1,372 @@
+{
+  "equipment": [
+    {
+      "id": "apple-mac-studio-m2",
+      "manufacturer": "Apple",
+      "model": "Mac Studio (M2)",
+      "category": "computer",
+      "dimensions": {
+        "widthMM": 197,
+        "heightMM": 95,
+        "depthMM": 197
+      },
+      "weightKG": 2.7,
+      "powerDrawWatts": 145,
+      "ports": [
+        {
+          "id": "tb_1",
+          "label": "Thunderbolt 1",
+          "connector": "usb_c",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "thunderbolt",
+            "usb_data",
+            "usb_audio",
+            "usb_midi",
+            "video"
+          ]
+        },
+        {
+          "id": "tb_2",
+          "label": "Thunderbolt 2",
+          "connector": "usb_c",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "thunderbolt",
+            "usb_data",
+            "usb_audio",
+            "usb_midi",
+            "video"
+          ]
+        },
+        {
+          "id": "tb_3",
+          "label": "Thunderbolt 3",
+          "connector": "usb_c",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "thunderbolt",
+            "usb_data",
+            "usb_audio",
+            "usb_midi",
+            "video"
+          ]
+        },
+        {
+          "id": "tb_4",
+          "label": "Thunderbolt 4",
+          "connector": "usb_c",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "thunderbolt",
+            "usb_data",
+            "usb_audio",
+            "usb_midi",
+            "video"
+          ]
+        },
+        {
+          "id": "usb_a_1",
+          "label": "USB-A 1",
+          "connector": "usb_a",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "usb_data",
+            "usb_audio",
+            "usb_midi"
+          ]
+        },
+        {
+          "id": "usb_a_2",
+          "label": "USB-A 2",
+          "connector": "usb_a",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "usb_data",
+            "usb_audio",
+            "usb_midi"
+          ]
+        },
+        {
+          "id": "hdmi",
+          "label": "HDMI",
+          "connector": "hdmi",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "video"
+          ]
+        },
+        {
+          "id": "ethernet",
+          "label": "Ethernet",
+          "connector": "rj45",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "ethernet",
+            "dante_aes67"
+          ]
+        },
+        {
+          "id": "phones",
+          "label": "Headphone Out",
+          "connector": "trs_eighth",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "headphone_level"
+          ]
+        },
+        {
+          "id": "power",
+          "label": "Mains In",
+          "connector": "iec_c14",
+          "gender": "male",
+          "direction": "input",
+          "signals": [
+            "mains_power"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "apple-mac-mini-m4",
+      "manufacturer": "Apple",
+      "model": "Mac mini (M4)",
+      "category": "computer",
+      "dimensions": {
+        "widthMM": 127,
+        "heightMM": 50,
+        "depthMM": 127
+      },
+      "weightKG": 0.67,
+      "powerDrawWatts": 65,
+      "notes": "PSU rated 155W max continuous; typical M4 draw is far lower (~65W peak). Mains inlet is IEC C8 (figure-8 C7 cord).",
+      "ports": [
+        {
+          "id": "usb_c_front_1",
+          "label": "USB-C Front 1",
+          "connector": "usb_c",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "usb_data",
+            "usb_audio",
+            "usb_midi"
+          ]
+        },
+        {
+          "id": "usb_c_front_2",
+          "label": "USB-C Front 2",
+          "connector": "usb_c",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "usb_data",
+            "usb_audio",
+            "usb_midi"
+          ]
+        },
+        {
+          "id": "phones",
+          "label": "Headphone Out",
+          "connector": "trs_eighth",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "headphone_level"
+          ]
+        },
+        {
+          "id": "tb_1",
+          "label": "Thunderbolt 1",
+          "connector": "usb_c",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "thunderbolt",
+            "usb_data",
+            "usb_audio",
+            "usb_midi",
+            "video"
+          ]
+        },
+        {
+          "id": "tb_2",
+          "label": "Thunderbolt 2",
+          "connector": "usb_c",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "thunderbolt",
+            "usb_data",
+            "usb_audio",
+            "usb_midi",
+            "video"
+          ]
+        },
+        {
+          "id": "tb_3",
+          "label": "Thunderbolt 3",
+          "connector": "usb_c",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "thunderbolt",
+            "usb_data",
+            "usb_audio",
+            "usb_midi",
+            "video"
+          ]
+        },
+        {
+          "id": "hdmi",
+          "label": "HDMI",
+          "connector": "hdmi",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "video"
+          ]
+        },
+        {
+          "id": "ethernet",
+          "label": "Ethernet",
+          "connector": "rj45",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "ethernet",
+            "dante_aes67"
+          ]
+        },
+        {
+          "id": "power",
+          "label": "Mains In",
+          "connector": "iec_c8",
+          "gender": "male",
+          "direction": "input",
+          "signals": [
+            "mains_power"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "apple-mac-mini-m1",
+      "manufacturer": "Apple",
+      "model": "Mac mini (M1)",
+      "category": "computer",
+      "dimensions": {
+        "widthMM": 197,
+        "heightMM": 36,
+        "depthMM": 197
+      },
+      "weightKG": 1.2,
+      "powerDrawWatts": 40,
+      "notes": "PSU rated 150W max; typical M1 draw is far lower (~40W peak). Mains inlet is IEC C6 (3-pin cloverleaf C5 cord).",
+      "ports": [
+        {
+          "id": "tb_1",
+          "label": "Thunderbolt 1",
+          "connector": "usb_c",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "thunderbolt",
+            "usb_data",
+            "usb_audio",
+            "usb_midi",
+            "video"
+          ]
+        },
+        {
+          "id": "tb_2",
+          "label": "Thunderbolt 2",
+          "connector": "usb_c",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "thunderbolt",
+            "usb_data",
+            "usb_audio",
+            "usb_midi",
+            "video"
+          ]
+        },
+        {
+          "id": "usb_a_1",
+          "label": "USB-A 1",
+          "connector": "usb_a",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "usb_data",
+            "usb_audio",
+            "usb_midi"
+          ]
+        },
+        {
+          "id": "usb_a_2",
+          "label": "USB-A 2",
+          "connector": "usb_a",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "usb_data",
+            "usb_audio",
+            "usb_midi"
+          ]
+        },
+        {
+          "id": "hdmi",
+          "label": "HDMI",
+          "connector": "hdmi",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "video"
+          ]
+        },
+        {
+          "id": "ethernet",
+          "label": "Ethernet",
+          "connector": "rj45",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "ethernet",
+            "dante_aes67"
+          ]
+        },
+        {
+          "id": "phones",
+          "label": "Headphone Out",
+          "connector": "trs_eighth",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "headphone_level"
+          ]
+        },
+        {
+          "id": "power",
+          "label": "Mains In",
+          "connector": "iec_c6",
+          "gender": "male",
+          "direction": "input",
+          "signals": [
+            "mains_power"
+          ]
+        }
+      ]
+    }
+  ]
+}

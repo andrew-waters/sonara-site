@@ -1,0 +1,195 @@
+{
+  "equipment": [
+    {
+      "id": "mackie-1202vlz4",
+      "manufacturer": "Mackie",
+      "model": "1202VLZ4",
+      "category": "mixer",
+      "dimensions": {
+        "widthMM": 302,
+        "heightMM": 86,
+        "depthMM": 322
+      },
+      "weightKG": 2.4,
+      "powerDrawWatts": 15,
+      "ports": [
+        {
+          "id": "ch1_mic",
+          "label": "Ch 1 Mic",
+          "connector": "xlr3",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "ch2_mic",
+          "label": "Ch 2 Mic",
+          "connector": "xlr3",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "ch3_mic",
+          "label": "Ch 3 Mic",
+          "connector": "xlr3",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "ch4_mic",
+          "label": "Ch 4 Mic",
+          "connector": "xlr3",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "ch1_line",
+          "label": "Ch 1 Line",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "instrument_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "ch2_line",
+          "label": "Ch 2 Line",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "instrument_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "ch3_line",
+          "label": "Ch 3 Line",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "ch4_line",
+          "label": "Ch 4 Line",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "ch5_6_l",
+          "label": "Ch 5/6 L",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "ch5_6_r",
+          "label": "Ch 5/6 R",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "main_out_l_xlr",
+          "label": "Main Out L (XLR)",
+          "connector": "xlr3",
+          "gender": "male",
+          "direction": "output",
+          "signals": [
+            "line_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "main_out_r_xlr",
+          "label": "Main Out R (XLR)",
+          "connector": "xlr3",
+          "gender": "male",
+          "direction": "output",
+          "signals": [
+            "line_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "main_out_l_trs",
+          "label": "Main Out L (TRS)",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "main_out_r_trs",
+          "label": "Main Out R (TRS)",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "phones",
+          "label": "Phones",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "headphone_level"
+          ]
+        },
+        {
+          "id": "power",
+          "label": "Mains In",
+          "connector": "iec_c14",
+          "gender": "male",
+          "direction": "input",
+          "signals": [
+            "mains_power"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "racks": [
+    {
+      "id": "generic-rack-4u-desktop",
+      "manufacturer": "Generic",
+      "model": "4U desktop rack",
+      "rackUnits": 4,
+      "widthMM": 530,
+      "depthMM": 400,
+      "usableDepthMM": 320,
+      "baseHeightMM": 20,
+      "isOpenFrame": false,
+      "loadCapacityKG": 25,
+      "notes": "A small rack to stand on a desk or a shelf. Set its elevation to whatever it is standing on."
+    },
+    {
+      "id": "generic-rack-12u-open",
+      "manufacturer": "Generic",
+      "model": "12U open frame",
+      "rackUnits": 12,
+      "widthMM": 530,
+      "depthMM": 450,
+      "usableDepthMM": 450,
+      "baseHeightMM": 60,
+      "isOpenFrame": true,
+      "loadCapacityKG": 60,
+      "notes": "Rails on a frame with no sides, so the back is reachable without moving it. Usable depth is the full depth because nothing is in the way behind."
+    },
+    {
+      "id": "generic-rack-12u-cabinet",
+      "manufacturer": "Generic",
+      "model": "12U cabinet",
+      "rackUnits": 12,
+      "widthMM": 600,
+      "depthMM": 600,
+      "usableDepthMM": 480,
+      "baseHeightMM": 80,
+      "isOpenFrame": false,
+      "loadCapacityKG": 80,
+      "notes": "An enclosed cabinet on castors. The usable depth is what is left behind the rails once the rear door and cable space are accounted for."
+    },
+    {
+      "id": "generic-rack-16u-cabinet",
+      "manufacturer": "Generic",
+      "model": "16U cabinet",
+      "rackUnits": 16,
+      "widthMM": 600,
+      "depthMM": 600,
+      "usableDepthMM": 480,
+      "baseHeightMM": 80,
+      "isOpenFrame": false,
+      "loadCapacityKG": 100,
+      "notes": "The size that fits under most desks at a stretch. Check the height against the desk before committing to it."
+    },
+    {
+      "id": "generic-rack-24u-cabinet",
+      "manufacturer": "Generic",
+      "model": "24U cabinet",
+      "rackUnits": 24,
+      "widthMM": 600,
+      "depthMM": 700,
+      "usableDepthMM": 570,
+      "baseHeightMM": 100,
+      "isOpenFrame": false,
+      "loadCapacityKG": 120,
+      "notes": "A floor-standing rack, about 1.2 m to the top. Deep enough for power amps, which the shallower cabinets are not."
+    },
+    {
+      "id": "generic-rack-42u-cabinet",
+      "manufacturer": "Generic",
+      "model": "42U cabinet",
+      "rackUnits": 42,
+      "widthMM": 600,
+      "depthMM": 800,
+      "usableDepthMM": 660,
+      "baseHeightMM": 100,
+      "isOpenFrame": false,
+      "loadCapacityKG": 200,
+      "notes": "Full-height machine-room rack, about 2 m to the top. Worth drawing in a studio mostly to find out that it does not fit under the ceiling slope."
+    }
+  ]
+}

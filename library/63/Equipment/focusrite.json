@@ -1,0 +1,366 @@
+{
+  "equipment": [
+    {
+      "id": "focusrite-scarlett-18i20-3g",
+      "manufacturer": "Focusrite",
+      "model": "Scarlett 18i20 (3rd Gen)",
+      "category": "audio_interface",
+      "dimensions": {
+        "widthMM": 482.6,
+        "heightMM": 44.5,
+        "depthMM": 259
+      },
+      "rackUnits": 1,
+      "weightKG": 3.4,
+      "powerDrawWatts": 30,
+      "ports": [
+        {
+          "id": "in_1",
+          "label": "Input 1",
+          "connector": "combo_xlr_trs",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "mic_level",
+            "line_level",
+            "instrument_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "in_2",
+          "label": "Input 2",
+          "connector": "combo_xlr_trs",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "mic_level",
+            "line_level",
+            "instrument_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "in_3",
+          "label": "Input 3",
+          "connector": "combo_xlr_trs",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "mic_level",
+            "line_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "in_4",
+          "label": "Input 4",
+          "connector": "combo_xlr_trs",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "mic_level",
+            "line_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "in_5",
+          "label": "Input 5",
+          "connector": "combo_xlr_trs",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "mic_level",
+            "line_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "in_6",
+          "label": "Input 6",
+          "connector": "combo_xlr_trs",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "mic_level",
+            "line_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "in_7",
+          "label": "Input 7",
+          "connector": "combo_xlr_trs",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "mic_level",
+            "line_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "in_8",
+          "label": "Input 8",
+          "connector": "combo_xlr_trs",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "mic_level",
+            "line_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "monitor_out_l",
+          "label": "Monitor Out L",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "monitor_out_r",
+          "label": "Monitor Out R",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "line_out_3",
+          "label": "Line Out 3",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "line_out_4",
+          "label": "Line Out 4",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "line_out_5",
+          "label": "Line Out 5",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "line_out_6",
+          "label": "Line Out 6",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "line_out_7",
+          "label": "Line Out 7",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "line_out_8",
+          "label": "Line Out 8",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "line_out_9",
+          "label": "Line Out 9",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "line_out_10",
+          "label": "Line Out 10",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "phones_1",
+          "label": "Headphones 1",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "headphone_level"
+          ]
+        },
+        {
+          "id": "phones_2",
+          "label": "Headphones 2",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "headphone_level"
+          ]
+        },
+        {
+          "id": "adat_in_1",
+          "label": "ADAT In 1",
+          "connector": "toslink",
+          "gender": "none",
+          "direction": "input",
+          "signals": [
+            "adat"
+          ],
+          "channels": 8
+        },
+        {
+          "id": "adat_in_2",
+          "label": "ADAT In 2",
+          "connector": "toslink",
+          "gender": "none",
+          "direction": "input",
+          "signals": [
+            "adat"
+          ],
+          "channels": 8
+        },
+        {
+          "id": "adat_out_1",
+          "label": "ADAT Out 1",
+          "connector": "toslink",
+          "gender": "none",
+          "direction": "output",
+          "signals": [
+            "adat"
+          ],
+          "channels": 8
+        },
+        {
+          "id": "adat_out_2",
+          "label": "ADAT Out 2",
+          "connector": "toslink",
+          "gender": "none",
+          "direction": "output",
+          "signals": [
+            "adat"
+          ],
+          "channels": 8
+        },
+        {
+          "id": "spdif_in",
+          "label": "S/PDIF In",
+          "connector": "rca",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "spdif"
+          ],
+          "channels": 2
+        },
+        {
+          "id": "spdif_out",
+          "label": "S/PDIF Out",
+          "connector": "rca",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "spdif"
+          ],
+          "channels": 2
+        },
+        {
+          "id": "wordclock_out",
+          "label": "Word Clock Out",
+          "connector": "bnc",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "word_clock"
+          ]
+        },
+        {
+          "id": "midi_in",
+          "label": "MIDI In",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "midi_out",
+          "label": "MIDI Out",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "usb",
+          "label": "USB",
+          "connector": "usb_c",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "usb_audio",
+            "usb_midi",
+            "usb_data"
+          ]
+        },
+        {
+          "id": "power",
+          "label": "Mains In",
+          "connector": "iec_c14",
+          "gender": "male",
+          "direction": "input",
+          "signals": [
+            "mains_power"
+          ]
+        }
+      ]
+    }
+  ]
+}

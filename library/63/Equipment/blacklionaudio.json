@@ -1,0 +1,1172 @@
+{
+  "equipment": [
+    {
+      "id": "blacklion-pbr-trs",
+      "manufacturer": "Black Lion Audio",
+      "model": "PBR TRS",
+      "category": "patchbay",
+      "dimensions": {
+        "widthMM": 482.6,
+        "heightMM": 44.5,
+        "depthMM": 100
+      },
+      "rackUnits": 1,
+      "weightKG": 1.4,
+      "notes": "48-point passive balanced TRS patchbay: 96 gold-plated 1/4\" TRS jacks as 48 rear and 48 front, giving 24 normalled channels. Each channel runs rear row A (source in) to rear row B (destination out); a rear-panel switch selects fully-normalled or half-normalled, which decides whether the front jacks tap or break that link. Each channel's front A jack taps or breaks the source, so it patches as a send; the front B jack feeds the destination, so it patches as a return. Wire the bay the other way round and the two rows swap roles. Passive, no power. Depth is approximate (dealer spec rounded to 10 cm).",
+      "ports": [
+        {
+          "id": "rear_a_1",
+          "label": "Rear A1 In",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "rear_a_2",
+          "label": "Rear A2 In",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "rear_a_3",
+          "label": "Rear A3 In",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "rear_a_4",
+          "label": "Rear A4 In",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "rear_a_5",
+          "label": "Rear A5 In",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "rear_a_6",
+          "label": "Rear A6 In",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "rear_a_7",
+          "label": "Rear A7 In",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "rear_a_8",
+          "label": "Rear A8 In",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "rear_a_9",
+          "label": "Rear A9 In",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "rear_a_10",
+          "label": "Rear A10 In",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "rear_a_11",
+          "label": "Rear A11 In",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "rear_a_12",
+          "label": "Rear A12 In",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "rear_a_13",
+          "label": "Rear A13 In",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "rear_a_14",
+          "label": "Rear A14 In",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "rear_a_15",
+          "label": "Rear A15 In",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "rear_a_16",
+          "label": "Rear A16 In",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "rear_a_17",
+          "label": "Rear A17 In",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "rear_a_18",
+          "label": "Rear A18 In",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "rear_a_19",
+          "label": "Rear A19 In",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "rear_a_20",
+          "label": "Rear A20 In",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "rear_a_21",
+          "label": "Rear A21 In",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "rear_a_22",
+          "label": "Rear A22 In",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "rear_a_23",
+          "label": "Rear A23 In",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "rear_a_24",
+          "label": "Rear A24 In",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "rear_b_1",
+          "label": "Rear B1 Out",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "rear_b_2",
+          "label": "Rear B2 Out",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "rear_b_3",
+          "label": "Rear B3 Out",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "rear_b_4",
+          "label": "Rear B4 Out",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "rear_b_5",
+          "label": "Rear B5 Out",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "rear_b_6",
+          "label": "Rear B6 Out",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "rear_b_7",
+          "label": "Rear B7 Out",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "rear_b_8",
+          "label": "Rear B8 Out",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "rear_b_9",
+          "label": "Rear B9 Out",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "rear_b_10",
+          "label": "Rear B10 Out",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "rear_b_11",
+          "label": "Rear B11 Out",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "rear_b_12",
+          "label": "Rear B12 Out",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "rear_b_13",
+          "label": "Rear B13 Out",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "rear_b_14",
+          "label": "Rear B14 Out",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "rear_b_15",
+          "label": "Rear B15 Out",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "rear_b_16",
+          "label": "Rear B16 Out",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "rear_b_17",
+          "label": "Rear B17 Out",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "rear_b_18",
+          "label": "Rear B18 Out",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "rear_b_19",
+          "label": "Rear B19 Out",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "rear_b_20",
+          "label": "Rear B20 Out",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "rear_b_21",
+          "label": "Rear B21 Out",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "rear_b_22",
+          "label": "Rear B22 Out",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "rear_b_23",
+          "label": "Rear B23 Out",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "rear_b_24",
+          "label": "Rear B24 Out",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "front_a_1",
+          "label": "Front A1",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "front_a_2",
+          "label": "Front A2",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "front_a_3",
+          "label": "Front A3",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "front_a_4",
+          "label": "Front A4",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "front_a_5",
+          "label": "Front A5",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "front_a_6",
+          "label": "Front A6",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "front_a_7",
+          "label": "Front A7",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "front_a_8",
+          "label": "Front A8",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "front_a_9",
+          "label": "Front A9",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "front_a_10",
+          "label": "Front A10",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "front_a_11",
+          "label": "Front A11",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "front_a_12",
+          "label": "Front A12",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "front_a_13",
+          "label": "Front A13",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "front_a_14",
+          "label": "Front A14",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "front_a_15",
+          "label": "Front A15",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "front_a_16",
+          "label": "Front A16",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "front_a_17",
+          "label": "Front A17",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "front_a_18",
+          "label": "Front A18",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "front_a_19",
+          "label": "Front A19",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "front_a_20",
+          "label": "Front A20",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "front_a_21",
+          "label": "Front A21",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "front_a_22",
+          "label": "Front A22",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "front_a_23",
+          "label": "Front A23",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "front_a_24",
+          "label": "Front A24",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "front_b_1",
+          "label": "Front B1",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "front_b_2",
+          "label": "Front B2",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "front_b_3",
+          "label": "Front B3",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "front_b_4",
+          "label": "Front B4",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "front_b_5",
+          "label": "Front B5",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "front_b_6",
+          "label": "Front B6",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "front_b_7",
+          "label": "Front B7",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "front_b_8",
+          "label": "Front B8",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "front_b_9",
+          "label": "Front B9",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "front_b_10",
+          "label": "Front B10",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "front_b_11",
+          "label": "Front B11",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "front_b_12",
+          "label": "Front B12",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "front_b_13",
+          "label": "Front B13",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "front_b_14",
+          "label": "Front B14",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "front_b_15",
+          "label": "Front B15",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "front_b_16",
+          "label": "Front B16",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "front_b_17",
+          "label": "Front B17",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "front_b_18",
+          "label": "Front B18",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "front_b_19",
+          "label": "Front B19",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "front_b_20",
+          "label": "Front B20",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "front_b_21",
+          "label": "Front B21",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "front_b_22",
+          "label": "Front B22",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "front_b_23",
+          "label": "Front B23",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "front_b_24",
+          "label": "Front B24",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "mic_level"
+          ],
+          "balanced": true
+        }
+      ]
+    }
+  ]
+}

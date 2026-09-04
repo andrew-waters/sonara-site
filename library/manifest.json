@@ -1,0 +1,204 @@
+{
+  "commit": "6d9c0e51ad24d0eb78632032462775b5a4aeece4",
+  "files": [
+    {
+      "path": "Equipment/ableton.json",
+      "sha256": "baa0d77a3096eb0f00e1b0e2cc171f2895b94b1bfb6842337b776ab0186e8045",
+      "size": 931
+    },
+    {
+      "path": "Equipment/adam.json",
+      "sha256": "6568600f3995c563e27e63617525c944bc2563701095fef06545a0713dff430a",
+      "size": 5957
+    },
+    {
+      "path": "Equipment/apple.json",
+      "sha256": "717bec3c036670ad8899d7ee0b3d7d4cf466555c64f683a89a51c2d8969e8673",
+      "size": 8928
+    },
+    {
+      "path": "Equipment/arturia.json",
+      "sha256": "3254de2649bfa09d101d25a93f731f703da4a2cb02f233ae7ea0b053b586c161",
+      "size": 2355
+    },
+    {
+      "path": "Equipment/audient.json",
+      "sha256": "dd0eb17c5f50b0416f9df0fbd5194e1a7633ba8e0943e76bb102b7516c937ead",
+      "size": 9475
+    },
+    {
+      "path": "Equipment/behringer.json",
+      "sha256": "5e3c9e71ad3151a8595c6d5d5e5fb0f2d8871e1fd714fb05d042ed0a6efe5966",
+      "size": 4943
+    },
+    {
+      "path": "Equipment/blacklionaudio.json",
+      "sha256": "4b060f4ef179ae793bc8dc063ffec7fba2861a778b3eece70aa7e99ad68cb45a",
+      "size": 29431
+    },
+    {
+      "path": "Equipment/boredbrain.json",
+      "sha256": "5ac21e2131ad723cf9eb078e58018dfe9d802d6d3350c3497f9b42d225ce724e",
+      "size": 9023
+    },
+    {
+      "path": "Equipment/elektron.json",
+      "sha256": "b5fe1934acb33a8150753739ea90478ef102e9213855fa78b6b62804a5a32fc5",
+      "size": 2815
+    },
+    {
+      "path": "Equipment/eventide.json",
+      "sha256": "393d36c426dd1e3e3c383d0d3ac6d59bca6bcd8c8bc72861431a83c77ccad812",
+      "size": 3162
+    },
+    {
+      "path": "Equipment/focusrite.json",
+      "sha256": "8f9e4796093719d67648675c788d569381f40035e754ed11a7b471ea6b8e2713",
+      "size": 8779
+    },
+    {
+      "path": "Equipment/furman.json",
+      "sha256": "7a9764930add35773fe9252287840cfaa97a4315d7e4f4eaf27eb48775f055b9",
+      "size": 2479
+    },
+    {
+      "path": "Equipment/hologram.json",
+      "sha256": "6b9acd1df6a4da09e5dbea099fe03940f47757ce26db10bab6d47726389dab90",
+      "size": 2906
+    },
+    {
+      "path": "Equipment/kenton.json",
+      "sha256": "a5a40a96597a1a8465d4788daffdd2bc4fbbdd7418088fcd6647537b8c0bdaf6",
+      "size": 13316
+    },
+    {
+      "path": "Equipment/korg.json",
+      "sha256": "17d7278fdf38dbc8dfc881058d624f5569a581ab7d4267d493131d991236251c",
+      "size": 1926
+    },
+    {
+      "path": "Equipment/lg.json",
+      "sha256": "3631765effb70d5affc1fedbe301e271425d704cb7481fb1cf22cb6f329dab72",
+      "size": 1735
+    },
+    {
+      "path": "Equipment/mackie.json",
+      "sha256": "4e698d3b288825e288755c8bf50910c082cb752c849e596dacffea6947708140",
+      "size": 4629
+    },
+    {
+      "path": "Equipment/moog.json",
+      "sha256": "01b629abb5986d8a703377818a431a64291b2101c33cd853ef67a82bec358ee9",
+      "size": 13950
+    },
+    {
+      "path": "Equipment/novation.json",
+      "sha256": "61af404774e2fa6b53a59dccf7ba9167caa1c9b5075206827f0e00974d6026a2",
+      "size": 1495
+    },
+    {
+      "path": "Equipment/rack-accessories.json",
+      "sha256": "c9ebd6b6be8498b198b5812c8e85bd52ad59def1b3dc5b2eb81e1f8a4a93b54d",
+      "size": 2024
+    },
+    {
+      "path": "Equipment/radial.json",
+      "sha256": "0a1c3caa969968311e35e830bf51b514897fb004c8401e08ce1957b4f0feb39c",
+      "size": 1053
+    },
+    {
+      "path": "Equipment/roland.json",
+      "sha256": "321e3a28ad7d7f8727bc549c2ccf668e82550be9dd5e00bd0c6406068e8e8755",
+      "size": 16813
+    },
+    {
+      "path": "Equipment/samsung.json",
+      "sha256": "6048a2dbeef965b787041abead097f7a9ff065b1d4db0dd7bdd05c5f40282dd4",
+      "size": 1646
+    },
+    {
+      "path": "Equipment/shure.json",
+      "sha256": "702c4d24a915596c2c81704a5a216e2854ffc65ad69dd16faa7c3bec9421dfce",
+      "size": 551
+    },
+    {
+      "path": "Equipment/sony.json",
+      "sha256": "69071e91c45bf12c041d35ef47d6669680d80d36a8fe3b41f622029f62409267",
+      "size": 2766
+    },
+    {
+      "path": "Equipment/soundcraft.json",
+      "sha256": "dd5d58c0879d526c964dd1363a5185f5738952554228c5da4dde17f6c36d59a2",
+      "size": 15032
+    },
+    {
+      "path": "Equipment/technics.json",
+      "sha256": "f644f839767de1f1de79f946c8555d1fd750772481bee21c875ae29a754dcd41",
+      "size": 857
+    },
+    {
+      "path": "Equipment/yamaha.json",
+      "sha256": "c5e47abc155c80b3717f3bf64e9a7cf83f574733ff6329516ff43498c37e48d4",
+      "size": 2346
+    },
+    {
+      "path": "Fills/generic.json",
+      "sha256": "89e0ef14118e514ecf37eb478a2921f79647b7e246c127559bab1be3b5511473",
+      "size": 7579
+    },
+    {
+      "path": "Mounts/generic.json",
+      "sha256": "dcbfed9e0311cde1ef02d0d4f488cbbf608a98362d5eab5129d6096e72d0b94a",
+      "size": 5258
+    },
+    {
+      "path": "Mounts/isoacoustics.json",
+      "sha256": "05cc64cc282fa9d79f20c78edeab23e227ddb3ec6193b0ed231d3f4430336eea",
+      "size": 1011
+    },
+    {
+      "path": "Racks/generic.json",
+      "sha256": "d0d9d379cd29f22da86d4b65dd3203a30c49b355c9f72d24c5381cbfceec31aa",
+      "size": 2626
+    },
+    {
+      "path": "Stands/jaspers.json",
+      "sha256": "0042e2c675ccebc6add9742669ba92cb00183b825cd0fb09dbe15e8cbe43f8db",
+      "size": 3536
+    },
+    {
+      "path": "Treatment/diy.json",
+      "sha256": "e2d8b500fb5fbbbce14f5b82c12d9e1b6110f26c143a4bfdb029cbfc88b9743b",
+      "size": 4238
+    },
+    {
+      "path": "Treatment/generic.json",
+      "sha256": "892b1071f7fa2cc341bd888bb860d6fc10130b293dadcc3dfedc811c0772d899",
+      "size": 3153
+    },
+    {
+      "path": "cables.json",
+      "sha256": "cf0e1188ad8bf8ca593ee77e264db7321a9bfd9775bf4a4247eee175c97dccb0",
+      "size": 8008
+    },
+    {
+      "path": "connectors.json",
+      "sha256": "1064c162ddcf30a3d14ec46ea7a845aa4e9695b5c2bd26f06ee15799918138aa",
+      "size": 5354
+    },
+    {
+      "path": "library.json",
+      "sha256": "9c2b5a8be290ad191f66863c38327286cbd28ac702d35f37df803598bc2ebf62",
+      "size": 53
+    },
+    {
+      "path": "surfaces.json",
+      "sha256": "0b9400db210f0e00acdfed3d3a90979c0bc584583dd4e51ea0721b08d4f9c59c",
+      "size": 12112
+    }
+  ],
+  "libraryVersion": 63,
+  "minAppVersion": "0.1.0",
+  "publishedAt": "2026-09-04T13:52:40Z",
+  "schemaVersion": 1
+}

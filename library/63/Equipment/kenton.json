@@ -1,0 +1,532 @@
+{
+  "equipment": [
+    {
+      "id": "kenton-thru-5",
+      "manufacturer": "Kenton",
+      "model": "THRU-5",
+      "category": "other",
+      "dimensions": {
+        "widthMM": 100,
+        "heightMM": 35,
+        "depthMM": 50
+      },
+      "weightKG": 0.11,
+      "powerDrawWatts": 0.36,
+      "notes": "1 MIDI in to 5 thru. Passive-looking but active: the MIDI input is opto-isolated and every thru has its own driver, so the outputs are regenerated rather than daisy-chained: the point of the box is that none of the timing smear of chained thru ports accumulates. 9 V DC on a 2.1 mm barrel, centre-positive, PSU included. Weight excludes the supply.",
+      "ports": [
+        {
+          "id": "midi_in",
+          "label": "MIDI In",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "thru_1",
+          "label": "MIDI Thru 1",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "thru_2",
+          "label": "MIDI Thru 2",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "thru_3",
+          "label": "MIDI Thru 3",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "thru_4",
+          "label": "MIDI Thru 4",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "thru_5",
+          "label": "MIDI Thru 5",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "power",
+          "label": "DC In",
+          "connector": "dc_barrel",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "dc_power"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kenton-thru-12",
+      "manufacturer": "Kenton",
+      "model": "THRU-12",
+      "category": "other",
+      "dimensions": {
+        "widthMM": 161,
+        "heightMM": 35,
+        "depthMM": 54
+      },
+      "weightKG": 0.2,
+      "powerDrawWatts": 0.72,
+      "notes": "1 MIDI in to 12 thru. Passive-looking but active: the MIDI input is opto-isolated and every thru has its own driver, so the outputs are regenerated rather than daisy-chained: the point of the box is that none of the timing smear of chained thru ports accumulates. 9 V DC on a 2.1 mm barrel, centre-positive, PSU included. Weight excludes the supply.",
+      "ports": [
+        {
+          "id": "midi_in",
+          "label": "MIDI In",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "thru_1",
+          "label": "MIDI Thru 1",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "thru_2",
+          "label": "MIDI Thru 2",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "thru_3",
+          "label": "MIDI Thru 3",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "thru_4",
+          "label": "MIDI Thru 4",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "thru_5",
+          "label": "MIDI Thru 5",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "thru_6",
+          "label": "MIDI Thru 6",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "thru_7",
+          "label": "MIDI Thru 7",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "thru_8",
+          "label": "MIDI Thru 8",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "thru_9",
+          "label": "MIDI Thru 9",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "thru_10",
+          "label": "MIDI Thru 10",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "thru_11",
+          "label": "MIDI Thru 11",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "thru_12",
+          "label": "MIDI Thru 12",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "power",
+          "label": "DC In",
+          "connector": "dc_barrel",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "dc_power"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kenton-thru-25",
+      "manufacturer": "Kenton",
+      "model": "THRU-25",
+      "category": "other",
+      "dimensions": {
+        "widthMM": 300,
+        "heightMM": 35,
+        "depthMM": 54
+      },
+      "weightKG": 0.39,
+      "powerDrawWatts": 1.35,
+      "notes": "1 MIDI in to 25 thru, all sockets on the rear. Passive-looking but active: the MIDI input is opto-isolated and every thru has its own driver, so the outputs are regenerated rather than daisy-chained: the point of the box is that none of the timing smear of chained thru ports accumulates. 9 V DC on a 2.1 mm barrel, centre-positive, PSU included. Weight excludes the supply.",
+      "ports": [
+        {
+          "id": "midi_in",
+          "label": "MIDI In",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "thru_1",
+          "label": "MIDI Thru 1",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "thru_2",
+          "label": "MIDI Thru 2",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "thru_3",
+          "label": "MIDI Thru 3",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "thru_4",
+          "label": "MIDI Thru 4",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "thru_5",
+          "label": "MIDI Thru 5",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "thru_6",
+          "label": "MIDI Thru 6",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "thru_7",
+          "label": "MIDI Thru 7",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "thru_8",
+          "label": "MIDI Thru 8",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "thru_9",
+          "label": "MIDI Thru 9",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "thru_10",
+          "label": "MIDI Thru 10",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "thru_11",
+          "label": "MIDI Thru 11",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "thru_12",
+          "label": "MIDI Thru 12",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "thru_13",
+          "label": "MIDI Thru 13",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "thru_14",
+          "label": "MIDI Thru 14",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "thru_15",
+          "label": "MIDI Thru 15",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "thru_16",
+          "label": "MIDI Thru 16",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "thru_17",
+          "label": "MIDI Thru 17",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "thru_18",
+          "label": "MIDI Thru 18",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "thru_19",
+          "label": "MIDI Thru 19",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "thru_20",
+          "label": "MIDI Thru 20",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "thru_21",
+          "label": "MIDI Thru 21",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "thru_22",
+          "label": "MIDI Thru 22",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "thru_23",
+          "label": "MIDI Thru 23",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "thru_24",
+          "label": "MIDI Thru 24",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "thru_25",
+          "label": "MIDI Thru 25",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "power",
+          "label": "DC In",
+          "connector": "dc_barrel",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "dc_power"
+          ]
+        }
+      ]
+    }
+  ]
+}

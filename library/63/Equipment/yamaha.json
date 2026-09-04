@@ -1,0 +1,100 @@
+{
+  "equipment": [
+    {
+      "id": "yamaha-hs8",
+      "manufacturer": "Yamaha",
+      "model": "HS8",
+      "category": "monitor",
+      "dimensions": {
+        "widthMM": 250,
+        "heightMM": 390,
+        "depthMM": 334
+      },
+      "weightKG": 10.2,
+      "powerDrawWatts": 60,
+      "notes": "Powered monitor. One entry per cabinet; place two for a stereo pair.",
+      "ports": [
+        {
+          "id": "input_xlr",
+          "label": "Input (XLR)",
+          "connector": "xlr3",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "input_trs",
+          "label": "Input (TRS)",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "power",
+          "label": "Mains In",
+          "connector": "iec_c14",
+          "gender": "male",
+          "direction": "input",
+          "signals": [
+            "mains_power"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yamaha-msp5",
+      "manufacturer": "Yamaha",
+      "model": "MSP5 Studio",
+      "category": "monitor",
+      "dimensions": {
+        "widthMM": 179,
+        "heightMM": 285,
+        "depthMM": 211
+      },
+      "weightKG": 7.9,
+      "powerDrawWatts": 55,
+      "notes": "Powered monitor. One entry per cabinet; place two for a stereo pair.",
+      "ports": [
+        {
+          "id": "input_xlr",
+          "label": "Input (XLR)",
+          "connector": "xlr3",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "input_trs",
+          "label": "Input (TRS)",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "power",
+          "label": "Mains In",
+          "connector": "iec_c14",
+          "gender": "male",
+          "direction": "input",
+          "signals": [
+            "mains_power"
+          ]
+        }
+      ]
+    }
+  ]
+}

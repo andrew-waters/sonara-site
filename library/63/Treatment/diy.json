@@ -1,0 +1,76 @@
+{
+  "treatment": [
+    {
+      "id": "diy-panel-50mm",
+      "manufacturer": "DIY",
+      "model": "50 mm mineral wool panel (600 × 1200)",
+      "kind": "absorber_panel",
+      "dimensions": { "widthMM": 600, "heightMM": 1200, "depthMM": 50 },
+      "absorption": { "125": 0.15, "250": 0.55, "500": 0.95, "1000": 1.00, "2000": 1.00, "4000": 1.00 },
+      "mountings": ["wall", "ceiling"],
+      "weightKG": 3.5,
+      "isDIY": true,
+      "notes": "A slab of 45–60 kg/m³ mineral wool in a timber frame, wrapped in breathable cloth, fixed flat to the wall. Excellent from 500 Hz up and nearly useless at 125 Hz, which is what every thin panel has in common, however it is marketed. Figures are typical for the construction, not a certified measurement."
+    },
+    {
+      "id": "diy-panel-100mm",
+      "manufacturer": "DIY",
+      "model": "100 mm mineral wool panel (600 × 1200)",
+      "kind": "absorber_panel",
+      "dimensions": { "widthMM": 600, "heightMM": 1200, "depthMM": 100 },
+      "absorption": { "125": 0.45, "250": 1.00, "500": 1.05, "1000": 1.00, "2000": 1.00, "4000": 1.00 },
+      "mountings": ["wall", "ceiling"],
+      "weightKG": 6.0,
+      "isDIY": true,
+      "notes": "Doubling the depth is what buys the low end: three times the 125 Hz absorption of the 50 mm version for twice the material. If you build one panel design for a room, build this one."
+    },
+    {
+      "id": "diy-panel-100mm-gapped",
+      "manufacturer": "DIY",
+      "model": "100 mm panel on a 100 mm gap (600 × 1200)",
+      "kind": "bass_trap",
+      "dimensions": { "widthMM": 600, "heightMM": 1200, "depthMM": 200 },
+      "absorption": { "125": 0.70, "250": 1.05, "500": 1.05, "1000": 1.00, "2000": 1.00, "4000": 1.00 },
+      "mountings": ["wall", "ceiling"],
+      "weightKG": 7.0,
+      "isDIY": true,
+      "notes": "The same 100 mm slab held 100 mm off the wall on battens. The air behind it does the work of more mineral wool for the price of some timber: the cheapest low-frequency absorption there is. Listed as its own product because the gap changes the coefficients; the air gap recorded on a placement is for the build spec and is not modelled."
+    },
+    {
+      "id": "diy-superchunk",
+      "manufacturer": "DIY",
+      "model": "Superchunk corner trap (600 face, 1200 tall)",
+      "kind": "corner_trap",
+      "dimensions": { "widthMM": 600, "heightMM": 1200, "depthMM": 420 },
+      "absorption": { "125": 0.70, "250": 1.05, "500": 1.05, "1000": 1.00, "2000": 1.00, "4000": 1.00 },
+      "mountings": ["corner"],
+      "weightKG": 14.0,
+      "isDIY": true,
+      "notes": "Triangular offcuts of mineral wool stacked to fill a vertical corner solid, cloth over the diagonal face. Sits where every room mode has its pressure maximum, so per square metre of face it is the most effective thing you can build. Stack them floor to ceiling."
+    },
+    {
+      "id": "diy-cloud-100mm",
+      "manufacturer": "DIY",
+      "model": "100 mm ceiling cloud (1200 × 1200)",
+      "kind": "cloud",
+      "dimensions": { "widthMM": 1200, "heightMM": 1200, "depthMM": 100 },
+      "absorption": { "125": 0.60, "250": 1.05, "500": 1.10, "1000": 1.05, "2000": 1.00, "4000": 1.00 },
+      "mountings": ["ceiling"],
+      "weightKG": 12.0,
+      "isDIY": true,
+      "notes": "Suspended on wires a few hundred millimetres below the ceiling, so both faces absorb and the air gap extends its reach downwards. Goes directly above the listening position, where the ceiling bounce lands."
+    },
+    {
+      "id": "diy-qrd-diffuser",
+      "manufacturer": "DIY",
+      "model": "Quadratic residue diffuser (600 × 600 × 150)",
+      "kind": "diffuser",
+      "dimensions": { "widthMM": 600, "heightMM": 600, "depthMM": 150 },
+      "absorption": { "125": 0.10, "250": 0.08, "500": 0.07, "1000": 0.05, "2000": 0.05, "4000": 0.05 },
+      "mountings": ["wall", "ceiling"],
+      "weightKG": 9.0,
+      "isDIY": true,
+      "notes": "Timber wells of varying depth that scatter rather than absorb: it breaks up a reflection without taking the energy out of the room. Useful on the back wall of a room that is already dead enough. A 150 mm well depth scatters usefully from roughly 500 Hz up; below that it is a flat wall."
+    }
+  ]
+}

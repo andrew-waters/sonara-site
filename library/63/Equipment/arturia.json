@@ -1,0 +1,28 @@
+{
+  "equipment": [
+    {
+      "id": "arturia-minibrute",
+      "manufacturer": "Arturia",
+      "model": "MiniBrute",
+      "category": "synthesizer",
+      "dimensions": { "widthMM": 390, "heightMM": 70, "depthMM": 325 },
+      "weightKG": 4.0,
+      "notes": "Original 2012 model. All six CV/gate jacks are 3.5mm (the manual's one mention of a 1/4\" gate out is a typo). 12V DC centre-positive.",
+      "ports": [
+        { "id": "master_out", "label": "Master Out", "connector": "ts_quarter", "gender": "female", "direction": "output", "signals": ["line_level", "instrument_level"], "balanced": false },
+        { "id": "phones", "label": "Phones", "connector": "trs_quarter", "gender": "female", "direction": "output", "signals": ["headphone_level"] },
+        { "id": "audio_in", "label": "Audio In", "connector": "ts_quarter", "gender": "female", "direction": "input", "signals": ["line_level", "instrument_level"] },
+        { "id": "midi_in", "label": "MIDI In", "connector": "midi_din5", "gender": "female", "direction": "input", "signals": ["midi"] },
+        { "id": "midi_out", "label": "MIDI Out", "connector": "midi_din5", "gender": "female", "direction": "output", "signals": ["midi"] },
+        { "id": "usb", "label": "USB", "connector": "usb_b", "gender": "female", "direction": "bidirectional", "signals": ["usb_midi"] },
+        { "id": "pitch_cv_in", "label": "Pitch CV In", "connector": "ts_eighth", "gender": "female", "direction": "input", "signals": ["cv"] },
+        { "id": "filter_cv_in", "label": "Filter CV In", "connector": "ts_eighth", "gender": "female", "direction": "input", "signals": ["cv"] },
+        { "id": "amp_cv_in", "label": "Amp CV In", "connector": "ts_eighth", "gender": "female", "direction": "input", "signals": ["cv"] },
+        { "id": "gate_in", "label": "Gate In", "connector": "ts_eighth", "gender": "female", "direction": "input", "signals": ["gate"] },
+        { "id": "pitch_out", "label": "Pitch Out", "connector": "ts_eighth", "gender": "female", "direction": "output", "signals": ["cv"] },
+        { "id": "gate_out", "label": "Gate Out", "connector": "ts_eighth", "gender": "female", "direction": "output", "signals": ["gate"] },
+        { "id": "power", "label": "DC In (12V)", "connector": "dc_barrel", "gender": "female", "direction": "input", "signals": ["dc_power"] }
+      ]
+    }
+  ]
+}
