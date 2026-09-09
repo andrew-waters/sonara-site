@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy - Sonara</title>
+  <meta name="description" content="What Sonara stores, what it sends and what we receive. No account, no analytics, no tracking: the app fetches its equipment library and nothing else." />
+  <meta property="og:title" content="Privacy - Sonara" />
+  <meta property="og:description" content="No account, no analytics, no tracking. Sonara fetches its equipment library and nothing else." />
+  <meta property="og:url" content="https://sonara.andon.dev/privacy/" />
+  <link rel="canonical" href="https://sonara.andon.dev/privacy/" />
+  <link rel="icon" type="image/png" href="/assets/icon-256.png" />
+  <link rel="apple-touch-icon" href="/assets/icon-256.png" />
+  <script>(function(){var t;try{t=localStorage.getItem('theme')}catch(e){}if(!t)t=(window.matchMedia&&matchMedia('(prefers-color-scheme: light)').matches)?'light':'dark';document.documentElement.setAttribute('data-theme',t);})();</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body class="subpage" id="top">
+  <header>
+    <div class="wrap nav">
+      <a href="/" class="brand" aria-label="Sonara">
+        <svg viewBox="0 0 100 100" aria-hidden="true"><path d="M33 30 V70 H73" fill="none" stroke="currentColor" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/><circle cx="64" cy="40" r="7" fill="currentColor"/></svg>
+        <span class="name">Sonara</span>
+      </a>
+      <nav class="nav-links">
+        <a class="nav-link" href="/support/">Support</a>
+        <a class="nav-link" href="/terms/">Terms</a>
+        <button id="theme-toggle" class="theme-btn" aria-label="Toggle dark and light theme">☀︎</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page">
+      <div class="wrap">
+        <div class="page-head">
+          <span class="mono">Privacy</span>
+          <h1 class="display">Sonara keeps <em>to itself.</em></h1>
+          <p class="lede">There is no account to make, no analytics, no tracking and no advertising. The app runs on your Mac, on your files, and the only thing it ever asks the network for is its own equipment library.</p>
+        </div>
+
+        <div class="prose">
+          <h2 class="display">What Sonara stores</h2>
+          <p>All of it on your Mac, none of it anywhere else:</p>
+          <ul>
+            <li><b>Your projects.</b> A <code>.sonara</code> document is a plain JSON file, saved wherever you choose to save it. Sonara reads and writes it and nothing more. If you keep documents in iCloud Drive or on a server, that is your arrangement with Apple or whoever runs the server, not something Sonara does for you.</li>
+            <li><b>Your gear inventory and preferences.</b> What you own, your nicknames for it, window sizes, which panels you had open, the list of recent documents: stored in the app's own container on your disk.</li>
+            <li><b>The equipment library.</b> Verified copies of the published library live in the app's Application Support folder. They describe equipment, not you.</li>
+          </ul>
+
+          <h2 class="display">What Sonara sends</h2>
+          <ul>
+            <li><b>A library check, at most once a day.</b> On launch the app asks <code>sonara.andon.dev</code> for the library manifest, and downloads the library files when a newer set has been published. It is an ordinary HTTPS request for a public file. It carries nothing about you, your Mac or your documents — no identifier, no serial, no project data.</li>
+            <li><b>Nothing else.</b> No crash reports, no diagnostics, no telemetry, no usage statistics, no contact with any other service. Your rooms, your gear and your wiring stay on your machine.</li>
+          </ul>
+          <p>The site and the library are served by GitHub Pages. Like any web server it may keep standard request logs — IP address, user agent, the file requested. Those logs belong to GitHub, and we neither receive nor analyse them.</p>
+
+          <h2 class="display">What we receive</h2>
+          <ul>
+            <li><b>Email you send us.</b> If you write to <a href="mailto:sonara@andon.dev">sonara@andon.dev</a> we have your address and whatever you tell us, for as long as the conversation is useful. It is never used for marketing and never passed to anyone else.</li>
+            <li><b>Aggregate App Store reports.</b> Buying Sonara is a transaction with Apple. Apple handles payment and we never see your payment details. Apple gives developers aggregate sales and download figures, which cannot be tied back to a person.</li>
+          </ul>
+
+          <h2 class="display">On the App Store</h2>
+          <p>Sonara's App Store listing declares <b>Data Not Collected</b>, which is the same statement as this page: no data is gathered from the app, linked to you, or used to track you across other apps and sites.</p>
+
+          <h2 class="display">Children</h2>
+          <p>Sonara is a tool for planning studios, not a product aimed at children, and it collects nothing from anyone regardless of age.</p>
+
+          <h2 class="display">Changes</h2>
+          <p>If this ever stops being true — crash reporting is the likely candidate, and it would be opt-in — this page changes before the release that changes the app, and the date below moves.</p>
+
+          <p class="mono updated">Last updated 9 September 2026 &middot; Questions: <a href="mailto:sonara@andon.dev">sonara@andon.dev</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap foot">
+      <div>© 2026 Sonara. All rights reserved.</div>
+      <nav class="foot-links">
+        <a href="/privacy/">Privacy</a>
+        <a href="/support/">Support</a>
+        <a href="/terms/">Terms</a>
+      </nav>
+      <div><a href="https://andon.dev">Built by andon.dev</a></div>
+    </div>
+  </footer>
+
+  <script src="/theme.js"></script>
+</body>
+</html>

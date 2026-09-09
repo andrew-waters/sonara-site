@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Support - Sonara</title>
+  <meta name="description" content="How to get help with Sonara: where to write, what to include, how to ask for a piece of gear to be added to the library, and where to start." />
+  <meta property="og:title" content="Support - Sonara" />
+  <meta property="og:description" content="Where to write, what to include, and how to ask for gear to be added to the library." />
+  <meta property="og:url" content="https://sonara.andon.dev/support/" />
+  <link rel="canonical" href="https://sonara.andon.dev/support/" />
+  <link rel="icon" type="image/png" href="/assets/icon-256.png" />
+  <link rel="apple-touch-icon" href="/assets/icon-256.png" />
+  <script>(function(){var t;try{t=localStorage.getItem('theme')}catch(e){}if(!t)t=(window.matchMedia&&matchMedia('(prefers-color-scheme: light)').matches)?'light':'dark';document.documentElement.setAttribute('data-theme',t);})();</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body class="subpage" id="top">
+  <header>
+    <div class="wrap nav">
+      <a href="/" class="brand" aria-label="Sonara">
+        <svg viewBox="0 0 100 100" aria-hidden="true"><path d="M33 30 V70 H73" fill="none" stroke="currentColor" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/><circle cx="64" cy="40" r="7" fill="currentColor"/></svg>
+        <span class="name">Sonara</span>
+      </a>
+      <nav class="nav-links">
+        <a class="nav-link" href="/privacy/">Privacy</a>
+        <a class="nav-link" href="/terms/">Terms</a>
+        <button id="theme-toggle" class="theme-btn" aria-label="Toggle dark and light theme">☀︎</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page">
+      <div class="wrap">
+        <div class="page-head">
+          <span class="mono">Support</span>
+          <h1 class="display">Ask a person. <em>You'll get one.</em></h1>
+          <p class="lede">Sonara is made by one person. Write to <a href="mailto:sonara@andon.dev">sonara@andon.dev</a> and that is who reads it — usually a reply within a few working days.</p>
+        </div>
+
+        <div class="prose">
+          <h2 class="display">What to include</h2>
+          <p>Anything you can tell us about the state the app was in saves a round trip:</p>
+          <ul>
+            <li>The Sonara version, from <b>Sonara &rsaquo; About Sonara</b>, and your macOS version.</li>
+            <li>What you were doing, what you expected, and what happened instead.</li>
+            <li>If a particular project is involved, attach the <code>.sonara</code> file. It is plain JSON describing your room, gear and wiring, and it is only ever used to reproduce what you are seeing.</li>
+          </ul>
+          <p>Bug reports and feature requests go to the same address. There is no public tracker yet; when there is, this page will point at it.</p>
+
+          <h2 class="display">Asking for gear</h2>
+          <p>Sonara's equipment library is data, published separately from the app, so a piece of gear can be added without waiting for a release — the app picks up a new library on its own within a day. If something you own is missing, ask for it and include a link to the manufacturer's page or spec sheet. What we need to model a unit is its dimensions, its rack units if it is rack gear, its weight, its power draw, and the connectors on it with what each one carries.</p>
+          <p>Acoustic treatment is the same, with one condition: absorption coefficients have to come from the manufacturer's own published measurements, per octave band. We do not estimate them and we do not fill in gaps with plausible numbers. Where a product has no published data, it can still be added as a generic construction, and the entry says as much.</p>
+
+          <h2 class="display">Getting started</h2>
+          <ul>
+            <li>The welcome window opens the <b>demo studio</b>: a finished room with gear placed, wiring, patchbays and treatment on it. It is the fastest way to see what the app does before drawing your own.</li>
+            <li>Rooms are drawn in millimetres, gear comes from the library, and wiring is checked as you make it. Nothing needs to be complete for the acoustics or the cable schedule to have something to say.</li>
+            <li>Sonara keeps its equipment library up to date by itself, at most once a day, and applies a new one at the next launch.</li>
+          </ul>
+
+          <h2 class="display">Requirements</h2>
+          <p>macOS 15 Sequoia or later. Sonara is a document-based Mac app: your projects are ordinary files you can keep, copy and back up wherever you like.</p>
+
+          <h2 class="display">Privacy and terms</h2>
+          <p>What the app stores and sends is set out on the <a href="/privacy/">privacy page</a>; the licence is on the <a href="/terms/">terms page</a>.</p>
+
+          <p class="mono updated">Last updated 9 September 2026 &middot; <a href="mailto:sonara@andon.dev">sonara@andon.dev</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap foot">
+      <div>© 2026 Sonara. All rights reserved.</div>
+      <nav class="foot-links">
+        <a href="/privacy/">Privacy</a>
+        <a href="/support/">Support</a>
+        <a href="/terms/">Terms</a>
+      </nav>
+      <div><a href="https://andon.dev">Built by andon.dev</a></div>
+    </div>
+  </footer>
+
+  <script src="/theme.js"></script>
+</body>
+</html>

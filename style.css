@@ -235,11 +235,41 @@ header.scrolled .brand { opacity: 1; }
 .closing h2 { font-size: clamp(48px, 7vw, 96px); margin: 0 0 var(--s8); }
 .closing h2 em { font-style: normal; color: var(--ink-3); }
 
+/* ---------- Prose pages ----------
+   Privacy, support and terms: one column at reading width, on the same type
+   scale as the rest of the site. There is no wordmark below the header here,
+   so the brand in it is shown from the top rather than fading in on scroll. */
+.subpage header .brand { opacity: 1; }
+.page { padding: var(--s16) 0 var(--s24); }
+.page-head { max-width: 68ch; margin-bottom: var(--s12); padding-bottom: var(--s10); border-bottom: 1px solid var(--line); }
+.page-head .mono { display: block; margin-bottom: var(--s5); }
+.page-head h1 { font-size: clamp(40px, 5.5vw, 76px); margin: 0 0 var(--s6); }
+.page-head h1 em { font-style: normal; color: var(--ink-3); }
+.lede { margin: 0; font-size: 18px; color: var(--ink-2); }
+
+.prose { max-width: 68ch; }
+.prose h2 { font-size: clamp(28px, 3vw, 38px); margin: var(--s12) 0 var(--s4); }
+.prose p { margin: 0 0 var(--s4); color: var(--ink-2); }
+.prose ul { margin: 0 0 var(--s4); padding-left: var(--s5); color: var(--ink-2); }
+.prose li { margin-bottom: var(--s3); }
+.prose li::marker { color: var(--ink-3); }
+.prose b { color: var(--ink); font-weight: 600; }
+.prose a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
+.prose a:hover { color: var(--accent-hover); }
+.prose code {
+  font-family: "JetBrains Mono", ui-monospace, monospace; font-size: 0.88em;
+  padding: 1px 5px; border-radius: 4px;
+  background: var(--bg-3); border: 1px solid var(--line); color: var(--ink);
+}
+.prose .updated { display: block; margin-top: var(--s12); padding-top: var(--s5); border-top: 1px solid var(--line); text-transform: none; letter-spacing: 0.02em; }
+.prose .updated a { color: var(--ink-2); }
+
 /* ---------- Footer ---------- */
 footer { padding: var(--s8) 0 var(--s10); border-top: 1px solid var(--line); color: var(--ink-3); font-size: 13px; }
 .foot { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: var(--s3); }
 .foot a { color: var(--ink-2); }
 .foot a:hover { color: var(--ink); }
+.foot-links { display: flex; gap: var(--s5); }
 
 /* ---------- Lightbox ---------- */
 .lightbox {
