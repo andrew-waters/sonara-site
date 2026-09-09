@@ -254,8 +254,18 @@ header.scrolled .brand { opacity: 1; }
 .prose li { margin-bottom: var(--s3); }
 .prose li::marker { color: var(--ink-3); }
 .prose b { color: var(--ink); font-weight: 600; }
-.prose a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
-.prose a:hover { color: var(--accent-hover); }
+/* Links in prose read as the text they sit in, marked by an underline in the
+   rule colour rather than by going blue: the accent is kept for the one thing
+   on the site that is a button. */
+.prose a, .page-head a {
+  color: var(--ink);
+  text-decoration: underline;
+  text-decoration-color: var(--line-2);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition: text-decoration-color 160ms ease, color 160ms ease;
+}
+.prose a:hover, .page-head a:hover { color: var(--ink); text-decoration-color: var(--ink-3); }
 .prose code {
   font-family: "JetBrains Mono", ui-monospace, monospace; font-size: 0.88em;
   padding: 1px 5px; border-radius: 4px;
@@ -263,6 +273,7 @@ header.scrolled .brand { opacity: 1; }
 }
 .prose .updated { display: block; margin-top: var(--s12); padding-top: var(--s5); border-top: 1px solid var(--line); text-transform: none; letter-spacing: 0.02em; }
 .prose .updated a { color: var(--ink-2); }
+.prose .updated a:hover { color: var(--ink); }
 
 /* ---------- Footer ---------- */
 footer { padding: var(--s8) 0 var(--s10); border-top: 1px solid var(--line); color: var(--ink-3); font-size: 13px; }
