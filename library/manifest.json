@@ -1,5 +1,5 @@
 {
-  "commit": "058e01ccac92d6f674e3cca99fdbeedebcc980af",
+  "commit": "6aef170cf294d0748fde38e42fa6f2a1f84b14ae",
   "files": [
     {
       "path": "Equipment/ableton.json",
@@ -13,8 +13,8 @@
     },
     {
       "path": "Equipment/apple.json",
-      "sha256": "717bec3c036670ad8899d7ee0b3d7d4cf466555c64f683a89a51c2d8969e8673",
-      "size": 8928
+      "sha256": "951e5fef6308032f9e4b4355ede97b06b1cdfd9dcc109fc0fe47d2590a61cd91",
+      "size": 13302
     },
     {
       "path": "Equipment/arturia.json",
@@ -60,6 +60,11 @@
       "path": "Equipment/furman.json",
       "sha256": "7a9764930add35773fe9252287840cfaa97a4315d7e4f4eaf27eb48775f055b9",
       "size": 2479
+    },
+    {
+      "path": "Equipment/generic.json",
+      "sha256": "0ecbd509ff8f4207798b5300cb3e9233bc7300e546b03094a26495502da2695c",
+      "size": 13393
     },
     {
       "path": "Equipment/hologram.json",
@@ -115,6 +120,11 @@
       "path": "Equipment/roland.json",
       "sha256": "941d69f925e67b49682101c82a7b0d8b111f84d4e1a742b2cfba710cc1653cb7",
       "size": 16840
+    },
+    {
+      "path": "Equipment/sabrent.json",
+      "sha256": "9e53b39068a0af2dbbcbc44a7186d16ac6bd3477072134fa9ad465e95d9e5cf0",
+      "size": 3434
     },
     {
       "path": "Equipment/samsung.json",
@@ -183,13 +193,13 @@
     },
     {
       "path": "cables.json",
-      "sha256": "cf0e1188ad8bf8ca593ee77e264db7321a9bfd9775bf4a4247eee175c97dccb0",
-      "size": 8008
+      "sha256": "67e3e61b209d6e348348d7a062262cda166986e37b58cd8dfa13a0dfce85f0f8",
+      "size": 10855
     },
     {
       "path": "connectors.json",
-      "sha256": "1064c162ddcf30a3d14ec46ea7a845aa4e9695b5c2bd26f06ee15799918138aa",
-      "size": 5354
+      "sha256": "24391e73bb68c39c13fa1a7e61440a1d8c2968c95732a069615c118803792680",
+      "size": 6569
     },
     {
       "path": "library.json",
@@ -202,8 +212,8 @@
       "size": 12112
     }
   ],
-  "libraryVersion": 96,
+  "libraryVersion": 122,
   "minAppVersion": "0.1.0",
-  "publishedAt": "2026-09-13T18:55:59Z",
+  "publishedAt": "2026-09-13T20:55:07Z",
   "schemaVersion": 2
 }

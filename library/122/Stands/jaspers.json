@@ -1,0 +1,98 @@
+{
+  "stands": [
+    {
+      "id": "jaspers-2dt-105b",
+      "manufacturer": "Jaspers",
+      "model": "2DT-105B",
+      "tierCount": 2,
+      "innerWidthMM": 1050,
+      "widthMM": 1150,
+      "depthMM": 450,
+      "heightMM": 700,
+      "tierDepthMM": 300,
+      "loadCapacityKG": 15,
+      "tiersAreAdjustable": true,
+      "notes": "Desktop series: two tiers of adjustable height and rake on a powder-coated aluminium frame. Jaspers name their stands by tier count and inner width in centimetres, and it is the inner width that decides whether a synth fits between the uprights. The 2DT ships with four 30 cm holders, so a tier carries two instruments unless you buy more. Tier heights and angles are set by whoever builds it, so the ones in a project are the placement's, not the maker's."
+    },
+    {
+      "id": "jaspers-2dt-120b",
+      "manufacturer": "Jaspers",
+      "model": "2DT-120B",
+      "tierCount": 2,
+      "innerWidthMM": 1200,
+      "widthMM": 1300,
+      "depthMM": 450,
+      "heightMM": 700,
+      "tierDepthMM": 300,
+      "loadCapacityKG": 15,
+      "tiersAreAdjustable": true,
+      "notes": "Desktop series, 120 cm between the uprights. See the 2DT-105B for how the range is named and what the tier figures mean."
+    },
+    {
+      "id": "jaspers-2dt-150b",
+      "manufacturer": "Jaspers",
+      "model": "2DT-150B",
+      "tierCount": 2,
+      "innerWidthMM": 1490,
+      "widthMM": 1590,
+      "depthMM": 450,
+      "heightMM": 700,
+      "tierDepthMM": 300,
+      "loadCapacityKG": 15,
+      "tiersAreAdjustable": true,
+      "notes": "Desktop series, the widest of the three at 149 cm inside. See the 2DT-105B for how the range is named."
+    },
+    {
+      "id": "jaspers-2d-105b",
+      "manufacturer": "Jaspers",
+      "model": "2D-105B",
+      "tierCount": 2,
+      "innerWidthMM": 1050,
+      "widthMM": 1150,
+      "depthMM": 500,
+      "heightMM": 1100,
+      "tierDepthMM": 350,
+      "tiersAreAdjustable": true,
+      "notes": "Floor-standing two-tier, 110 cm to the top of the uprights. Depth and tier depth are taken from the same generation of frame as the 3R; Jaspers do not publish a per-tier depth, so treat that figure as the shelf run rather than a quoted specification."
+    },
+    {
+      "id": "jaspers-3r-105b",
+      "manufacturer": "Jaspers",
+      "model": "3R-105B",
+      "tierCount": 3,
+      "innerWidthMM": 1050,
+      "widthMM": 1150,
+      "depthMM": 500,
+      "heightMM": 1280,
+      "tierDepthMM": 350,
+      "tiersAreAdjustable": true,
+      "notes": "Three tiers on castors. The R series rolls, which is worth knowing on a plan: it can be pulled out to get behind it."
+    },
+    {
+      "id": "jaspers-4d-120b",
+      "manufacturer": "Jaspers",
+      "model": "4D-120B",
+      "tierCount": 4,
+      "innerWidthMM": 1200,
+      "widthMM": 1300,
+      "depthMM": 510,
+      "heightMM": 1400,
+      "tierDepthMM": 350,
+      "tiersAreAdjustable": true,
+      "notes": "Four tiers, 120 cm inside, 140 cm to the top of the uprights. The common studio size."
+    },
+    {
+      "id": "jaspers-6d-120b",
+      "manufacturer": "Jaspers",
+      "model": "6D-120B",
+      "tierCount": 6,
+      "innerWidthMM": 1200,
+      "widthMM": 1300,
+      "depthMM": 520,
+      "heightMM": 1700,
+      "tierDepthMM": 350,
+      "tiersAreAdjustable": true,
+      "notes": "Six tiers, 170 cm to the top. Tall enough that the upper tiers are above eye level, which is what the rake on them is for; check the top shelf against your ceiling and against anything it will block."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "equipment": [
+    {
+      "id": "technics-sl-1210mk2",
+      "manufacturer": "Technics",
+      "model": "SL-1210MK2",
+      "category": "turntable",
+      "dimensions": { "widthMM": 453, "heightMM": 162, "depthMM": 360 },
+      "weightKG": 12.5,
+      "powerDrawWatts": 14,
+      "notes": "Audio outputs are hardwired leads ending in RCA plugs (use the built-in captive lead when wiring), with a spade-lug ground wire alongside. The mains lead is also captive, with no IEC inlet, so no power port is modelled.",
+      "ports": [
+        { "id": "out_l", "label": "Output L (captive lead)", "connector": "rca", "gender": "male", "direction": "output", "signals": ["phono_level"] },
+        { "id": "out_r", "label": "Output R (captive lead)", "connector": "rca", "gender": "male", "direction": "output", "signals": ["phono_level"] }
+      ]
+    }
+  ]
+}

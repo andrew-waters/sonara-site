@@ -1,0 +1,109 @@
+{
+  "equipment": [
+    {
+      "id": "furman-pl-8ce",
+      "manufacturer": "Furman",
+      "model": "PL-8 C E",
+      "category": "power_distribution",
+      "dimensions": {
+        "widthMM": 482.6,
+        "heightMM": 44.5,
+        "depthMM": 305
+      },
+      "rackUnits": 1,
+      "weightKG": 5.4,
+      "ports": [
+        {
+          "id": "mains_in",
+          "label": "Mains In",
+          "connector": "iec_c14",
+          "gender": "male",
+          "direction": "input",
+          "signals": [
+            "mains_power"
+          ]
+        },
+        {
+          "id": "outlet_1",
+          "label": "Outlet 1",
+          "connector": "iec_c13",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "mains_power"
+          ]
+        },
+        {
+          "id": "outlet_2",
+          "label": "Outlet 2",
+          "connector": "iec_c13",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "mains_power"
+          ]
+        },
+        {
+          "id": "outlet_3",
+          "label": "Outlet 3",
+          "connector": "iec_c13",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "mains_power"
+          ]
+        },
+        {
+          "id": "outlet_4",
+          "label": "Outlet 4",
+          "connector": "iec_c13",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "mains_power"
+          ]
+        },
+        {
+          "id": "outlet_5",
+          "label": "Outlet 5",
+          "connector": "iec_c13",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "mains_power"
+          ]
+        },
+        {
+          "id": "outlet_6",
+          "label": "Outlet 6",
+          "connector": "iec_c13",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "mains_power"
+          ]
+        },
+        {
+          "id": "outlet_7",
+          "label": "Outlet 7",
+          "connector": "iec_c13",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "mains_power"
+          ]
+        },
+        {
+          "id": "outlet_8",
+          "label": "Outlet 8",
+          "connector": "iec_c13",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "mains_power"
+          ]
+        }
+      ]
+    }
+  ]
+}

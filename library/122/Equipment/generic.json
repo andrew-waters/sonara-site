@@ -1,0 +1,491 @@
+{
+  "equipment": [
+    {
+      "id": "generic-usb-hub-usbc-4a-bus",
+      "manufacturer": "Generic",
+      "model": "USB hub, USB-C to 4 x USB-A (bus powered)",
+      "category": "other",
+      "dimensions": {
+        "widthMM": 110,
+        "heightMM": 22,
+        "depthMM": 35
+      },
+      "weightKG": 0.06,
+      "notes": "Generic rather than a particular product: what matters for planning is how many downstream ports there are, what they are, and whether it needs a socket. Size and weight are typical for the class, not measured from anything. Bus powered, so it has no inlet and takes its power from the host. Fine for controllers and dongles; an audio interface that wants its own supply should not be behind one.",
+      "ports": [
+        {
+          "id": "upstream",
+          "label": "Upstream (USB-C)",
+          "connector": "usb_c",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "usb_data",
+            "usb_audio",
+            "usb_midi"
+          ]
+        },
+        {
+          "id": "down_1",
+          "label": "USB-A 1",
+          "connector": "usb_a",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "usb_data",
+            "usb_audio",
+            "usb_midi"
+          ]
+        },
+        {
+          "id": "down_2",
+          "label": "USB-A 2",
+          "connector": "usb_a",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "usb_data",
+            "usb_audio",
+            "usb_midi"
+          ]
+        },
+        {
+          "id": "down_3",
+          "label": "USB-A 3",
+          "connector": "usb_a",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "usb_data",
+            "usb_audio",
+            "usb_midi"
+          ]
+        },
+        {
+          "id": "down_4",
+          "label": "USB-A 4",
+          "connector": "usb_a",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "usb_data",
+            "usb_audio",
+            "usb_midi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "generic-usb-hub-usbc-7a-powered",
+      "manufacturer": "Generic",
+      "model": "USB hub, USB-C to 7 x USB-A (externally powered)",
+      "category": "other",
+      "dimensions": {
+        "widthMM": 190,
+        "heightMM": 22,
+        "depthMM": 70
+      },
+      "weightKG": 0.28,
+      "notes": "Generic rather than a particular product: what matters for planning is how many downstream ports there are, what they are, and whether it needs a socket. Size and weight are typical for the class, not measured from anything. Externally powered, which is why it has a DC inlet: seven bus-powered devices are past what a host will give. No draw is recorded, because that depends entirely on what is plugged into it.",
+      "ports": [
+        {
+          "id": "upstream",
+          "label": "Upstream (USB-C)",
+          "connector": "usb_c",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "usb_data",
+            "usb_audio",
+            "usb_midi"
+          ]
+        },
+        {
+          "id": "down_1",
+          "label": "USB-A 1",
+          "connector": "usb_a",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "usb_data",
+            "usb_audio",
+            "usb_midi"
+          ]
+        },
+        {
+          "id": "down_2",
+          "label": "USB-A 2",
+          "connector": "usb_a",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "usb_data",
+            "usb_audio",
+            "usb_midi"
+          ]
+        },
+        {
+          "id": "down_3",
+          "label": "USB-A 3",
+          "connector": "usb_a",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "usb_data",
+            "usb_audio",
+            "usb_midi"
+          ]
+        },
+        {
+          "id": "down_4",
+          "label": "USB-A 4",
+          "connector": "usb_a",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "usb_data",
+            "usb_audio",
+            "usb_midi"
+          ]
+        },
+        {
+          "id": "down_5",
+          "label": "USB-A 5",
+          "connector": "usb_a",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "usb_data",
+            "usb_audio",
+            "usb_midi"
+          ]
+        },
+        {
+          "id": "down_6",
+          "label": "USB-A 6",
+          "connector": "usb_a",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "usb_data",
+            "usb_audio",
+            "usb_midi"
+          ]
+        },
+        {
+          "id": "down_7",
+          "label": "USB-A 7",
+          "connector": "usb_a",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "usb_data",
+            "usb_audio",
+            "usb_midi"
+          ]
+        },
+        {
+          "id": "power",
+          "label": "DC In",
+          "connector": "dc_barrel",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "dc_power"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "generic-usb-hub-usbb-4a-powered",
+      "manufacturer": "Generic",
+      "model": "USB hub, USB-B to 4 x USB-A (externally powered)",
+      "category": "other",
+      "dimensions": {
+        "widthMM": 120,
+        "heightMM": 22,
+        "depthMM": 60
+      },
+      "weightKG": 0.2,
+      "notes": "Generic rather than a particular product: what matters for planning is how many downstream ports there are, what they are, and whether it needs a socket. Size and weight are typical for the class, not measured from anything. The older shape, upstream on USB-B. Still the commonest thing behind a desk, and the reason a USB-B to USB-C lead is worth owning.",
+      "ports": [
+        {
+          "id": "upstream",
+          "label": "Upstream (USB-B)",
+          "connector": "usb_b",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "usb_data",
+            "usb_audio",
+            "usb_midi"
+          ]
+        },
+        {
+          "id": "down_1",
+          "label": "USB-A 1",
+          "connector": "usb_a",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "usb_data",
+            "usb_audio",
+            "usb_midi"
+          ]
+        },
+        {
+          "id": "down_2",
+          "label": "USB-A 2",
+          "connector": "usb_a",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "usb_data",
+            "usb_audio",
+            "usb_midi"
+          ]
+        },
+        {
+          "id": "down_3",
+          "label": "USB-A 3",
+          "connector": "usb_a",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "usb_data",
+            "usb_audio",
+            "usb_midi"
+          ]
+        },
+        {
+          "id": "down_4",
+          "label": "USB-A 4",
+          "connector": "usb_a",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "usb_data",
+            "usb_audio",
+            "usb_midi"
+          ]
+        },
+        {
+          "id": "power",
+          "label": "DC In",
+          "connector": "dc_barrel",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "dc_power"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "generic-usb-hub-usbb-7a-powered",
+      "manufacturer": "Generic",
+      "model": "USB hub, USB-B to 7 x USB-A (externally powered)",
+      "category": "other",
+      "dimensions": {
+        "widthMM": 190,
+        "heightMM": 22,
+        "depthMM": 70
+      },
+      "weightKG": 0.3,
+      "notes": "Generic rather than a particular product: what matters for planning is how many downstream ports there are, what they are, and whether it needs a socket. Size and weight are typical for the class, not measured from anything. The seven-port version of the USB-B hub.",
+      "ports": [
+        {
+          "id": "upstream",
+          "label": "Upstream (USB-B)",
+          "connector": "usb_b",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "usb_data",
+            "usb_audio",
+            "usb_midi"
+          ]
+        },
+        {
+          "id": "down_1",
+          "label": "USB-A 1",
+          "connector": "usb_a",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "usb_data",
+            "usb_audio",
+            "usb_midi"
+          ]
+        },
+        {
+          "id": "down_2",
+          "label": "USB-A 2",
+          "connector": "usb_a",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "usb_data",
+            "usb_audio",
+            "usb_midi"
+          ]
+        },
+        {
+          "id": "down_3",
+          "label": "USB-A 3",
+          "connector": "usb_a",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "usb_data",
+            "usb_audio",
+            "usb_midi"
+          ]
+        },
+        {
+          "id": "down_4",
+          "label": "USB-A 4",
+          "connector": "usb_a",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "usb_data",
+            "usb_audio",
+            "usb_midi"
+          ]
+        },
+        {
+          "id": "down_5",
+          "label": "USB-A 5",
+          "connector": "usb_a",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "usb_data",
+            "usb_audio",
+            "usb_midi"
+          ]
+        },
+        {
+          "id": "down_6",
+          "label": "USB-A 6",
+          "connector": "usb_a",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "usb_data",
+            "usb_audio",
+            "usb_midi"
+          ]
+        },
+        {
+          "id": "down_7",
+          "label": "USB-A 7",
+          "connector": "usb_a",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "usb_data",
+            "usb_audio",
+            "usb_midi"
+          ]
+        },
+        {
+          "id": "power",
+          "label": "DC In",
+          "connector": "dc_barrel",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "dc_power"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "generic-usb-hub-usbc-4c-powered",
+      "manufacturer": "Generic",
+      "model": "USB hub, USB-C to 4 x USB-C (externally powered)",
+      "category": "other",
+      "dimensions": {
+        "widthMM": 120,
+        "heightMM": 22,
+        "depthMM": 60
+      },
+      "weightKG": 0.2,
+      "notes": "Generic rather than a particular product: what matters for planning is how many downstream ports there are, what they are, and whether it needs a socket. Size and weight are typical for the class, not measured from anything. Downstream on USB-C, for gear that has moved on. Externally powered so the downstream ports can actually deliver.",
+      "ports": [
+        {
+          "id": "upstream",
+          "label": "Upstream (USB-C)",
+          "connector": "usb_c",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "usb_data",
+            "usb_audio",
+            "usb_midi"
+          ]
+        },
+        {
+          "id": "down_1",
+          "label": "USB-C 1",
+          "connector": "usb_c",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "usb_data",
+            "usb_audio",
+            "usb_midi"
+          ]
+        },
+        {
+          "id": "down_2",
+          "label": "USB-C 2",
+          "connector": "usb_c",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "usb_data",
+            "usb_audio",
+            "usb_midi"
+          ]
+        },
+        {
+          "id": "down_3",
+          "label": "USB-C 3",
+          "connector": "usb_c",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "usb_data",
+            "usb_audio",
+            "usb_midi"
+          ]
+        },
+        {
+          "id": "down_4",
+          "label": "USB-C 4",
+          "connector": "usb_c",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "usb_data",
+            "usb_audio",
+            "usb_midi"
+          ]
+        },
+        {
+          "id": "power",
+          "label": "DC In",
+          "connector": "dc_barrel",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "dc_power"
+          ]
+        }
+      ]
+    }
+  ]
+}

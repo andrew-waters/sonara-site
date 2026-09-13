@@ -1,0 +1,79 @@
+{
+  "equipment": [
+    {
+      "id": "adam-a4v",
+      "manufacturer": "ADAM Audio",
+      "model": "A4V",
+      "category": "monitor",
+      "dimensions": { "widthMM": 158, "heightMM": 268, "depthMM": 220 },
+      "weightKG": 5.8,
+      "notes": "Two-way nearfield: 4\" MLM woofer and X-ART tweeter on a rotatable waveguide, 130 W peak, 58 Hz–41 kHz (-3 dB). One entry per cabinet; place two for a stereo pair. Power draw is not published: ADAM quote amplifier peak power, not consumption.",
+      "ports": [
+        { "id": "input_xlr", "label": "Input (XLR)", "connector": "xlr3", "gender": "female", "direction": "input", "signals": ["line_level"], "balanced": true },
+        { "id": "input_rca", "label": "Input (RCA)", "connector": "rca", "gender": "female", "direction": "input", "signals": ["line_level"], "balanced": false },
+        { "id": "control", "label": "A Control (Ethernet)", "connector": "rj45", "gender": "female", "direction": "bidirectional", "signals": ["ethernet"] },
+        { "id": "power", "label": "Mains In", "connector": "iec_c14", "gender": "male", "direction": "input", "signals": ["mains_power"] }
+      ]
+    },
+    {
+      "id": "adam-a7v",
+      "manufacturer": "ADAM Audio",
+      "model": "A7V",
+      "category": "monitor",
+      "dimensions": { "widthMM": 200, "heightMM": 337, "depthMM": 280 },
+      "weightKG": 8.7,
+      "notes": "Two-way nearfield: 7\" MLM woofer and X-ART tweeter on a rotatable waveguide, 130 W peak, 41 Hz–41 kHz (-3 dB). One entry per cabinet; place two for a stereo pair. Power draw is not published: ADAM quote amplifier peak power, not consumption.",
+      "ports": [
+        { "id": "input_xlr", "label": "Input (XLR)", "connector": "xlr3", "gender": "female", "direction": "input", "signals": ["line_level"], "balanced": true },
+        { "id": "input_rca", "label": "Input (RCA)", "connector": "rca", "gender": "female", "direction": "input", "signals": ["line_level"], "balanced": false },
+        { "id": "control", "label": "A Control (Ethernet)", "connector": "rj45", "gender": "female", "direction": "bidirectional", "signals": ["ethernet"] },
+        { "id": "power", "label": "Mains In", "connector": "iec_c14", "gender": "male", "direction": "input", "signals": ["mains_power"] }
+      ]
+    },
+    {
+      "id": "adam-a8h",
+      "manufacturer": "ADAM Audio",
+      "model": "A8H",
+      "category": "monitor",
+      "dimensions": { "widthMM": 382, "heightMM": 274, "depthMM": 329 },
+      "weightKG": 13.6,
+      "notes": "Three-way horizontal midfield: 8\" MLM woofer, 3.5\" DCH midrange and X-ART tweeter, 340 W peak, 34 Hz–41 kHz (-3 dB). Wider than it is tall, so the footprint is landscape, worth watching against desk depth and against the plan's side-wall distances. One entry per cabinet; place two for a stereo pair. Power draw is not published: ADAM quote amplifier peak power, not consumption.",
+      "ports": [
+        { "id": "input_xlr", "label": "Input (XLR)", "connector": "xlr3", "gender": "female", "direction": "input", "signals": ["line_level"], "balanced": true },
+        { "id": "input_rca", "label": "Input (RCA)", "connector": "rca", "gender": "female", "direction": "input", "signals": ["line_level"], "balanced": false },
+        { "id": "control", "label": "A Control (Ethernet)", "connector": "rj45", "gender": "female", "direction": "bidirectional", "signals": ["ethernet"] },
+        { "id": "power", "label": "Mains In", "connector": "iec_c14", "gender": "male", "direction": "input", "signals": ["mains_power"] }
+      ]
+    },
+    {
+      "id": "adam-a44h",
+      "manufacturer": "ADAM Audio",
+      "model": "A44H",
+      "category": "monitor",
+      "dimensions": { "widthMM": 432, "heightMM": 135, "depthMM": 350 },
+      "weightKG": 9.7,
+      "notes": "Horizontal two-and-a-half way: dual 4\" MLM woofers around an X-ART tweeter, 130 W peak, 46 Hz–45 kHz (-6 dB). Only 135 mm tall, so it fits under a display, but a horizontal cabinet puts its drivers wide of the centre line, which matters for the side-wall reflections. One entry per cabinet; place two for a stereo pair.",
+      "ports": [
+        { "id": "input_xlr", "label": "Input (XLR)", "connector": "xlr3", "gender": "female", "direction": "input", "signals": ["line_level"], "balanced": true },
+        { "id": "input_rca", "label": "Input (RCA)", "connector": "rca", "gender": "female", "direction": "input", "signals": ["line_level"], "balanced": false },
+        { "id": "control", "label": "A Control (Ethernet)", "connector": "rj45", "gender": "female", "direction": "bidirectional", "signals": ["ethernet"] },
+        { "id": "power", "label": "Mains In", "connector": "iec_c14", "gender": "male", "direction": "input", "signals": ["mains_power"] }
+      ]
+    },
+    {
+      "id": "adam-a77h",
+      "manufacturer": "ADAM Audio",
+      "model": "A77H",
+      "category": "monitor",
+      "dimensions": { "widthMM": 531, "heightMM": 236, "depthMM": 350 },
+      "weightKG": 17.1,
+      "notes": "Three-way horizontal midfield: dual 7\" MLM woofers, 3.5\" DCH midrange and X-ART tweeter, 340 W peak, 37 Hz–41 kHz (-3 dB), crossovers at 400 Hz and 3 kHz. 531 mm wide per cabinet, so check it against the room width before committing to a pair. One entry per cabinet; place two for a stereo pair.",
+      "ports": [
+        { "id": "input_xlr", "label": "Input (XLR)", "connector": "xlr3", "gender": "female", "direction": "input", "signals": ["line_level"], "balanced": true },
+        { "id": "input_rca", "label": "Input (RCA)", "connector": "rca", "gender": "female", "direction": "input", "signals": ["line_level"], "balanced": false },
+        { "id": "control", "label": "A Control (Ethernet)", "connector": "rj45", "gender": "female", "direction": "bidirectional", "signals": ["ethernet"] },
+        { "id": "power", "label": "Mains In", "connector": "iec_c14", "gender": "male", "direction": "input", "signals": ["mains_power"] }
+      ]
+    }
+  ]
+}
