@@ -1,0 +1,123 @@
+{
+  "equipment": [
+    {
+      "id": "elektron-digitakt",
+      "manufacturer": "Elektron",
+      "model": "Digitakt",
+      "category": "drum_machine",
+      "dimensions": {
+        "widthMM": 215,
+        "heightMM": 63,
+        "depthMM": 176
+      },
+      "weightKG": 1.45,
+      "powerDrawWatts": 7,
+      "ports": [
+        {
+          "id": "main_out_l",
+          "label": "Main Out L",
+          "connector": "ts_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level"
+          ]
+        },
+        {
+          "id": "main_out_r",
+          "label": "Main Out R",
+          "connector": "ts_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level"
+          ]
+        },
+        {
+          "id": "in_l",
+          "label": "Input L",
+          "connector": "ts_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "instrument_level"
+          ]
+        },
+        {
+          "id": "in_r",
+          "label": "Input R",
+          "connector": "ts_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "instrument_level"
+          ]
+        },
+        {
+          "id": "phones",
+          "label": "Headphones",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "headphone_level"
+          ]
+        },
+        {
+          "id": "midi_in",
+          "label": "MIDI In",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "midi_out",
+          "label": "MIDI Out",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "midi_thru",
+          "label": "MIDI Thru",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "usb",
+          "label": "USB",
+          "connector": "usb_b",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "usb_audio",
+            "usb_midi",
+            "usb_data"
+          ]
+        },
+        {
+          "id": "power",
+          "label": "DC In",
+          "connector": "dc_barrel",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "dc_power"
+          ]
+        }
+      ]
+    }
+  ]
+}

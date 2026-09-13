@@ -1,0 +1,29 @@
+{
+  "equipment": [
+    {
+      "id": "sony-kd-55xe7002",
+      "manufacturer": "Sony",
+      "model": "BRAVIA KD-55XE7002 (55\" 4K)",
+      "category": "display",
+      "dimensions": { "widthMM": 1238, "heightMM": 722, "depthMM": 58 },
+      "weightKG": 11.4,
+      "powerDrawWatts": 85,
+      "vesaMM": { "horizontalMM": 300, "verticalMM": 200 },
+      "notes": "55\" 4K HDR television, 2017. Dimensions and weight are the set without its stand, which is the case that matters once it is on a bracket. VESA 300 × 200. Two of the three HDMI inputs take HDR. The AV input is composite on a 3.5 mm jack via the supplied breakout lead, and the same size of jack alongside it is the audio output, switchable between headphones and a subwoofer feed. Draw is about 85 W, derived from the energy label's 124 kWh a year rather than a stated on-mode figure, so treat it as an order of magnitude for power planning.",
+      "ports": [
+        { "id": "hdmi_1", "label": "HDMI 1 (ARC)", "connector": "hdmi", "gender": "female", "direction": "input", "signals": ["video", "line_level"] },
+        { "id": "hdmi_2", "label": "HDMI 2", "connector": "hdmi", "gender": "female", "direction": "input", "signals": ["video", "line_level"] },
+        { "id": "hdmi_3", "label": "HDMI 3", "connector": "hdmi", "gender": "female", "direction": "input", "signals": ["video", "line_level"] },
+        { "id": "usb_1", "label": "USB 1", "connector": "usb_a", "gender": "female", "direction": "bidirectional", "signals": ["usb_data"] },
+        { "id": "usb_2", "label": "USB 2", "connector": "usb_a", "gender": "female", "direction": "bidirectional", "signals": ["usb_data"] },
+        { "id": "usb_3", "label": "USB 3", "connector": "usb_a", "gender": "female", "direction": "bidirectional", "signals": ["usb_data"] },
+        { "id": "av_in", "label": "AV In (composite)", "connector": "trs_eighth", "gender": "female", "direction": "input", "signals": ["video", "line_level"] },
+        { "id": "digital_audio_out", "label": "Digital Audio Out", "connector": "toslink", "gender": "none", "direction": "output", "signals": ["spdif"], "channels": 2 },
+        { "id": "audio_out", "label": "Headphone / Subwoofer Out", "connector": "trs_eighth", "gender": "female", "direction": "output", "signals": ["headphone_level", "line_level"], "channels": 2 },
+        { "id": "lan", "label": "LAN", "connector": "rj45", "gender": "female", "direction": "bidirectional", "signals": ["ethernet"] },
+        { "id": "aerial", "label": "Aerial In", "connector": "coax_aerial", "gender": "female", "direction": "input", "signals": ["video"] },
+        { "id": "power", "label": "Mains In", "connector": "iec_c8", "gender": "male", "direction": "input", "signals": ["mains_power"] }
+      ]
+    }
+  ]
+}

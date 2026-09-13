@@ -1,0 +1,159 @@
+{
+  "equipment": [
+    {
+      "id": "moog-matriarch",
+      "manufacturer": "Moog",
+      "model": "Matriarch",
+      "category": "synthesizer",
+      "dimensions": { "widthMM": 812.8, "heightMM": 139.7, "depthMM": 362 },
+      "weightKG": 10.8,
+      "powerDrawWatts": 15,
+      "notes": "Semi-modular; the patch bay is represented here by a few key CV points.",
+      "ports": [
+        { "id": "audio_out_l", "label": "Audio Out L", "connector": "ts_quarter", "gender": "female", "direction": "output", "signals": ["instrument_level", "line_level"] },
+        { "id": "audio_out_r", "label": "Audio Out R", "connector": "ts_quarter", "gender": "female", "direction": "output", "signals": ["instrument_level", "line_level"] },
+        { "id": "audio_in", "label": "Audio In", "connector": "ts_quarter", "gender": "female", "direction": "input", "signals": ["instrument_level", "line_level"] },
+        { "id": "phones", "label": "Headphones", "connector": "trs_quarter", "gender": "female", "direction": "output", "signals": ["headphone_level"] },
+        { "id": "midi_in", "label": "MIDI In", "connector": "midi_din5", "gender": "female", "direction": "input", "signals": ["midi"] },
+        { "id": "midi_out", "label": "MIDI Out", "connector": "midi_din5", "gender": "female", "direction": "output", "signals": ["midi"] },
+        { "id": "midi_thru", "label": "MIDI Thru", "connector": "midi_din5", "gender": "female", "direction": "output", "signals": ["midi"] },
+        { "id": "usb", "label": "USB", "connector": "usb_b", "gender": "female", "direction": "bidirectional", "signals": ["usb_midi"] },
+        { "id": "eg_kb_cv_out", "label": "KB CV Out", "connector": "ts_eighth", "gender": "female", "direction": "output", "signals": ["cv"] },
+        { "id": "eg_kb_gate_out", "label": "KB Gate Out", "connector": "ts_eighth", "gender": "female", "direction": "output", "signals": ["gate"] },
+        { "id": "clock_in", "label": "Clock In", "connector": "ts_eighth", "gender": "female", "direction": "input", "signals": ["clock"] },
+        { "id": "clock_out", "label": "Clock Out", "connector": "ts_eighth", "gender": "female", "direction": "output", "signals": ["clock"] },
+        { "id": "power", "label": "Mains In", "connector": "iec_c14", "gender": "male", "direction": "input", "signals": ["mains_power"] }
+      ]
+    },
+    {
+      "id": "moog-sub-37",
+      "manufacturer": "Moog",
+      "model": "Sub 37",
+      "category": "synthesizer",
+      "dimensions": { "widthMM": 680, "heightMM": 170, "depthMM": 375 },
+      "weightKG": 10.0,
+      "powerDrawWatts": 13,
+      "notes": "I/O is on the left side panel except headphones (front). CV inputs take expression pedals.",
+      "ports": [
+        { "id": "audio_out", "label": "Audio Out", "connector": "ts_quarter", "gender": "female", "direction": "output", "signals": ["line_level", "instrument_level"], "balanced": false },
+        { "id": "phones", "label": "Headphones", "connector": "trs_quarter", "gender": "female", "direction": "output", "signals": ["headphone_level"] },
+        { "id": "ext_in", "label": "Ext Audio In", "connector": "ts_quarter", "gender": "female", "direction": "input", "signals": ["line_level", "instrument_level"] },
+        { "id": "pitch_cv", "label": "Pitch CV In", "connector": "trs_quarter", "gender": "female", "direction": "input", "signals": ["cv"] },
+        { "id": "filter_cv", "label": "Filter CV In", "connector": "trs_quarter", "gender": "female", "direction": "input", "signals": ["cv"] },
+        { "id": "volume_cv", "label": "Volume CV In", "connector": "trs_quarter", "gender": "female", "direction": "input", "signals": ["cv"] },
+        { "id": "kb_gate", "label": "KB Gate In", "connector": "ts_quarter", "gender": "female", "direction": "input", "signals": ["gate"] },
+        { "id": "midi_in", "label": "MIDI In", "connector": "midi_din5", "gender": "female", "direction": "input", "signals": ["midi"] },
+        { "id": "midi_out", "label": "MIDI Out", "connector": "midi_din5", "gender": "female", "direction": "output", "signals": ["midi"] },
+        { "id": "usb", "label": "USB", "connector": "usb_b", "gender": "female", "direction": "bidirectional", "signals": ["usb_midi"] },
+        { "id": "power", "label": "Mains In", "connector": "iec_c14", "gender": "male", "direction": "input", "signals": ["mains_power"] }
+      ]
+    },
+    {
+      "id": "moog-sub-phatty",
+      "manufacturer": "Moog",
+      "model": "Sub Phatty",
+      "category": "synthesizer",
+      "dimensions": { "widthMM": 514, "heightMM": 159, "depthMM": 368 },
+      "weightKG": 7.5,
+      "powerDrawWatts": 12,
+      "notes": "Added as the interpretation of \"phatty\"; swap for Little/Slim Phatty if that's wrong. I/O on the left side panel; CV inputs take expression pedals.",
+      "ports": [
+        { "id": "audio_out", "label": "Audio Out", "connector": "ts_quarter", "gender": "female", "direction": "output", "signals": ["line_level", "instrument_level"], "balanced": false },
+        { "id": "phones", "label": "Headphones", "connector": "trs_quarter", "gender": "female", "direction": "output", "signals": ["headphone_level"] },
+        { "id": "ext_in", "label": "Ext Audio In", "connector": "ts_quarter", "gender": "female", "direction": "input", "signals": ["line_level", "instrument_level"] },
+        { "id": "pitch_cv", "label": "Pitch CV In", "connector": "trs_quarter", "gender": "female", "direction": "input", "signals": ["cv"] },
+        { "id": "filter_cv", "label": "Filter CV In", "connector": "trs_quarter", "gender": "female", "direction": "input", "signals": ["cv"] },
+        { "id": "volume_cv", "label": "Volume CV In", "connector": "trs_quarter", "gender": "female", "direction": "input", "signals": ["cv"] },
+        { "id": "kb_gate", "label": "KB Gate In", "connector": "ts_quarter", "gender": "female", "direction": "input", "signals": ["gate"] },
+        { "id": "midi_in", "label": "MIDI In", "connector": "midi_din5", "gender": "female", "direction": "input", "signals": ["midi"] },
+        { "id": "midi_out", "label": "MIDI Out", "connector": "midi_din5", "gender": "female", "direction": "output", "signals": ["midi"] },
+        { "id": "usb", "label": "USB", "connector": "usb_b", "gender": "female", "direction": "bidirectional", "signals": ["usb_midi"] },
+        { "id": "power", "label": "Mains In", "connector": "iec_c14", "gender": "male", "direction": "input", "signals": ["mains_power"] }
+      ]
+    },
+    {
+      "id": "moog-minitaur",
+      "manufacturer": "Moog",
+      "model": "Minitaur",
+      "category": "synthesizer",
+      "dimensions": { "widthMM": 222, "heightMM": 79, "depthMM": 130 },
+      "weightKG": 1.2,
+      "powerDrawWatts": 7,
+      "notes": "Headphone jack is 3.5mm, the one minijack on the unit. MIDI DIN is input-only.",
+      "ports": [
+        { "id": "audio_out", "label": "Audio Out", "connector": "ts_quarter", "gender": "female", "direction": "output", "signals": ["line_level", "instrument_level"], "balanced": false },
+        { "id": "phones", "label": "Headphones", "connector": "trs_eighth", "gender": "female", "direction": "output", "signals": ["headphone_level"] },
+        { "id": "audio_in", "label": "Audio In", "connector": "ts_quarter", "gender": "female", "direction": "input", "signals": ["line_level"] },
+        { "id": "pitch_cv", "label": "Pitch CV In", "connector": "trs_quarter", "gender": "female", "direction": "input", "signals": ["cv"] },
+        { "id": "filter_cv", "label": "Filter CV In", "connector": "trs_quarter", "gender": "female", "direction": "input", "signals": ["cv"] },
+        { "id": "volume_cv", "label": "Volume CV In", "connector": "trs_quarter", "gender": "female", "direction": "input", "signals": ["cv"] },
+        { "id": "gate", "label": "Gate In", "connector": "ts_quarter", "gender": "female", "direction": "input", "signals": ["gate"] },
+        { "id": "midi_in", "label": "MIDI In", "connector": "midi_din5", "gender": "female", "direction": "input", "signals": ["midi"] },
+        { "id": "usb", "label": "USB", "connector": "usb_b", "gender": "female", "direction": "bidirectional", "signals": ["usb_midi"] },
+        { "id": "power", "label": "DC In (12V)", "connector": "dc_barrel", "gender": "female", "direction": "input", "signals": ["dc_power"] }
+      ]
+    },
+    {
+      "id": "moog-mother-32",
+      "manufacturer": "Moog",
+      "model": "Mother-32",
+      "category": "synthesizer",
+      "dimensions": { "widthMM": 319, "heightMM": 107, "depthMM": 133 },
+      "weightKG": 1.58,
+      "powerDrawWatts": 2.8,
+      "notes": "Semi-modular; the 32-point 3.5mm patchbay is represented by its key external points. The rear 1/4\" jack drives line or headphones.",
+      "ports": [
+        { "id": "audio_out", "label": "Audio Out", "connector": "trs_quarter", "gender": "female", "direction": "output", "signals": ["line_level", "instrument_level", "headphone_level"], "channels": 1 },
+        { "id": "midi_in", "label": "MIDI In", "connector": "midi_din5", "gender": "female", "direction": "input", "signals": ["midi"] },
+        { "id": "patch_vca_out", "label": "VCA Out (patch)", "connector": "ts_eighth", "gender": "female", "direction": "output", "signals": ["line_level", "cv"] },
+        { "id": "patch_ext_audio_in", "label": "Ext Audio In (patch)", "connector": "ts_eighth", "gender": "female", "direction": "input", "signals": ["line_level", "instrument_level"] },
+        { "id": "patch_kb_cv_out", "label": "KB CV Out (patch)", "connector": "ts_eighth", "gender": "female", "direction": "output", "signals": ["cv"] },
+        { "id": "patch_gate_out", "label": "Gate Out (patch)", "connector": "ts_eighth", "gender": "female", "direction": "output", "signals": ["gate"] },
+        { "id": "patch_vco_1voct_in", "label": "VCO 1V/Oct In (patch)", "connector": "ts_eighth", "gender": "female", "direction": "input", "signals": ["cv"] },
+        { "id": "patch_gate_in", "label": "Gate In (patch)", "connector": "ts_eighth", "gender": "female", "direction": "input", "signals": ["gate"] },
+        { "id": "patch_tempo_in", "label": "Tempo/Clock In (patch)", "connector": "ts_eighth", "gender": "female", "direction": "input", "signals": ["clock"] },
+        { "id": "power", "label": "DC In (12V)", "connector": "dc_barrel", "gender": "female", "direction": "input", "signals": ["dc_power"] }
+      ]
+    },
+    {
+      "id": "moog-dfam",
+      "manufacturer": "Moog",
+      "model": "DFAM",
+      "category": "drum_machine",
+      "dimensions": { "widthMM": 319, "heightMM": 107, "depthMM": 133 },
+      "weightKG": 1.59,
+      "powerDrawWatts": 3.0,
+      "notes": "No MIDI of any kind; sequence it via the patchbay (24 points, key ones represented). Rear 1/4\" jack drives line or headphones.",
+      "ports": [
+        { "id": "audio_out", "label": "Audio Out", "connector": "trs_quarter", "gender": "female", "direction": "output", "signals": ["line_level", "instrument_level", "headphone_level"], "channels": 1 },
+        { "id": "patch_adv_clock_in", "label": "Adv/Clock In (patch)", "connector": "ts_eighth", "gender": "female", "direction": "input", "signals": ["clock", "gate"] },
+        { "id": "patch_trigger_out", "label": "Trigger Out (patch)", "connector": "ts_eighth", "gender": "female", "direction": "output", "signals": ["gate"] },
+        { "id": "patch_trigger_in", "label": "Trigger In (patch)", "connector": "ts_eighth", "gender": "female", "direction": "input", "signals": ["gate"] },
+        { "id": "patch_ext_audio_in", "label": "Ext Audio In (patch)", "connector": "ts_eighth", "gender": "female", "direction": "input", "signals": ["line_level", "instrument_level"] },
+        { "id": "patch_pitch_out", "label": "Pitch Seq Out (patch)", "connector": "ts_eighth", "gender": "female", "direction": "output", "signals": ["cv"] },
+        { "id": "patch_velocity_out", "label": "Velocity Seq Out (patch)", "connector": "ts_eighth", "gender": "female", "direction": "output", "signals": ["cv"] },
+        { "id": "power", "label": "DC In (12V)", "connector": "dc_barrel", "gender": "female", "direction": "input", "signals": ["dc_power"] }
+      ]
+    },
+    {
+      "id": "moog-subharmonicon",
+      "manufacturer": "Moog",
+      "model": "Subharmonicon",
+      "category": "synthesizer",
+      "dimensions": { "widthMM": 319, "heightMM": 107, "depthMM": 133 },
+      "weightKG": 1.59,
+      "powerDrawWatts": 4.8,
+      "notes": "No MIDI DIN socket; MIDI In is a 3.5mm Type A patchbay jack (DIN adapter included). 32-point patchbay represented by key points. Rear 1/4\" jack drives line or headphones.",
+      "ports": [
+        { "id": "audio_out", "label": "Audio Out", "connector": "trs_quarter", "gender": "female", "direction": "output", "signals": ["line_level", "instrument_level", "headphone_level"], "channels": 1 },
+        { "id": "patch_midi_in", "label": "MIDI In (patch, TRS Type A)", "connector": "trs_eighth", "gender": "female", "direction": "input", "signals": ["midi"] },
+        { "id": "patch_clock_in", "label": "Clock In (patch)", "connector": "ts_eighth", "gender": "female", "direction": "input", "signals": ["clock"] },
+        { "id": "patch_clock_out", "label": "Clock Out (patch)", "connector": "ts_eighth", "gender": "female", "direction": "output", "signals": ["clock"] },
+        { "id": "patch_seq1_cv_out", "label": "Seq 1 CV Out (patch)", "connector": "ts_eighth", "gender": "female", "direction": "output", "signals": ["cv"] },
+        { "id": "patch_seq2_cv_out", "label": "Seq 2 CV Out (patch)", "connector": "ts_eighth", "gender": "female", "direction": "output", "signals": ["cv"] },
+        { "id": "patch_trigger_in", "label": "Play/Trigger In (patch)", "connector": "ts_eighth", "gender": "female", "direction": "input", "signals": ["gate"] },
+        { "id": "power", "label": "DC In (12V)", "connector": "dc_barrel", "gender": "female", "direction": "input", "signals": ["dc_power"] }
+      ]
+    }
+  ]
+}

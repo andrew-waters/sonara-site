@@ -1,0 +1,612 @@
+{
+  "equipment": [
+    {
+      "id": "soundcraft-signature-22-mtk",
+      "manufacturer": "Soundcraft",
+      "model": "Signature 22 MTK",
+      "category": "mixer",
+      "dimensions": {
+        "widthMM": 750,
+        "heightMM": 210,
+        "depthMM": 630
+      },
+      "weightKG": 11.36,
+      "powerDrawWatts": 120,
+      "notes": "All I/O is on the top surface; mains inlet and switch are underneath. 24-in/22-out USB multitrack acts as per-channel inserts. No dedicated monitor outs \u2014 monitoring is via headphones. Manual dimensions used (soundcraft.com lists erroneous ones).",
+      "ports": [
+        {
+          "id": "mic_1",
+          "label": "Ch 1 Mic",
+          "connector": "xlr3",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "mic_2",
+          "label": "Ch 2 Mic",
+          "connector": "xlr3",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "mic_3",
+          "label": "Ch 3 Mic",
+          "connector": "xlr3",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "mic_4",
+          "label": "Ch 4 Mic",
+          "connector": "xlr3",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "mic_5",
+          "label": "Ch 5 Mic",
+          "connector": "xlr3",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "mic_6",
+          "label": "Ch 6 Mic",
+          "connector": "xlr3",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "mic_7",
+          "label": "Ch 7 Mic",
+          "connector": "xlr3",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "mic_8",
+          "label": "Ch 8 Mic",
+          "connector": "xlr3",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "mic_9",
+          "label": "Ch 9 Mic",
+          "connector": "xlr3",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "mic_10",
+          "label": "Ch 10 Mic",
+          "connector": "xlr3",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "mic_11",
+          "label": "Ch 11 Mic",
+          "connector": "xlr3",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "mic_12",
+          "label": "Ch 12 Mic",
+          "connector": "xlr3",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "mic_13",
+          "label": "Ch 13 Mic",
+          "connector": "xlr3",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "mic_14",
+          "label": "Ch 14 Mic",
+          "connector": "xlr3",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "mic_15_16",
+          "label": "Ch 15/16 Mic",
+          "connector": "xlr3",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "mic_17_18",
+          "label": "Ch 17/18 Mic",
+          "connector": "xlr3",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "mic_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "line_1",
+          "label": "Ch 1 Line",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "instrument_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "line_2",
+          "label": "Ch 2 Line",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "instrument_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "line_3",
+          "label": "Ch 3 Line",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "instrument_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "line_4",
+          "label": "Ch 4 Line",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "instrument_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "line_5",
+          "label": "Ch 5 Line",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "instrument_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "line_6",
+          "label": "Ch 6 Line",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "instrument_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "line_7",
+          "label": "Ch 7 Line",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "instrument_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "line_8",
+          "label": "Ch 8 Line",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "instrument_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "line_9",
+          "label": "Ch 9 Line",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "instrument_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "line_10",
+          "label": "Ch 10 Line",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "instrument_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "line_11",
+          "label": "Ch 11 Line",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "instrument_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "line_12",
+          "label": "Ch 12 Line",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "instrument_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "line_13",
+          "label": "Ch 13 Line",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "instrument_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "line_14",
+          "label": "Ch 14 Line",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level",
+            "instrument_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "st15_16_l",
+          "label": "Ch 15/16 Line L",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "st15_16_r",
+          "label": "Ch 15/16 Line R",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "st17_18_l",
+          "label": "Ch 17/18 Line L",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "st17_18_r",
+          "label": "Ch 17/18 Line R",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "st19_20_l",
+          "label": "Ch 19/20 Line L",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "st19_20_r",
+          "label": "Ch 19/20 Line R",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "play_l",
+          "label": "Ch 21/22 Playback L",
+          "connector": "rca",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level"
+          ]
+        },
+        {
+          "id": "play_r",
+          "label": "Ch 21/22 Playback R",
+          "connector": "rca",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "line_level"
+          ]
+        },
+        {
+          "id": "master_l",
+          "label": "Master Out L",
+          "connector": "xlr3",
+          "gender": "male",
+          "direction": "output",
+          "signals": [
+            "line_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "master_r",
+          "label": "Master Out R",
+          "connector": "xlr3",
+          "gender": "male",
+          "direction": "output",
+          "signals": [
+            "line_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "grp_1",
+          "label": "Group Out 1",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "grp_2",
+          "label": "Group Out 2",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "grp_3",
+          "label": "Group Out 3",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "grp_4",
+          "label": "Group Out 4",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "aux_1",
+          "label": "Aux Out 1",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "aux_2",
+          "label": "Aux Out 2",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "aux_3",
+          "label": "Aux Out 3",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "aux_4",
+          "label": "Aux Out 4",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "aux_5",
+          "label": "Aux Out 5",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "line_level"
+          ],
+          "balanced": true
+        },
+        {
+          "id": "phones",
+          "label": "Headphones",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "headphone_level"
+          ]
+        },
+        {
+          "id": "footswitch",
+          "label": "Footswitch (FX Mute)",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "gate"
+          ]
+        },
+        {
+          "id": "usb",
+          "label": "USB Multitrack",
+          "connector": "usb_b",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "usb_audio",
+            "usb_data"
+          ]
+        },
+        {
+          "id": "power",
+          "label": "Mains In",
+          "connector": "iec_c14",
+          "gender": "male",
+          "direction": "input",
+          "signals": [
+            "mains_power"
+          ]
+        }
+      ]
+    }
+  ]
+}

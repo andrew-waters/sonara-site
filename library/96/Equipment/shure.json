@@ -1,0 +1,29 @@
+{
+  "equipment": [
+    {
+      "id": "shure-sm58",
+      "manufacturer": "Shure",
+      "model": "SM58",
+      "category": "microphone",
+      "dimensions": {
+        "widthMM": 51,
+        "heightMM": 162,
+        "depthMM": 51
+      },
+      "weightKG": 0.298,
+      "ports": [
+        {
+          "id": "out",
+          "label": "Output",
+          "connector": "xlr3",
+          "gender": "male",
+          "direction": "output",
+          "signals": [
+            "mic_level"
+          ],
+          "balanced": true
+        }
+      ]
+    }
+  ]
+}

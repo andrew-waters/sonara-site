@@ -1,0 +1,211 @@
+{
+  "cables": [
+    {
+      "id": "xlr_mic",
+      "name": "XLR cable",
+      "endA": { "connector": "xlr3", "gender": "female" },
+      "endB": { "connector": "xlr3", "gender": "male" },
+      "signals": ["mic_level", "line_level", "aes3"],
+      "notes": "Balanced. Female end onto outputs, male end into inputs."
+    },
+    {
+      "id": "trs_balanced",
+      "name": "1/4\" TRS balanced cable",
+      "endA": { "connector": "trs_quarter", "gender": "male" },
+      "endB": { "connector": "trs_quarter", "gender": "male" },
+      "signals": ["line_level", "headphone_level"]
+    },
+    {
+      "id": "ts_instrument",
+      "name": "1/4\" TS instrument cable",
+      "endA": { "connector": "ts_quarter", "gender": "male" },
+      "endB": { "connector": "ts_quarter", "gender": "male" },
+      "signals": ["instrument_level", "line_level"],
+      "notes": "Unbalanced; keep runs short for line-level use."
+    },
+    {
+      "id": "xlrf_trs",
+      "name": "XLR female → TRS cable",
+      "endA": { "connector": "xlr3", "gender": "female" },
+      "endB": { "connector": "trs_quarter", "gender": "male" },
+      "signals": ["mic_level", "line_level"],
+      "notes": "Balanced. XLR output into a TRS line input."
+    },
+    {
+      "id": "trs_xlrm",
+      "name": "TRS → XLR male cable",
+      "endA": { "connector": "trs_quarter", "gender": "male" },
+      "endB": { "connector": "xlr3", "gender": "male" },
+      "signals": ["line_level"],
+      "notes": "Balanced. TRS line output into an XLR input."
+    },
+    {
+      "id": "patch_35",
+      "name": "3.5mm patch cable",
+      "endA": { "connector": "ts_eighth", "gender": "male" },
+      "endB": { "connector": "ts_eighth", "gender": "male" },
+      "signals": ["cv", "gate", "clock", "line_level"]
+    },
+    {
+      "id": "ts_35_to_quarter",
+      "name": "3.5mm → 1/4\" TS cable",
+      "endA": { "connector": "ts_eighth", "gender": "male" },
+      "endB": { "connector": "ts_quarter", "gender": "male" },
+      "signals": ["cv", "gate", "clock", "line_level", "instrument_level"],
+      "notes": "Semi-modular patch point into a 1/4\" input."
+    },
+    {
+      "id": "trs_eighth_to_quarter",
+      "name": "3.5mm TRS → 1/4\" TRS cable",
+      "endA": { "connector": "trs_eighth", "gender": "male" },
+      "endB": { "connector": "trs_quarter", "gender": "male" },
+      "signals": ["line_level", "headphone_level"],
+      "notes": "Carries a stereo minijack whole onto a stereo-on-TRS jack, or a balanced mono signal between the two sizes."
+    },
+    {
+      "id": "trs_eighth_y_ts_quarter",
+      "name": "3.5mm TRS → 2 × 1/4\" TS Y-lead",
+      "endA": { "connector": "trs_eighth", "gender": "male" },
+      "endB": { "connector": "ts_quarter", "gender": "male" },
+      "signals": ["line_level", "headphone_level"],
+      "form": "y_lead",
+      "notes": "Splits a stereo minijack into left and right on two 1/4\" plugs. One lead, two plugs at the far end."
+    },
+    {
+      "id": "trs_quarter_y_ts_quarter",
+      "name": "1/4\" TRS → 2 × 1/4\" TS Y-lead",
+      "endA": { "connector": "trs_quarter", "gender": "male" },
+      "endB": { "connector": "ts_quarter", "gender": "male" },
+      "signals": ["line_level", "headphone_level"],
+      "form": "y_lead",
+      "notes": "Insert cable: splits a stereo-on-TRS jack into left and right on two 1/4\" plugs. One lead, two plugs at the far end."
+    },
+    {
+      "id": "rca_ts_quarter",
+      "name": "RCA → 1/4\" TS cable",
+      "endA": { "connector": "rca", "gender": "male" },
+      "endB": { "connector": "ts_quarter", "gender": "male" },
+      "signals": ["line_level"],
+      "notes": "Unbalanced; keep runs short."
+    },
+    {
+      "id": "captive_rca_lead",
+      "name": "Built-in captive lead (RCA)",
+      "endA": { "connector": "rca", "gender": "female" },
+      "endB": { "connector": "rca", "gender": "male" },
+      "signals": ["phono_level", "line_level"],
+      "notes": "Represents a hardwired lead (e.g. a turntable's fixed RCA tails), so there is nothing to buy."
+    },
+    {
+      "id": "rca_coax",
+      "name": "RCA coaxial cable",
+      "endA": { "connector": "rca", "gender": "male" },
+      "endB": { "connector": "rca", "gender": "male" },
+      "signals": ["spdif", "line_level", "phono_level"],
+      "notes": "75Ω coax required for reliable S/PDIF."
+    },
+    {
+      "id": "midi_din",
+      "name": "MIDI cable",
+      "endA": { "connector": "midi_din5", "gender": "male" },
+      "endB": { "connector": "midi_din5", "gender": "male" },
+      "signals": ["midi"]
+    },
+    {
+      "id": "toslink_optical",
+      "name": "TOSLINK optical cable",
+      "endA": { "connector": "toslink", "gender": "none" },
+      "endB": { "connector": "toslink", "gender": "none" },
+      "signals": ["adat", "spdif"]
+    },
+    {
+      "id": "bnc_wordclock",
+      "name": "BNC word clock cable",
+      "endA": { "connector": "bnc", "gender": "male" },
+      "endB": { "connector": "bnc", "gender": "male" },
+      "signals": ["word_clock"],
+      "notes": "75Ω coax."
+    },
+    {
+      "id": "usb_c_c",
+      "name": "USB-C to USB-C cable",
+      "endA": { "connector": "usb_c", "gender": "male" },
+      "endB": { "connector": "usb_c", "gender": "male" },
+      "signals": ["usb_data", "usb_audio", "usb_midi", "thunderbolt"]
+    },
+    {
+      "id": "usb_a_b",
+      "name": "USB-A to USB-B cable",
+      "endA": { "connector": "usb_a", "gender": "male" },
+      "endB": { "connector": "usb_b", "gender": "male" },
+      "signals": ["usb_data", "usb_audio", "usb_midi"]
+    },
+    {
+      "id": "usb_a_micro",
+      "name": "USB-A to micro-USB cable",
+      "endA": { "connector": "usb_a", "gender": "male" },
+      "endB": { "connector": "usb_micro_b", "gender": "male" },
+      "signals": ["usb_data", "usb_audio", "usb_midi"]
+    },
+    {
+      "id": "usb_c_b",
+      "name": "USB-C to USB-B cable",
+      "endA": { "connector": "usb_c", "gender": "male" },
+      "endB": { "connector": "usb_b", "gender": "male" },
+      "signals": ["usb_data", "usb_audio", "usb_midi"]
+    },
+    {
+      "id": "cat6",
+      "name": "Cat 6 cable",
+      "endA": { "connector": "rj45", "gender": "male" },
+      "endB": { "connector": "rj45", "gender": "male" },
+      "signals": ["ethernet", "dante_aes67"]
+    },
+    {
+      "id": "hdmi",
+      "name": "HDMI cable",
+      "endA": { "connector": "hdmi", "gender": "male" },
+      "endB": { "connector": "hdmi", "gender": "male" },
+      "signals": ["video"]
+    },
+    {
+      "id": "speakon_nl4",
+      "name": "speakON NL4 cable",
+      "endA": { "connector": "speakon_nl4", "gender": "male" },
+      "endB": { "connector": "speakon_nl4", "gender": "male" },
+      "signals": ["speaker_level"]
+    },
+    {
+      "id": "iec_link",
+      "name": "IEC C14 → C13 link cable",
+      "endA": { "connector": "iec_c14", "gender": "male" },
+      "endB": { "connector": "iec_c13", "gender": "female" },
+      "signals": ["mains_power"],
+      "notes": "Power conditioner/PDU outlet to equipment mains inlet."
+    },
+    {
+      "id": "iec_c7_mains",
+      "name": "Mains lead (wall → C7 figure-8)",
+      "endA": { "connector": "iec_c7", "gender": "none" },
+      "endB": { "connector": "iec_c7", "gender": "none" },
+      "signals": ["mains_power"],
+      "notes": "Wall-plug end is regional; modelled as the figure-8 equipment end only."
+    },
+    {
+      "id": "midi_din_to_trs_a",
+      "name": "MIDI DIN → 3.5mm TRS (Type A) adapter",
+      "endA": { "connector": "midi_din5", "gender": "male" },
+      "endB": { "connector": "trs_eighth", "gender": "male" },
+      "signals": ["midi"],
+      "notes": "For gear with minijack MIDI (e.g. Moog Subharmonicon)."
+    },
+    {
+      "id": "iec_mains",
+      "name": "Mains lead (wall → C13)",
+      "endA": { "connector": "iec_c13", "gender": "female" },
+      "endB": { "connector": "iec_c13", "gender": "female" },
+      "signals": ["mains_power"],
+      "notes": "Wall-plug end is regional; modelled as the C13 equipment end only for now."
+    }
+  ]
+}

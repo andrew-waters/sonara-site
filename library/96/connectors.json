@@ -1,0 +1,183 @@
+{
+  "connectors": [
+    {
+      "id": "xlr3",
+      "name": "XLR (3-pin)",
+      "aliases": ["XLR", "Cannon"],
+      "matesWith": ["xlr3"],
+      "notes": "Balanced audio. Outputs on equipment are male, inputs female."
+    },
+    {
+      "id": "xlr5",
+      "name": "XLR (5-pin)",
+      "aliases": ["DMX connector"],
+      "matesWith": ["xlr5"],
+      "notes": "Standard for DMX512 lighting control."
+    },
+    {
+      "id": "ts_quarter",
+      "name": "1/4\" TS jack",
+      "aliases": ["6.35mm mono jack", "guitar jack"],
+      "matesWith": ["ts_quarter"],
+      "notes": "Unbalanced. Instrument and unbalanced line signals."
+    },
+    {
+      "id": "trs_quarter",
+      "name": "1/4\" TRS jack",
+      "aliases": ["6.35mm stereo jack"],
+      "matesWith": ["trs_quarter", "ts_quarter"],
+      "notes": "Balanced mono or unbalanced stereo. A TS plug fits a TRS socket (unbalanced)."
+    },
+    {
+      "id": "combo_xlr_trs",
+      "name": "Combo XLR/TRS",
+      "aliases": ["Neutrik combo"],
+      "matesWith": ["xlr3", "trs_quarter", "ts_quarter"],
+      "notes": "Combined socket accepting XLR, TRS and TS plugs. Common on interface inputs."
+    },
+    {
+      "id": "ts_eighth",
+      "name": "3.5mm TS minijack",
+      "aliases": ["Eurorack patch", "minijack mono"],
+      "matesWith": ["ts_eighth"],
+      "notes": "Modular synth patch connections: CV, gate, clock, audio."
+    },
+    {
+      "id": "trs_eighth",
+      "name": "3.5mm TRS minijack",
+      "aliases": ["headphone minijack"],
+      "matesWith": ["trs_eighth", "ts_eighth"],
+      "notes": "Stereo minijack, also used for TRS MIDI on compact gear."
+    },
+    {
+      "id": "rca",
+      "name": "RCA",
+      "aliases": ["phono connector", "cinch"],
+      "matesWith": ["rca"],
+      "notes": "Unbalanced line audio, phono, and coaxial S/PDIF."
+    },
+    {
+      "id": "midi_din5",
+      "name": "MIDI DIN-5",
+      "aliases": ["DIN 5-pin"],
+      "matesWith": ["midi_din5"],
+      "notes": "Standard MIDI in/out/thru."
+    },
+    {
+      "id": "usb_a",
+      "name": "USB-A",
+      "matesWith": ["usb_a"]
+    },
+    {
+      "id": "usb_b",
+      "name": "USB-B",
+      "matesWith": ["usb_b"],
+      "notes": "Common device-side USB port on interfaces and synths."
+    },
+    {
+      "id": "usb_micro_b",
+      "name": "micro-USB (B)",
+      "matesWith": ["usb_micro_b"],
+      "notes": "Compact device-side USB port; often also the power inlet."
+    },
+    {
+      "id": "usb_c",
+      "name": "USB-C",
+      "matesWith": ["usb_c"],
+      "notes": "USB and Thunderbolt share this connector; check the port's signals."
+    },
+    {
+      "id": "toslink",
+      "name": "TOSLINK optical",
+      "aliases": ["lightpipe", "optical"],
+      "matesWith": ["toslink"],
+      "notes": "Optical digital audio: ADAT (8ch) or S/PDIF (2ch) depending on the port."
+    },
+    {
+      "id": "bnc",
+      "name": "BNC",
+      "matesWith": ["bnc"],
+      "notes": "Word clock and video sync."
+    },
+    {
+      "id": "coax_aerial",
+      "name": "Coaxial aerial (IEC 169-2)",
+      "aliases": ["Belling-Lee", "TV aerial socket", "RF in"],
+      "matesWith": ["coax_aerial"],
+      "notes": "The domestic TV aerial connector. Male on the cable, female on the set."
+    },
+    {
+      "id": "rj45",
+      "name": "RJ45",
+      "aliases": ["Ethernet", "etherCON"],
+      "matesWith": ["rj45"],
+      "notes": "Network audio (Dante/AES67), control, and plain networking."
+    },
+    {
+      "id": "speakon_nl4",
+      "name": "speakON NL4",
+      "matesWith": ["speakon_nl4"],
+      "notes": "Locking speaker-level connector for passive PA."
+    },
+    {
+      "id": "hdmi",
+      "name": "HDMI",
+      "matesWith": ["hdmi"]
+    },
+    {
+      "id": "displayport",
+      "name": "DisplayPort",
+      "aliases": ["DP"],
+      "matesWith": ["displayport"]
+    },
+    {
+      "id": "iec_c14",
+      "name": "IEC C14 inlet",
+      "aliases": ["kettle inlet"],
+      "matesWith": ["iec_c13"],
+      "notes": "Mains inlet on equipment. Accepts a C13 cable end."
+    },
+    {
+      "id": "iec_c13",
+      "name": "IEC C13 outlet",
+      "aliases": ["kettle lead"],
+      "matesWith": ["iec_c14"],
+      "notes": "Mains outlet form (on power distribution) and the cable end that feeds a C14 inlet."
+    },
+    {
+      "id": "iec_c8",
+      "name": "IEC C8 inlet",
+      "aliases": ["figure-8 inlet"],
+      "matesWith": ["iec_c7"],
+      "notes": "Ungrounded 2-pin mains inlet. Accepts a C7 (figure-8) cord."
+    },
+    {
+      "id": "iec_c7",
+      "name": "IEC C7 plug",
+      "aliases": ["figure-8 lead"],
+      "matesWith": ["iec_c8"],
+      "notes": "The figure-8 cable end that feeds a C8 inlet."
+    },
+    {
+      "id": "iec_c6",
+      "name": "IEC C6 inlet",
+      "aliases": ["cloverleaf inlet", "Mickey Mouse inlet"],
+      "matesWith": ["iec_c5"],
+      "notes": "Grounded 3-pin mains inlet. Accepts a C5 (cloverleaf) cord."
+    },
+    {
+      "id": "iec_c5",
+      "name": "IEC C5 plug",
+      "aliases": ["cloverleaf lead", "Mickey Mouse lead"],
+      "matesWith": ["iec_c6"],
+      "notes": "The cloverleaf cable end that feeds a C6 inlet."
+    },
+    {
+      "id": "dc_barrel",
+      "name": "DC barrel",
+      "aliases": ["centre-negative", "centre-positive"],
+      "matesWith": ["dc_barrel"],
+      "notes": "External PSU input. Voltage and polarity vary, so check the device."
+    }
+  ]
+}

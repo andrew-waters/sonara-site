@@ -1,0 +1,25 @@
+{
+  "equipment": [
+    {
+      "id": "korg-ms20-fs",
+      "manufacturer": "Korg",
+      "model": "MS-20 FS",
+      "category": "synthesizer",
+      "dimensions": { "widthMM": 696, "heightMM": 208, "depthMM": 350 },
+      "weightKG": 8.6,
+      "notes": "Full-size MS-20. The 1/4\" patch bay is represented by its key external points; the FS reissue adds MIDI and USB over the original.",
+      "ports": [
+        { "id": "signal_out", "label": "Signal Out", "connector": "ts_quarter", "gender": "female", "direction": "output", "signals": ["line_level", "instrument_level"] },
+        { "id": "phones", "label": "Phones", "connector": "trs_quarter", "gender": "female", "direction": "output", "signals": ["headphone_level"] },
+        { "id": "signal_in", "label": "Signal In (ESP)", "connector": "ts_quarter", "gender": "female", "direction": "input", "signals": ["instrument_level", "line_level"] },
+        { "id": "kbd_cv_out", "label": "KBD CV Out", "connector": "ts_quarter", "gender": "female", "direction": "output", "signals": ["cv"] },
+        { "id": "kbd_trig_out", "label": "KBD Trig Out", "connector": "ts_quarter", "gender": "female", "direction": "output", "signals": ["gate"] },
+        { "id": "vco_total_in", "label": "Total (CV In)", "connector": "ts_quarter", "gender": "female", "direction": "input", "signals": ["cv"] },
+        { "id": "trig_in", "label": "Trig In", "connector": "ts_quarter", "gender": "female", "direction": "input", "signals": ["gate", "clock"] },
+        { "id": "midi_in", "label": "MIDI In", "connector": "midi_din5", "gender": "female", "direction": "input", "signals": ["midi"] },
+        { "id": "usb", "label": "USB", "connector": "usb_b", "gender": "female", "direction": "bidirectional", "signals": ["usb_midi"] },
+        { "id": "power", "label": "DC In", "connector": "dc_barrel", "gender": "female", "direction": "input", "signals": ["dc_power"] }
+      ]
+    }
+  ]
+}
