@@ -1,5 +1,5 @@
 {
-  "commit": "6aef170cf294d0748fde38e42fa6f2a1f84b14ae",
+  "commit": "3ab86ad992bb5faacf0a2806453d3a986da06467",
   "files": [
     {
       "path": "Equipment/ableton.json",
@@ -95,6 +95,11 @@
       "path": "Equipment/moog.json",
       "sha256": "01b629abb5986d8a703377818a431a64291b2101c33cd853ef67a82bec358ee9",
       "size": 13950
+    },
+    {
+      "path": "Equipment/neutrik.json",
+      "sha256": "cefe5979ddf53dfa69e5fdd7131db5d8c1c372b929583a9f8a8bf99730fcd5be",
+      "size": 29821
     },
     {
       "path": "Equipment/novation.json",
@@ -212,8 +217,8 @@
       "size": 12112
     }
   ],
-  "libraryVersion": 122,
+  "libraryVersion": 151,
   "minAppVersion": "0.1.0",
-  "publishedAt": "2026-09-13T20:55:07Z",
+  "publishedAt": "2026-10-26T17:15:55Z",
   "schemaVersion": 2
 }

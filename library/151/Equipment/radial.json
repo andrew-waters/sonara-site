@@ -1,0 +1,50 @@
+{
+  "equipment": [
+    {
+      "id": "radial-prodi",
+      "manufacturer": "Radial",
+      "model": "ProDI",
+      "category": "di_box",
+      "dimensions": {
+        "widthMM": 84,
+        "heightMM": 48,
+        "depthMM": 127
+      },
+      "weightKG": 0.72,
+      "ports": [
+        {
+          "id": "input",
+          "label": "Input",
+          "connector": "ts_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "instrument_level",
+            "line_level"
+          ]
+        },
+        {
+          "id": "thru",
+          "label": "Thru",
+          "connector": "ts_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "instrument_level"
+          ]
+        },
+        {
+          "id": "out",
+          "label": "Output",
+          "connector": "xlr3",
+          "gender": "male",
+          "direction": "output",
+          "signals": [
+            "mic_level"
+          ],
+          "balanced": true
+        }
+      ]
+    }
+  ]
+}

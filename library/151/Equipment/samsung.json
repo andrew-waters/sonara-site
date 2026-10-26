@@ -1,0 +1,70 @@
+{
+  "equipment": [
+    {
+      "id": "samsung-u28e590d",
+      "manufacturer": "Samsung",
+      "model": "U28E590D (28\" UHD)",
+      "category": "display",
+      "dimensions": {
+        "widthMM": 660,
+        "heightMM": 481,
+        "depthMM": 221
+      },
+      "weightKG": 5.4,
+      "powerDrawWatts": 30,
+      "notes": "28\" 4K UHD desktop monitor. Powered by an external adapter into a DC barrel inlet; dimensions include the stand.",
+      "ports": [
+        {
+          "id": "hdmi_1",
+          "label": "HDMI 1",
+          "connector": "hdmi",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "video"
+          ]
+        },
+        {
+          "id": "hdmi_2",
+          "label": "HDMI 2",
+          "connector": "hdmi",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "video"
+          ]
+        },
+        {
+          "id": "displayport",
+          "label": "DisplayPort",
+          "connector": "displayport",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "video"
+          ]
+        },
+        {
+          "id": "phones",
+          "label": "Headphone Out",
+          "connector": "trs_eighth",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "headphone_level"
+          ]
+        },
+        {
+          "id": "power",
+          "label": "DC In",
+          "connector": "dc_barrel",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "dc_power"
+          ]
+        }
+      ]
+    }
+  ]
+}

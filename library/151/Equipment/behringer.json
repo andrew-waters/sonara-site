@@ -1,0 +1,45 @@
+{
+  "equipment": [
+    {
+      "id": "behringer-djx750",
+      "manufacturer": "Behringer",
+      "model": "Pro Mixer DJX750",
+      "category": "mixer",
+      "dimensions": { "widthMM": 320, "heightMM": 104.3, "depthMM": 370.8 },
+      "weightKG": 3.9,
+      "powerDrawWatts": 32,
+      "notes": "4 stereo channels + mic. All rear I/O is RCA; the master out has no XLR on this model. Channels 2–4 have phono inputs (line-switchable) with ground posts (posts not modelled). Fuse holder doubles as the 120/230V selector.",
+      "ports": [
+        { "id": "ch1_line_l", "label": "Ch 1 Line In L", "connector": "rca", "gender": "female", "direction": "input", "signals": ["line_level"] },
+        { "id": "ch1_line_r", "label": "Ch 1 Line In R", "connector": "rca", "gender": "female", "direction": "input", "signals": ["line_level"] },
+        { "id": "ch1_cd_l", "label": "Ch 1 CD In L", "connector": "rca", "gender": "female", "direction": "input", "signals": ["line_level"] },
+        { "id": "ch1_cd_r", "label": "Ch 1 CD In R", "connector": "rca", "gender": "female", "direction": "input", "signals": ["line_level"] },
+        { "id": "ch2_phono_l", "label": "Ch 2 Phono In L", "connector": "rca", "gender": "female", "direction": "input", "signals": ["phono_level", "line_level"] },
+        { "id": "ch2_phono_r", "label": "Ch 2 Phono In R", "connector": "rca", "gender": "female", "direction": "input", "signals": ["phono_level", "line_level"] },
+        { "id": "ch2_cd_l", "label": "Ch 2 CD/Line In L", "connector": "rca", "gender": "female", "direction": "input", "signals": ["line_level"] },
+        { "id": "ch2_cd_r", "label": "Ch 2 CD/Line In R", "connector": "rca", "gender": "female", "direction": "input", "signals": ["line_level"] },
+        { "id": "ch3_phono_l", "label": "Ch 3 Phono In L", "connector": "rca", "gender": "female", "direction": "input", "signals": ["phono_level", "line_level"] },
+        { "id": "ch3_phono_r", "label": "Ch 3 Phono In R", "connector": "rca", "gender": "female", "direction": "input", "signals": ["phono_level", "line_level"] },
+        { "id": "ch3_cd_l", "label": "Ch 3 CD/Line In L", "connector": "rca", "gender": "female", "direction": "input", "signals": ["line_level"] },
+        { "id": "ch3_cd_r", "label": "Ch 3 CD/Line In R", "connector": "rca", "gender": "female", "direction": "input", "signals": ["line_level"] },
+        { "id": "ch4_phono_l", "label": "Ch 4 Phono In L", "connector": "rca", "gender": "female", "direction": "input", "signals": ["phono_level", "line_level"] },
+        { "id": "ch4_phono_r", "label": "Ch 4 Phono In R", "connector": "rca", "gender": "female", "direction": "input", "signals": ["phono_level", "line_level"] },
+        { "id": "ch4_cd_l", "label": "Ch 4 CD/Line In L", "connector": "rca", "gender": "female", "direction": "input", "signals": ["line_level"] },
+        { "id": "ch4_cd_r", "label": "Ch 4 CD/Line In R", "connector": "rca", "gender": "female", "direction": "input", "signals": ["line_level"] },
+        { "id": "mic", "label": "Mic In", "connector": "xlr3", "gender": "female", "direction": "input", "signals": ["mic_level"], "balanced": true },
+        { "id": "master_l", "label": "Master Out L", "connector": "rca", "gender": "female", "direction": "output", "signals": ["line_level"], "balanced": false },
+        { "id": "master_r", "label": "Master Out R", "connector": "rca", "gender": "female", "direction": "output", "signals": ["line_level"], "balanced": false },
+        { "id": "booth_l", "label": "Booth Out L", "connector": "rca", "gender": "female", "direction": "output", "signals": ["line_level"] },
+        { "id": "booth_r", "label": "Booth Out R", "connector": "rca", "gender": "female", "direction": "output", "signals": ["line_level"] },
+        { "id": "tape_l", "label": "Tape Out L", "connector": "rca", "gender": "female", "direction": "output", "signals": ["line_level"] },
+        { "id": "tape_r", "label": "Tape Out R", "connector": "rca", "gender": "female", "direction": "output", "signals": ["line_level"] },
+        { "id": "fx_send_l", "label": "FX Send L", "connector": "rca", "gender": "female", "direction": "output", "signals": ["line_level"] },
+        { "id": "fx_send_r", "label": "FX Send R", "connector": "rca", "gender": "female", "direction": "output", "signals": ["line_level"] },
+        { "id": "fx_return_l", "label": "FX Return L", "connector": "rca", "gender": "female", "direction": "input", "signals": ["line_level"] },
+        { "id": "fx_return_r", "label": "FX Return R", "connector": "rca", "gender": "female", "direction": "input", "signals": ["line_level"] },
+        { "id": "phones", "label": "Phones", "connector": "trs_quarter", "gender": "female", "direction": "output", "signals": ["headphone_level"] },
+        { "id": "power", "label": "Mains In", "connector": "iec_c14", "gender": "male", "direction": "input", "signals": ["mains_power"] }
+      ]
+    }
+  ]
+}

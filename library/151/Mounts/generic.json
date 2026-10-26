@@ -1,0 +1,190 @@
+{
+  "mounts": [
+    {
+      "id": "generic-foam-pad",
+      "manufacturer": "Generic",
+      "model": "Foam isolation pad",
+      "kind": "isolation_pad",
+      "heightMM": 45,
+      "widthMM": 165,
+      "depthMM": 240,
+      "maxTiltDegrees": 4,
+      "notes": "A wedge of high-density foam. Decouples the cabinet from the surface and gives a few degrees of tilt if you turn it round. Cheap and effective at what it does; it does nothing about height."
+    },
+    {
+      "id": "generic-desk-stand-adjustable",
+      "manufacturer": "Generic",
+      "model": "Adjustable desktop stand",
+      "kind": "desktop_stand",
+      "heightMM": 150,
+      "alternativeHeightsMM": [
+        200,
+        250,
+        300
+      ],
+      "widthMM": 200,
+      "depthMM": 240,
+      "maxTiltDegrees": 10,
+      "minTiltDegrees": -5,
+      "notes": "The threaded-column kind, built to whichever height gets the tweeter to ear level. Tilts both ways, which matters when the cabinet ends up above the ears."
+    },
+    {
+      "id": "generic-floor-stand",
+      "manufacturer": "Generic",
+      "model": "Floor stand (900 mm)",
+      "kind": "floor_stand",
+      "heightMM": 900,
+      "alternativeHeightsMM": [
+        1000,
+        1100,
+        1200
+      ],
+      "widthMM": 250,
+      "depthMM": 300,
+      "maxTiltDegrees": 0,
+      "notes": "Takes the cabinet off the desk entirely, which removes the desk from its path rather than treating the bounce. Usually holds the cabinet level, so aim by height and rotation rather than tilt."
+    }
+  ],
+  "wallMounts": [
+    {
+      "id": "generic-wall-fixed-large",
+      "manufacturer": "Generic",
+      "model": "Fixed flat bracket (large)",
+      "kind": "fixed",
+      "vesaPatterns": [
+        {
+          "horizontalMM": 200,
+          "verticalMM": 200
+        },
+        {
+          "horizontalMM": 300,
+          "verticalMM": 200
+        },
+        {
+          "horizontalMM": 300,
+          "verticalMM": 300
+        },
+        {
+          "horizontalMM": 400,
+          "verticalMM": 200
+        },
+        {
+          "horizontalMM": 400,
+          "verticalMM": 300
+        },
+        {
+          "horizontalMM": 400,
+          "verticalMM": 400
+        }
+      ],
+      "standoffMM": 25,
+      "loadCapacityKG": 50,
+      "notes": "A flat plate, 25 mm off the wall. The slimmest way to hang a screen and the least forgiving: nothing behind it can be reached once it is up, so the cabling has to be right first. No tilt, so it only works at eye level."
+    },
+    {
+      "id": "generic-wall-tilting-large",
+      "manufacturer": "Generic",
+      "model": "Tilting bracket (large)",
+      "kind": "tilting",
+      "vesaPatterns": [
+        {
+          "horizontalMM": 200,
+          "verticalMM": 200
+        },
+        {
+          "horizontalMM": 300,
+          "verticalMM": 200
+        },
+        {
+          "horizontalMM": 300,
+          "verticalMM": 300
+        },
+        {
+          "horizontalMM": 400,
+          "verticalMM": 200
+        },
+        {
+          "horizontalMM": 400,
+          "verticalMM": 300
+        },
+        {
+          "horizontalMM": 400,
+          "verticalMM": 400
+        }
+      ],
+      "standoffMM": 50,
+      "maxTiltDegrees": 15,
+      "minTiltDegrees": -2,
+      "loadCapacityKG": 50,
+      "notes": "Tilts down up to 15°, which is what a screen hung above eye level needs. The extra standoff over a flat plate buys just enough room to get a hand behind it."
+    },
+    {
+      "id": "generic-wall-fullmotion-large",
+      "manufacturer": "Generic",
+      "model": "Full-motion arm (large)",
+      "kind": "full_motion",
+      "vesaPatterns": [
+        {
+          "horizontalMM": 200,
+          "verticalMM": 200
+        },
+        {
+          "horizontalMM": 300,
+          "verticalMM": 200
+        },
+        {
+          "horizontalMM": 300,
+          "verticalMM": 300
+        },
+        {
+          "horizontalMM": 400,
+          "verticalMM": 200
+        },
+        {
+          "horizontalMM": 400,
+          "verticalMM": 300
+        },
+        {
+          "horizontalMM": 400,
+          "verticalMM": 400
+        },
+        {
+          "horizontalMM": 600,
+          "verticalMM": 400
+        }
+      ],
+      "standoffMM": 65,
+      "maxExtensionMM": 450,
+      "maxTiltDegrees": 15,
+      "minTiltDegrees": -5,
+      "maxSwivelDegrees": 45,
+      "loadCapacityKG": 35,
+      "notes": "An articulated arm: folds to 65 mm and pulls out to about 450 mm, swivelling either way. Record the standoff you actually use: an arm left extended is a different object on the plan from the same arm folded, and it is the one people walk into."
+    },
+    {
+      "id": "generic-wall-tilting-small",
+      "manufacturer": "Generic",
+      "model": "Tilting bracket (small)",
+      "kind": "tilting",
+      "vesaPatterns": [
+        {
+          "horizontalMM": 100,
+          "verticalMM": 100
+        },
+        {
+          "horizontalMM": 200,
+          "verticalMM": 100
+        },
+        {
+          "horizontalMM": 200,
+          "verticalMM": 200
+        }
+      ],
+      "standoffMM": 45,
+      "maxTiltDegrees": 12,
+      "minTiltDegrees": -2,
+      "loadCapacityKG": 25,
+      "notes": "The monitor-sized version, for VESA 100 and 200 patterns."
+    }
+  ]
+}

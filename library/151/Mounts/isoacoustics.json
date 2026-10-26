@@ -1,0 +1,29 @@
+{
+  "mounts": [
+    {
+      "id": "isoacoustics-iso-155",
+      "manufacturer": "IsoAcoustics",
+      "model": "ISO-155",
+      "kind": "isolation_stand",
+      "heightMM": 76,
+      "alternativeHeightsMM": [210],
+      "widthMM": 155,
+      "depthMM": 190,
+      "maxTiltDegrees": 6.5,
+      "loadCapacityKG": 18,
+      "notes": "Ships with two sets of posts, so the same stand builds at 76 mm or 210 mm; the tall option is often what gets a desktop monitor's tweeter up to ear height. Tilt up to 6.5°. Sold as a pair; this is one stand."
+    },
+    {
+      "id": "isoacoustics-aperta-200",
+      "manufacturer": "IsoAcoustics",
+      "model": "Aperta 200",
+      "kind": "isolation_stand",
+      "heightMM": 90,
+      "widthMM": 200,
+      "depthMM": 254,
+      "maxTiltDegrees": 6.5,
+      "loadCapacityKG": 34,
+      "notes": "Fixed height with tilt up to 6.5°, on a 200 × 254 mm platform. Aluminium, so it takes a heavier cabinet than the moulded stands. Sold as a pair; this is one stand."
+    }
+  ]
+}

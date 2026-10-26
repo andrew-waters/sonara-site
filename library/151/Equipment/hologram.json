@@ -1,0 +1,96 @@
+{
+  "equipment": [
+    {
+      "id": "hologram-microcosm",
+      "manufacturer": "Hologram Electronics",
+      "model": "Microcosm",
+      "category": "effects_unit",
+      "dimensions": {
+        "widthMM": 180,
+        "heightMM": 51,
+        "depthMM": 119
+      },
+      "powerDrawWatts": 4.1,
+      "notes": "Granular effects and looper pedal. The stereo input is a single TRS jack carrying left on the tip and right on the ring, so a stereo source needs a TRS-to-dual-mono lead into it, while the outputs are two ordinary TS jacks. Full-size 5-pin DIN MIDI in and out/thru, and a 1/4\" expression input. Needs 9 V DC at more than 450 mA on a centre-negative barrel, which is the usual pedal polarity but the opposite of an Eventide H90 on the same board, and more current than a small daisy-chain supply will give it. Hologram do not publish a weight, and the firmware-update USB port is not documented, so neither is modelled. I/O taken from the Sound on Sound review rather than a published connector list.",
+      "ports": [
+        {
+          "id": "in",
+          "label": "Input (stereo TRS)",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "instrument_level",
+            "line_level"
+          ],
+          "balanced": false,
+          "channels": 2
+        },
+        {
+          "id": "out_l",
+          "label": "Output L",
+          "connector": "ts_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "instrument_level",
+            "line_level"
+          ],
+          "balanced": false
+        },
+        {
+          "id": "out_r",
+          "label": "Output R",
+          "connector": "ts_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "instrument_level",
+            "line_level"
+          ],
+          "balanced": false
+        },
+        {
+          "id": "exp",
+          "label": "Expression",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "cv"
+          ]
+        },
+        {
+          "id": "midi_in",
+          "label": "MIDI In",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "midi_out",
+          "label": "MIDI Out/Thru",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "power",
+          "label": "DC In",
+          "connector": "dc_barrel",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "dc_power"
+          ]
+        }
+      ]
+    }
+  ]
+}
