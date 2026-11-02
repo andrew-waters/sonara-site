@@ -1,0 +1,19 @@
+{
+  "equipment": [
+    {
+      "id": "hedd-type-20-mk2",
+      "manufacturer": "HEDD Audio",
+      "model": "Type 20 MK2",
+      "category": "monitor",
+      "dimensions": { "widthMM": 358, "heightMM": 280, "depthMM": 338 },
+      "weightKG": 15.4,
+      "notes": "Three-way horizontal midfield: 7\" and 4\" honeycomb woofers and a HEDD AMT tweeter, 3 x 300 W ICEpower class D, 32 Hz to 40 kHz, crossovers at 250 Hz and 3.2 kHz, 120 dB max SPL per pair at 1 m. Sold as mirrored Left and Right cabinets with the same connections; one entry per cabinet, so place two for a stereo pair. The AES input loops out to the next cabinet, so a pair can run from one AES feed. Power draw is not published: HEDD quote amplifier power and an 85-264 V input range, not consumption.",
+      "ports": [
+        { "id": "input_xlr", "label": "Analogue In (XLR)", "connector": "xlr3", "gender": "female", "direction": "input", "signals": ["line_level"], "balanced": true },
+        { "id": "aes_in", "label": "AES In", "connector": "xlr3", "gender": "female", "direction": "input", "signals": ["aes3"], "balanced": true, "channels": 2 },
+        { "id": "aes_thru", "label": "AES Thru", "connector": "xlr3", "gender": "male", "direction": "output", "signals": ["aes3"], "balanced": true, "channels": 2 },
+        { "id": "power", "label": "Mains In", "connector": "iec_c14", "gender": "male", "direction": "input", "signals": ["mains_power"] }
+      ]
+    }
+  ]
+}

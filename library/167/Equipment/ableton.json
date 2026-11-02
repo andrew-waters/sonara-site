@@ -1,0 +1,19 @@
+{
+  "equipment": [
+    {
+      "id": "ableton-push-2",
+      "manufacturer": "Ableton",
+      "model": "Push 2",
+      "category": "controller",
+      "dimensions": { "widthMM": 370, "heightMM": 42, "depthMM": 305 },
+      "weightKG": 3.06,
+      "notes": "Bus-powered over USB; the PSU is only needed for full pad brightness.",
+      "ports": [
+        { "id": "usb", "label": "USB", "connector": "usb_b", "gender": "female", "direction": "bidirectional", "signals": ["usb_midi", "usb_data"] },
+        { "id": "pedal_1", "label": "Pedal 1", "connector": "ts_quarter", "gender": "female", "direction": "input", "signals": ["gate"] },
+        { "id": "pedal_2", "label": "Pedal 2", "connector": "ts_quarter", "gender": "female", "direction": "input", "signals": ["gate"] },
+        { "id": "power", "label": "DC In", "connector": "dc_barrel", "gender": "female", "direction": "input", "signals": ["dc_power"] }
+      ]
+    }
+  ]
+}

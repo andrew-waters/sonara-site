@@ -1,0 +1,21 @@
+{
+  "equipment": [
+    {
+      "id": "lg-ultrafine-5k-27md5kl",
+      "manufacturer": "LG",
+      "model": "UltraFine 5K (27MD5KL-B)",
+      "category": "display",
+      "dimensions": { "widthMM": 626, "heightMM": 574, "depthMM": 240 },
+      "weightKG": 8.5,
+      "powerDrawWatts": 140,
+      "notes": "27\" 5120 × 2880 display. One Thunderbolt 3 port carries video, data and up to 94 W back to the host, and the three USB-C ports downstream of it make the monitor the desk's hub, worth drawing because everything on the desk ends up hanging off one cable to the machine. Internal PSU: 100–240 V, 140 W typical and 200 W maximum, most of the difference being what it pushes into the laptop. Built-in stereo speakers, camera and mic; no headphone jack. Dimensions are with the stand at full height, dropping to 464 mm at the bottom of its travel. LG's published sheets do not name the mains inlet; it is modelled here as a C14.",
+      "ports": [
+        { "id": "thunderbolt", "label": "Thunderbolt 3 (host)", "connector": "usb_c", "gender": "female", "direction": "bidirectional", "signals": ["thunderbolt", "video", "usb_data"] },
+        { "id": "usb_c_1", "label": "USB-C 1", "connector": "usb_c", "gender": "female", "direction": "bidirectional", "signals": ["usb_data"] },
+        { "id": "usb_c_2", "label": "USB-C 2", "connector": "usb_c", "gender": "female", "direction": "bidirectional", "signals": ["usb_data"] },
+        { "id": "usb_c_3", "label": "USB-C 3", "connector": "usb_c", "gender": "female", "direction": "bidirectional", "signals": ["usb_data"] },
+        { "id": "power", "label": "Mains In", "connector": "iec_c14", "gender": "male", "direction": "input", "signals": ["mains_power"] }
+      ]
+    }
+  ]
+}

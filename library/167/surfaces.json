@@ -1,0 +1,440 @@
+{
+  "materials": [
+    {
+      "id": "plasterboard_painted",
+      "name": "Painted plasterboard on studs",
+      "appliesTo": [
+        "wall",
+        "ceiling"
+      ],
+      "absorption": {
+        "125": 0.29,
+        "250": 0.1,
+        "500": 0.05,
+        "1000": 0.04,
+        "2000": 0.07,
+        "4000": 0.09
+      },
+      "notes": "12.5 mm board on a stud frame with a cavity. The board itself flexes, which is why the 125 Hz figure is the highest in the set \u2014 an ordinary partition wall is a mild bass absorber."
+    },
+    {
+      "id": "plaster_on_masonry",
+      "name": "Plaster on masonry",
+      "appliesTo": [
+        "wall",
+        "ceiling"
+      ],
+      "absorption": {
+        "125": 0.02,
+        "250": 0.02,
+        "500": 0.03,
+        "1000": 0.04,
+        "2000": 0.05,
+        "4000": 0.05
+      },
+      "notes": "Solid and reflective at every frequency \u2014 no cavity to flex, so no low-frequency help at all."
+    },
+    {
+      "id": "brick_bare",
+      "name": "Bare brick",
+      "appliesTo": [
+        "wall"
+      ],
+      "absorption": {
+        "125": 0.03,
+        "250": 0.03,
+        "500": 0.03,
+        "1000": 0.04,
+        "2000": 0.05,
+        "4000": 0.07
+      }
+    },
+    {
+      "id": "concrete_bare",
+      "name": "Bare or painted concrete",
+      "appliesTo": [
+        "wall",
+        "ceiling",
+        "floor"
+      ],
+      "absorption": {
+        "125": 0.01,
+        "250": 0.01,
+        "500": 0.02,
+        "1000": 0.02,
+        "2000": 0.02,
+        "4000": 0.05
+      }
+    },
+    {
+      "id": "wood_panelling",
+      "name": "Thin wood panelling on battens",
+      "appliesTo": [
+        "wall",
+        "ceiling"
+      ],
+      "absorption": {
+        "125": 0.3,
+        "250": 0.25,
+        "500": 0.2,
+        "1000": 0.17,
+        "2000": 0.15,
+        "4000": 0.1
+      },
+      "notes": "Ply or T&G over an air gap works as a panel absorber, taking more from the low end than the top."
+    },
+    {
+      "id": "plaster_on_lath",
+      "name": "Lath and plaster",
+      "appliesTo": [
+        "wall",
+        "ceiling"
+      ],
+      "absorption": {
+        "125": 0.14,
+        "250": 0.1,
+        "500": 0.06,
+        "1000": 0.05,
+        "2000": 0.04,
+        "4000": 0.03
+      },
+      "notes": "Older construction: springier than plasterboard, so a little more absorbent low down."
+    },
+    {
+      "id": "mineral_ceiling_tile",
+      "name": "Suspended mineral ceiling tile",
+      "appliesTo": [
+        "ceiling"
+      ],
+      "absorption": {
+        "125": 0.2,
+        "250": 0.4,
+        "500": 0.6,
+        "1000": 0.7,
+        "2000": 0.65,
+        "4000": 0.6
+      },
+      "notes": "15 mm tile in an exposed grid. Broadband but shallow \u2014 it does little below 250 Hz."
+    },
+    {
+      "id": "carpet_thin",
+      "name": "Thin carpet on a hard floor",
+      "appliesTo": [
+        "floor"
+      ],
+      "absorption": {
+        "125": 0.02,
+        "250": 0.06,
+        "500": 0.14,
+        "1000": 0.37,
+        "2000": 0.6,
+        "4000": 0.65
+      }
+    },
+    {
+      "id": "carpet_medium",
+      "name": "Carpet with underlay",
+      "appliesTo": [
+        "floor"
+      ],
+      "absorption": {
+        "125": 0.05,
+        "250": 0.15,
+        "500": 0.35,
+        "1000": 0.5,
+        "2000": 0.6,
+        "4000": 0.65
+      }
+    },
+    {
+      "id": "carpet_thick",
+      "name": "Thick pile carpet with underlay",
+      "appliesTo": [
+        "floor"
+      ],
+      "absorption": {
+        "125": 0.08,
+        "250": 0.24,
+        "500": 0.57,
+        "1000": 0.69,
+        "2000": 0.71,
+        "4000": 0.73
+      },
+      "notes": "About as much high-frequency absorption as a floor can give \u2014 and still almost nothing at 125 Hz, which is the whole problem with treating a room from the floor up."
+    },
+    {
+      "id": "wood_floor_joists",
+      "name": "Wooden floor on joists",
+      "appliesTo": [
+        "floor"
+      ],
+      "absorption": {
+        "125": 0.15,
+        "250": 0.11,
+        "500": 0.1,
+        "1000": 0.07,
+        "2000": 0.06,
+        "4000": 0.07
+      },
+      "notes": "A suspended timber floor flexes, so it takes a useful amount out of the low end."
+    },
+    {
+      "id": "laminate_on_concrete",
+      "name": "Laminate or engineered board on concrete",
+      "appliesTo": [
+        "floor"
+      ],
+      "absorption": {
+        "125": 0.04,
+        "250": 0.04,
+        "500": 0.07,
+        "1000": 0.06,
+        "2000": 0.06,
+        "4000": 0.07
+      }
+    },
+    {
+      "id": "vinyl_on_concrete",
+      "name": "Vinyl on concrete",
+      "appliesTo": [
+        "floor"
+      ],
+      "absorption": {
+        "125": 0.02,
+        "250": 0.03,
+        "500": 0.03,
+        "1000": 0.03,
+        "2000": 0.03,
+        "4000": 0.02
+      }
+    },
+    {
+      "id": "glass_double",
+      "name": "Double glazing",
+      "appliesTo": [
+        "opening",
+        "wall"
+      ],
+      "absorption": {
+        "125": 0.15,
+        "250": 0.05,
+        "500": 0.03,
+        "1000": 0.03,
+        "2000": 0.02,
+        "4000": 0.02
+      }
+    },
+    {
+      "id": "glass_single",
+      "name": "Single glazing",
+      "appliesTo": [
+        "opening",
+        "wall"
+      ],
+      "absorption": {
+        "125": 0.3,
+        "250": 0.2,
+        "500": 0.1,
+        "1000": 0.07,
+        "2000": 0.05,
+        "4000": 0.02
+      },
+      "notes": "A single pane is light enough to move with the air, which makes it a surprisingly effective \u2014 and completely uncontrollable \u2014 bass absorber."
+    },
+    {
+      "id": "door_hollow_wood",
+      "name": "Hollow wooden door",
+      "appliesTo": [
+        "opening"
+      ],
+      "absorption": {
+        "125": 0.28,
+        "250": 0.22,
+        "500": 0.17,
+        "1000": 0.09,
+        "2000": 0.1,
+        "4000": 0.11
+      }
+    },
+    {
+      "id": "opening_void",
+      "name": "Open doorway (nothing in it)",
+      "appliesTo": [
+        "opening"
+      ],
+      "absorption": {
+        "125": 1.0,
+        "250": 1.0,
+        "500": 1.0,
+        "1000": 1.0,
+        "2000": 1.0,
+        "4000": 1.0
+      },
+      "notes": "A hole. Sound that leaves through it does not come back, so it behaves as total absorption \u2014 the most absorbent thing a wall can have in it, and the reason a room measures differently with the door open."
+    },
+    {
+      "id": "door_solid_wood",
+      "name": "Solid core door",
+      "appliesTo": [
+        "opening"
+      ],
+      "absorption": {
+        "125": 0.14,
+        "250": 0.1,
+        "500": 0.06,
+        "1000": 0.08,
+        "2000": 0.1,
+        "4000": 0.1
+      },
+      "notes": "Heavy enough not to flex much: close to a wall acoustically, and what you want between a studio and the rest of the house."
+    },
+    {
+      "id": "door_glazed",
+      "name": "Glazed door",
+      "appliesTo": [
+        "opening"
+      ],
+      "absorption": {
+        "125": 0.2,
+        "250": 0.12,
+        "500": 0.07,
+        "1000": 0.05,
+        "2000": 0.04,
+        "4000": 0.03
+      },
+      "notes": "Mostly glass, so mostly reflective \u2014 and it reflects at exactly the frequencies a first reflection does its damage at."
+    },
+    {
+      "id": "glass_triple",
+      "name": "Triple glazing",
+      "appliesTo": [
+        "opening",
+        "wall"
+      ],
+      "absorption": {
+        "125": 0.1,
+        "250": 0.04,
+        "500": 0.03,
+        "1000": 0.02,
+        "2000": 0.02,
+        "4000": 0.02
+      },
+      "notes": "Heavier than double, so it flexes even less: reflective right down the band."
+    },
+    {
+      "id": "seating_cloth",
+      "name": "Cloth-upholstered seating",
+      "appliesTo": [
+        "furnishing"
+      ],
+      "absorption": {
+        "125": 0.44,
+        "250": 0.60,
+        "500": 0.77,
+        "1000": 0.89,
+        "2000": 0.82,
+        "4000": 0.70
+      },
+      "notes": "A fabric sofa or armchair. Standard published figures for cloth-upholstered seats, quoted per square metre of the floor the piece stands on rather than per square metre of its own surface. In a domestic room a three-seater in this covering does more above 500 Hz than a wall of thin panels, which is why leaving furniture out makes a room read far livelier than it is."
+    },
+    {
+      "id": "seating_leather",
+      "name": "Leather-covered seating",
+      "appliesTo": [
+        "furnishing"
+      ],
+      "absorption": {
+        "125": 0.40,
+        "250": 0.50,
+        "500": 0.58,
+        "1000": 0.61,
+        "2000": 0.58,
+        "4000": 0.50
+      },
+      "notes": "The same piece in leather rather than cloth. Standard published figures for leather-covered seats, per square metre of floor covered. Noticeably less absorbent on top than fabric, and the difference is audible in a small room."
+    },
+    {
+      "id": "seating_light_upholstery",
+      "name": "Lightly upholstered seating",
+      "appliesTo": [
+        "furnishing"
+      ],
+      "absorption": {
+        "125": 0.07,
+        "250": 0.12,
+        "500": 0.26,
+        "1000": 0.42,
+        "2000": 0.50,
+        "4000": 0.55
+      },
+      "notes": "A thinly padded seat over a hard frame, as against a deep cushioned one. Standard published figures for slightly upholstered seating, unoccupied, per square metre of floor covered. Close to nothing at the bottom, which is the honest way to model a hard dining chair with a pad on it."
+    },
+    {
+      "id": "seating_occupied",
+      "name": "Seating with someone in it",
+      "appliesTo": [
+        "furnishing"
+      ],
+      "absorption": {
+        "125": 0.32,
+        "250": 0.62,
+        "500": 0.74,
+        "1000": 0.76,
+        "2000": 0.81,
+        "4000": 0.90
+      },
+      "notes": "Lightly upholstered seating, occupied. Standard published figures, per square metre of floor covered. Worth having because a room full of people measures very differently from the same room empty; use it to model the listening session rather than the empty studio."
+    },
+    {
+      "id": "curtain_light_over_glass",
+      "name": "Light curtain over glazing, hung flat",
+      "appliesTo": [
+        "opening",
+        "wall"
+      ],
+      "absorption": {
+        "125": 0.03,
+        "250": 0.04,
+        "500": 0.11,
+        "1000": 0.17,
+        "2000": 0.24,
+        "4000": 0.35
+      },
+      "notes": "An unlined curtain of about 340 g/m\u00b2 hung straight and flat against the glass, which is how most domestic curtains actually hang. Barely touches the room below 500 Hz \u2014 what it does is take the top off. Standard published figures for light velour, 10 oz/sq yd, hung straight in contact with the wall; a class figure rather than a measurement of any one curtain."
+    },
+    {
+      "id": "curtain_medium_over_glass",
+      "name": "Medium curtain over glazing, gathered",
+      "appliesTo": [
+        "opening",
+        "wall"
+      ],
+      "absorption": {
+        "125": 0.07,
+        "250": 0.31,
+        "500": 0.49,
+        "1000": 0.75,
+        "2000": 0.7,
+        "4000": 0.6
+      },
+      "notes": "A lined curtain of about 475 g/m\u00b2 gathered to roughly half its flat width and spaced off the glass. Standard published figures for medium velour, 14 oz/sq yd, draped to half area; a class figure rather than a measurement of any one curtain."
+    },
+    {
+      "id": "curtain_over_glass",
+      "name": "Heavy curtain over glazing, gathered",
+      "appliesTo": [
+        "opening",
+        "wall"
+      ],
+      "absorption": {
+        "125": 0.14,
+        "250": 0.35,
+        "500": 0.55,
+        "1000": 0.72,
+        "2000": 0.7,
+        "4000": 0.65
+      },
+      "notes": "A heavy lined curtain of about 610 g/m\u00b2 gathered to roughly half its flat width and spaced off the glass. The cheapest way to make a window behave, and reversible when the room needs to be live again. Standard published figures for heavy velour, 18 oz/sq yd, draped to half area; a class figure rather than a measurement of any one curtain. Fullness matters more than weight \u2014 the same fabric hung flat does a fraction of this."
+    }
+  ]
+}

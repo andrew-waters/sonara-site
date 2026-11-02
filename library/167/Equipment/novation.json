@@ -1,0 +1,23 @@
+{
+  "equipment": [
+    {
+      "id": "novation-49sl-mkii",
+      "manufacturer": "Novation",
+      "model": "49SL MkII",
+      "category": "controller",
+      "dimensions": { "widthMM": 716, "heightMM": 68, "depthMM": 293 },
+      "weightKG": 4.7,
+      "notes": "Bus-powered over USB; DC input for standalone use.",
+      "ports": [
+        { "id": "usb", "label": "USB", "connector": "usb_b", "gender": "female", "direction": "bidirectional", "signals": ["usb_midi"] },
+        { "id": "midi_in", "label": "MIDI In", "connector": "midi_din5", "gender": "female", "direction": "input", "signals": ["midi"] },
+        { "id": "midi_out_1", "label": "MIDI Out 1", "connector": "midi_din5", "gender": "female", "direction": "output", "signals": ["midi"] },
+        { "id": "midi_out_2", "label": "MIDI Out 2", "connector": "midi_din5", "gender": "female", "direction": "output", "signals": ["midi"] },
+        { "id": "midi_thru", "label": "MIDI Thru", "connector": "midi_din5", "gender": "female", "direction": "output", "signals": ["midi"] },
+        { "id": "sustain", "label": "Sustain Pedal", "connector": "ts_quarter", "gender": "female", "direction": "input", "signals": ["gate"] },
+        { "id": "expression", "label": "Expression Pedal", "connector": "trs_quarter", "gender": "female", "direction": "input", "signals": ["cv"] },
+        { "id": "power", "label": "DC In", "connector": "dc_barrel", "gender": "female", "direction": "input", "signals": ["dc_power"] }
+      ]
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "commit": "3ab86ad992bb5faacf0a2806453d3a986da06467",
+  "commit": "5b4dfc69e7c236387b6462a40908122de172eb65",
   "files": [
     {
       "path": "Equipment/ableton.json",
@@ -13,8 +13,8 @@
     },
     {
       "path": "Equipment/apple.json",
-      "sha256": "951e5fef6308032f9e4b4355ede97b06b1cdfd9dcc109fc0fe47d2590a61cd91",
-      "size": 13302
+      "sha256": "cd805a6f65792b2197552e1d81589a97fdffee2e6abaa4983245fb1420cc728e",
+      "size": 20961
     },
     {
       "path": "Equipment/arturia.json",
@@ -28,8 +28,8 @@
     },
     {
       "path": "Equipment/behringer.json",
-      "sha256": "5e3c9e71ad3151a8595c6d5d5e5fb0f2d8871e1fd714fb05d042ed0a6efe5966",
-      "size": 4943
+      "sha256": "e709d3479c7e5ac1540fdb7c385277e5ddfb9bad5362113edc5fc027979c6e9d",
+      "size": 34560
     },
     {
       "path": "Equipment/blacklionaudio.json",
@@ -67,9 +67,14 @@
       "size": 13393
     },
     {
+      "path": "Equipment/hedd.json",
+      "sha256": "782945666c22d19ea5c89adb389c9827d7f4a1446d866b3cd3fd4e746f14555f",
+      "size": 1446
+    },
+    {
       "path": "Equipment/hologram.json",
-      "sha256": "6b9acd1df6a4da09e5dbea099fe03940f47757ce26db10bab6d47726389dab90",
-      "size": 2906
+      "sha256": "befc1fe5eaa9875169c25a631103b540f669d1d2e57196f53dba3f21bebf3271",
+      "size": 6374
     },
     {
       "path": "Equipment/kenton.json",
@@ -217,8 +222,8 @@
       "size": 12112
     }
   ],
-  "libraryVersion": 151,
+  "libraryVersion": 167,
   "minAppVersion": "0.1.0",
-  "publishedAt": "2026-10-26T17:15:55Z",
+  "publishedAt": "2026-11-02T19:18:31Z",
   "schemaVersion": 2
 }

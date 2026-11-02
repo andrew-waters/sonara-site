@@ -1,0 +1,209 @@
+{
+  "equipment": [
+    {
+      "id": "hologram-microcosm",
+      "manufacturer": "Hologram Electronics",
+      "model": "Microcosm",
+      "category": "effects_unit",
+      "dimensions": {
+        "widthMM": 180,
+        "heightMM": 51,
+        "depthMM": 119
+      },
+      "powerDrawWatts": 4.1,
+      "notes": "Granular effects and looper pedal. The stereo input is a single TRS jack carrying left on the tip and right on the ring, so a stereo source needs a TRS-to-dual-mono lead into it, while the outputs are two ordinary TS jacks. Full-size 5-pin DIN MIDI in and out/thru, and a 1/4\" expression input. Needs 9 V DC at more than 450 mA on a centre-negative barrel, which is the usual pedal polarity but the opposite of an Eventide H90 on the same board, and more current than a small daisy-chain supply will give it. Hologram do not publish a weight, and the firmware-update USB port is not documented, so neither is modelled. I/O taken from the Sound on Sound review rather than a published connector list.",
+      "ports": [
+        {
+          "id": "in",
+          "label": "Input (stereo TRS)",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "instrument_level",
+            "line_level"
+          ],
+          "balanced": false,
+          "channels": 2
+        },
+        {
+          "id": "out_l",
+          "label": "Output L",
+          "connector": "ts_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "instrument_level",
+            "line_level"
+          ],
+          "balanced": false
+        },
+        {
+          "id": "out_r",
+          "label": "Output R",
+          "connector": "ts_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "instrument_level",
+            "line_level"
+          ],
+          "balanced": false
+        },
+        {
+          "id": "exp",
+          "label": "Expression",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "cv"
+          ]
+        },
+        {
+          "id": "midi_in",
+          "label": "MIDI In",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "midi_out",
+          "label": "MIDI Out/Thru",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "power",
+          "label": "DC In",
+          "connector": "dc_barrel",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "dc_power"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hologram-chroma-console",
+      "manufacturer": "Hologram Electronics",
+      "model": "Chroma Console",
+      "category": "effects_unit",
+      "dimensions": {
+        "widthMM": 152,
+        "heightMM": 76,
+        "depthMM": 127
+      },
+      "powerDrawWatts": 4.5,
+      "notes": "Multi-effect pedal: four reorderable modules of five effects, with a looper/sustainer. Unlike the Microcosm, the stereo input is two separate TS jacks, and it routes automatically: one input to both outputs for mono to stereo, both inputs to one output for stereo to mono. Max input +8 dBu, 1 MOhm input impedance, output under 1 kOhm. Full-size 5-pin DIN MIDI in and out, plus a USB-C port that carries MIDI from a computer. TRS expression input wants a pedal of 10 kOhm or more. Needs 9 V DC at 500 mA or more on a centre-negative 2.1 mm barrel. I/O and power from Hologram's user manual; powerDrawWatts is that supply rating, not a measured draw. Hologram do not publish a size or weight: the dimensions are the 6 x 5 x 3 in given by third-party listings, and weight is left out.",
+      "ports": [
+        {
+          "id": "in_l",
+          "label": "Input L",
+          "connector": "ts_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "instrument_level",
+            "line_level"
+          ],
+          "balanced": false
+        },
+        {
+          "id": "in_r",
+          "label": "Input R",
+          "connector": "ts_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "instrument_level",
+            "line_level"
+          ],
+          "balanced": false
+        },
+        {
+          "id": "out_l",
+          "label": "Output L",
+          "connector": "ts_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "instrument_level",
+            "line_level"
+          ],
+          "balanced": false
+        },
+        {
+          "id": "out_r",
+          "label": "Output R",
+          "connector": "ts_quarter",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "instrument_level",
+            "line_level"
+          ],
+          "balanced": false
+        },
+        {
+          "id": "exp",
+          "label": "Expression",
+          "connector": "trs_quarter",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "cv"
+          ]
+        },
+        {
+          "id": "midi_in",
+          "label": "MIDI In",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "midi_out",
+          "label": "MIDI Out",
+          "connector": "midi_din5",
+          "gender": "female",
+          "direction": "output",
+          "signals": [
+            "midi"
+          ]
+        },
+        {
+          "id": "usb",
+          "label": "USB-C (MIDI)",
+          "connector": "usb_c",
+          "gender": "female",
+          "direction": "bidirectional",
+          "signals": [
+            "usb_midi"
+          ]
+        },
+        {
+          "id": "power",
+          "label": "DC In",
+          "connector": "dc_barrel",
+          "gender": "female",
+          "direction": "input",
+          "signals": [
+            "dc_power"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "equipment": [
+    {
+      "id": "oto-bim",
+      "manufacturer": "OTO Machines",
+      "model": "BIM",
+      "category": "effects_unit",
+      "dimensions": { "widthMM": 145, "heightMM": 65, "depthMM": 145 },
+      "rackUnits": null,
+      "weightKG": 0.762,
+      "powerDrawWatts": 7.5,
+      "notes": "12-bit delay in a steel desktop box. Stereo in and out on four unbalanced 1/4\" jacks, with the left input doubling as the mono input; inputs are 1 MOhm, so an instrument goes straight in. MIDI in only, no out or thru: BIM responds to MIDI clock, CC and program change but sends nothing. Runs off the supplied 15 V DC 0.5 A centre-positive adapter, which is the draw quoted here. Same enclosure and the same rear panel as the BAM and the BOUM, so the three stack.",
+      "ports": [
+        { "id": "in_l", "label": "In L/Mono", "connector": "ts_quarter", "gender": "female", "direction": "input", "signals": ["line_level", "instrument_level"], "balanced": false },
+        { "id": "in_r", "label": "In R", "connector": "ts_quarter", "gender": "female", "direction": "input", "signals": ["line_level", "instrument_level"], "balanced": false },
+        { "id": "out_l", "label": "Out L", "connector": "ts_quarter", "gender": "female", "direction": "output", "signals": ["line_level"], "balanced": false },
+        { "id": "out_r", "label": "Out R", "connector": "ts_quarter", "gender": "female", "direction": "output", "signals": ["line_level"], "balanced": false },
+        { "id": "midi_in", "label": "MIDI In", "connector": "midi_din5", "gender": "female", "direction": "input", "signals": ["midi"] },
+        { "id": "power", "label": "DC In (15V)", "connector": "dc_barrel", "gender": "female", "direction": "input", "signals": ["dc_power"] }
+      ]
+    },
+    {
+      "id": "oto-bam",
+      "manufacturer": "OTO Machines",
+      "model": "BAM",
+      "category": "effects_unit",
+      "dimensions": { "widthMM": 145, "heightMM": 65, "depthMM": 145 },
+      "rackUnits": null,
+      "weightKG": 0.782,
+      "powerDrawWatts": 7.5,
+      "notes": "Space generator: a 24-bit reverb in the same steel desktop box as the BIM and the BOUM. Stereo in and out on four unbalanced 1/4\" jacks, with the left input doubling as the mono input; inputs are 1 MOhm, so an instrument goes straight in. MIDI in only, no out or thru: BAM responds to CC and program change but sends nothing. Runs off the supplied 15 V DC 0.5 A centre-positive adapter, which is the draw quoted here.",
+      "ports": [
+        { "id": "in_l", "label": "In L/Mono", "connector": "ts_quarter", "gender": "female", "direction": "input", "signals": ["line_level", "instrument_level"], "balanced": false },
+        { "id": "in_r", "label": "In R", "connector": "ts_quarter", "gender": "female", "direction": "input", "signals": ["line_level", "instrument_level"], "balanced": false },
+        { "id": "out_l", "label": "Out L", "connector": "ts_quarter", "gender": "female", "direction": "output", "signals": ["line_level"], "balanced": false },
+        { "id": "out_r", "label": "Out R", "connector": "ts_quarter", "gender": "female", "direction": "output", "signals": ["line_level"], "balanced": false },
+        { "id": "midi_in", "label": "MIDI In", "connector": "midi_din5", "gender": "female", "direction": "input", "signals": ["midi"] },
+        { "id": "power", "label": "DC In (15V)", "connector": "dc_barrel", "gender": "female", "direction": "input", "signals": ["dc_power"] }
+      ]
+    },
+    {
+      "id": "oto-boum",
+      "manufacturer": "OTO Machines",
+      "model": "BOUM",
+      "category": "effects_unit",
+      "dimensions": { "widthMM": 145, "heightMM": 65, "depthMM": 145 },
+      "rackUnits": null,
+      "weightKG": 0.762,
+      "powerDrawWatts": 7.5,
+      "notes": "Analogue warming unit: compressor, distortion, filters and gate, in the same steel desktop box as the BIM and the BAM. Stereo in and out on four unbalanced 1/4\" jacks, with the left input doubling as the mono input; inputs are 1 MOhm, so an instrument goes straight in. The extra jack the others do not have is a mono 1/8\" sidechain input, which keys the compressor and the gate from an outside signal. MIDI in only, no out or thru: BOUM responds to CC, program change and note but sends nothing. Runs off the supplied 15 V DC 0.5 A centre-positive adapter, which is the draw quoted here. It vents through the underside and runs warm, so leave the feet clear.",
+      "ports": [
+        { "id": "in_l", "label": "In L/Mono", "connector": "ts_quarter", "gender": "female", "direction": "input", "signals": ["line_level", "instrument_level"], "balanced": false },
+        { "id": "in_r", "label": "In R", "connector": "ts_quarter", "gender": "female", "direction": "input", "signals": ["line_level", "instrument_level"], "balanced": false },
+        { "id": "out_l", "label": "Out L", "connector": "ts_quarter", "gender": "female", "direction": "output", "signals": ["line_level"], "balanced": false },
+        { "id": "out_r", "label": "Out R", "connector": "ts_quarter", "gender": "female", "direction": "output", "signals": ["line_level"], "balanced": false },
+        { "id": "sidechain_in", "label": "Sidechain In", "connector": "ts_eighth", "gender": "female", "direction": "input", "signals": ["line_level"], "balanced": false },
+        { "id": "midi_in", "label": "MIDI In", "connector": "midi_din5", "gender": "female", "direction": "input", "signals": ["midi"] },
+        { "id": "power", "label": "DC In (15V)", "connector": "dc_barrel", "gender": "female", "direction": "input", "signals": ["dc_power"] }
+      ]
+    }
+  ]
+}

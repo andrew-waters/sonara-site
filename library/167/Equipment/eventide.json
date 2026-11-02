@@ -1,0 +1,30 @@
+{
+  "equipment": [
+    {
+      "id": "eventide-h90",
+      "manufacturer": "Eventide",
+      "model": "H90 Harmonizer",
+      "category": "effects_unit",
+      "dimensions": { "widthMM": 179, "heightMM": 65, "depthMM": 136 },
+      "weightKG": 1.36,
+      "powerDrawWatts": 7.2,
+      "notes": "Dual-engine multi-effects pedal. Four ins and four outs on unbalanced 1/4\" TS jacks, each switchable between instrument and line level, so it works in front of an amp or in a line-level loop. The two EXP/CTL jacks each take an expression pedal, an aux switch (up to three per jack) or a 5 V CV source. USB-C carries MIDI, control and updates, not audio. Powered by a 12 V DC 600 mA supply (or 9 V DC 800 mA) on a 5.5/2.5 mm barrel, centre-positive, which is the opposite polarity to most pedals.",
+      "ports": [
+        { "id": "in_1", "label": "Input 1", "connector": "ts_quarter", "gender": "female", "direction": "input", "signals": ["instrument_level", "line_level"], "balanced": false },
+        { "id": "in_2", "label": "Input 2", "connector": "ts_quarter", "gender": "female", "direction": "input", "signals": ["instrument_level", "line_level"], "balanced": false },
+        { "id": "in_3", "label": "Input 3", "connector": "ts_quarter", "gender": "female", "direction": "input", "signals": ["instrument_level", "line_level"], "balanced": false },
+        { "id": "in_4", "label": "Input 4", "connector": "ts_quarter", "gender": "female", "direction": "input", "signals": ["instrument_level", "line_level"], "balanced": false },
+        { "id": "out_1", "label": "Output 1", "connector": "ts_quarter", "gender": "female", "direction": "output", "signals": ["instrument_level", "line_level"], "balanced": false },
+        { "id": "out_2", "label": "Output 2", "connector": "ts_quarter", "gender": "female", "direction": "output", "signals": ["instrument_level", "line_level"], "balanced": false },
+        { "id": "out_3", "label": "Output 3", "connector": "ts_quarter", "gender": "female", "direction": "output", "signals": ["instrument_level", "line_level"], "balanced": false },
+        { "id": "out_4", "label": "Output 4", "connector": "ts_quarter", "gender": "female", "direction": "output", "signals": ["instrument_level", "line_level"], "balanced": false },
+        { "id": "exp_ctl_1", "label": "Exp/Ctl 1", "connector": "trs_quarter", "gender": "female", "direction": "input", "signals": ["cv", "gate"] },
+        { "id": "exp_ctl_2", "label": "Exp/Ctl 2", "connector": "trs_quarter", "gender": "female", "direction": "input", "signals": ["cv", "gate"] },
+        { "id": "midi_in", "label": "MIDI In", "connector": "midi_din5", "gender": "female", "direction": "input", "signals": ["midi"] },
+        { "id": "midi_out", "label": "MIDI Out/Thru", "connector": "midi_din5", "gender": "female", "direction": "output", "signals": ["midi"] },
+        { "id": "usb", "label": "USB", "connector": "usb_c", "gender": "female", "direction": "bidirectional", "signals": ["usb_midi", "usb_data"] },
+        { "id": "power", "label": "DC In", "connector": "dc_barrel", "gender": "female", "direction": "input", "signals": ["dc_power"] }
+      ]
+    }
+  ]
+}

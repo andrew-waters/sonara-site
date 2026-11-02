@@ -1,0 +1,294 @@
+{
+  "materials": [
+    {
+      "id": "mineral-wool-45",
+      "name": "Mineral wool slab",
+      "densityKGM3": 45,
+      "thicknesses": [
+        {
+          "thicknessMM": 25,
+          "absorption": {
+            "125": 0.1,
+            "250": 0.25,
+            "500": 0.6,
+            "1000": 0.85,
+            "2000": 0.95,
+            "4000": 1.0
+          }
+        },
+        {
+          "thicknessMM": 50,
+          "absorption": {
+            "125": 0.15,
+            "250": 0.55,
+            "500": 0.95,
+            "1000": 1.0,
+            "2000": 1.0,
+            "4000": 1.0
+          }
+        },
+        {
+          "thicknessMM": 75,
+          "absorption": {
+            "125": 0.3,
+            "250": 0.8,
+            "500": 1.0,
+            "1000": 1.0,
+            "2000": 1.0,
+            "4000": 1.0
+          }
+        },
+        {
+          "thicknessMM": 100,
+          "absorption": {
+            "125": 0.45,
+            "250": 1.0,
+            "500": 1.05,
+            "1000": 1.0,
+            "2000": 1.0,
+            "4000": 1.0
+          }
+        },
+        {
+          "thicknessMM": 200,
+          "absorption": {
+            "125": 0.75,
+            "250": 1.05,
+            "500": 1.05,
+            "1000": 1.0,
+            "2000": 1.0,
+            "4000": 1.0
+          }
+        }
+      ],
+      "notes": "The workhorse density for studio panels, and the class of Rockwool RWA45, Knauf Ecose slab and similar acoustic slabs. Rigid enough to stand in a frame without sagging. Figures are typical for the density class at each thickness, mounted directly against a rigid surface \u2014 not a certified measurement of any one product, and a slab held off the wall does better low down than this says."
+    },
+    {
+      "id": "mineral-wool-60",
+      "name": "Mineral wool slab, dense",
+      "densityKGM3": 60,
+      "thicknesses": [
+        {
+          "thicknessMM": 25,
+          "absorption": {
+            "125": 0.12,
+            "250": 0.3,
+            "500": 0.65,
+            "1000": 0.9,
+            "2000": 0.95,
+            "4000": 1.0
+          }
+        },
+        {
+          "thicknessMM": 50,
+          "absorption": {
+            "125": 0.2,
+            "250": 0.6,
+            "500": 0.95,
+            "1000": 1.0,
+            "2000": 1.0,
+            "4000": 1.0
+          }
+        },
+        {
+          "thicknessMM": 75,
+          "absorption": {
+            "125": 0.35,
+            "250": 0.85,
+            "500": 1.05,
+            "1000": 1.0,
+            "2000": 1.0,
+            "4000": 1.0
+          }
+        },
+        {
+          "thicknessMM": 100,
+          "absorption": {
+            "125": 0.5,
+            "250": 1.0,
+            "500": 1.05,
+            "1000": 1.0,
+            "2000": 1.0,
+            "4000": 1.0
+          }
+        },
+        {
+          "thicknessMM": 200,
+          "absorption": {
+            "125": 0.8,
+            "250": 1.05,
+            "500": 1.05,
+            "1000": 1.0,
+            "2000": 1.0,
+            "4000": 1.0
+          }
+        }
+      ],
+      "notes": "The class of Rockwool RW3 and similar. A little better low down than 45 kg/m\u00b3 at the same thickness, and stiffer to work with. Typical figures for the class, mounted directly."
+    },
+    {
+      "id": "mineral-wool-100",
+      "name": "Mineral wool slab, high density",
+      "densityKGM3": 100,
+      "thicknesses": [
+        {
+          "thicknessMM": 25,
+          "absorption": {
+            "125": 0.15,
+            "250": 0.35,
+            "500": 0.7,
+            "1000": 0.9,
+            "2000": 0.95,
+            "4000": 0.95
+          }
+        },
+        {
+          "thicknessMM": 50,
+          "absorption": {
+            "125": 0.25,
+            "250": 0.65,
+            "500": 1.0,
+            "1000": 1.0,
+            "2000": 0.98,
+            "4000": 0.95
+          }
+        },
+        {
+          "thicknessMM": 100,
+          "absorption": {
+            "125": 0.55,
+            "250": 1.0,
+            "500": 1.05,
+            "1000": 1.0,
+            "2000": 0.98,
+            "4000": 0.95
+          }
+        }
+      ],
+      "notes": "The class of Rockwool RW5 and similar. Past about 80 kg/m\u00b3 the gains low down start costing a little at the top, as the slab gets dense enough to reflect rather than admit \u2014 which is why the usual advice is that denser is not automatically better. Typical figures for the class, mounted directly."
+    },
+    {
+      "id": "glass-wool-24",
+      "name": "Glass wool, light",
+      "densityKGM3": 24,
+      "thicknesses": [
+        {
+          "thicknessMM": 50,
+          "absorption": {
+            "125": 0.1,
+            "250": 0.35,
+            "500": 0.7,
+            "1000": 0.85,
+            "2000": 0.9,
+            "4000": 0.95
+          }
+        },
+        {
+          "thicknessMM": 100,
+          "absorption": {
+            "125": 0.3,
+            "250": 0.75,
+            "500": 0.95,
+            "1000": 1.0,
+            "2000": 1.0,
+            "4000": 1.0
+          }
+        },
+        {
+          "thicknessMM": 200,
+          "absorption": {
+            "125": 0.6,
+            "250": 1.0,
+            "500": 1.0,
+            "1000": 1.0,
+            "2000": 1.0,
+            "4000": 1.0
+          }
+        }
+      ],
+      "notes": "Loft-roll density: cheap, and it works if you use enough of it, but it sags in a frame and does less per millimetre than a slab. Typical figures for the class, mounted directly."
+    },
+    {
+      "id": "fibreglass-board-48",
+      "name": "Rigid fibreglass board",
+      "densityKGM3": 48,
+      "thicknesses": [
+        {
+          "thicknessMM": 25,
+          "absorption": {
+            "125": 0.1,
+            "250": 0.3,
+            "500": 0.65,
+            "1000": 0.85,
+            "2000": 0.95,
+            "4000": 1.0
+          }
+        },
+        {
+          "thicknessMM": 50,
+          "absorption": {
+            "125": 0.2,
+            "250": 0.6,
+            "500": 0.95,
+            "1000": 1.0,
+            "2000": 1.0,
+            "4000": 1.0
+          }
+        },
+        {
+          "thicknessMM": 100,
+          "absorption": {
+            "125": 0.5,
+            "250": 1.0,
+            "500": 1.05,
+            "1000": 1.0,
+            "2000": 1.0,
+            "4000": 1.0
+          }
+        }
+      ],
+      "notes": "The class of Owens Corning 703 and equivalent rigid boards, common in North America. Behaves much like 45\u201360 kg/m\u00b3 mineral wool. Typical figures for the class, mounted directly."
+    },
+    {
+      "id": "polyester-batt-30",
+      "name": "Polyester batt",
+      "densityKGM3": 30,
+      "thicknesses": [
+        {
+          "thicknessMM": 25,
+          "absorption": {
+            "125": 0.08,
+            "250": 0.22,
+            "500": 0.55,
+            "1000": 0.8,
+            "2000": 0.9,
+            "4000": 0.95
+          }
+        },
+        {
+          "thicknessMM": 50,
+          "absorption": {
+            "125": 0.15,
+            "250": 0.5,
+            "500": 0.9,
+            "1000": 1.0,
+            "2000": 1.0,
+            "4000": 1.0
+          }
+        },
+        {
+          "thicknessMM": 100,
+          "absorption": {
+            "125": 0.4,
+            "250": 0.95,
+            "500": 1.0,
+            "1000": 1.0,
+            "2000": 1.0,
+            "4000": 1.0
+          }
+        }
+      ],
+      "notes": "Recycled PET batts: no fibres to itch, easy to cut, slightly behind mineral wool of the same thickness low down. Typical figures for the class, mounted directly."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "equipment": [
+    {
+      "id": "generic-rack-blank-1u",
+      "manufacturer": "Generic",
+      "model": "Blanking panel (1U)",
+      "category": "other",
+      "dimensions": { "widthMM": 483, "heightMM": 44, "depthMM": 5 },
+      "rackUnits": 1,
+      "weightKG": 0.3,
+      "notes": "A blank plate over an empty unit. In the library so a rack can be planned as it will actually be built: the gaps are part of the layout, and a rack full of holes moves air the wrong way."
+    },
+    {
+      "id": "generic-rack-blank-2u",
+      "manufacturer": "Generic",
+      "model": "Blanking panel (2U)",
+      "category": "other",
+      "dimensions": { "widthMM": 483, "heightMM": 89, "depthMM": 5 },
+      "rackUnits": 2,
+      "weightKG": 0.6,
+      "notes": "The 2U version. See the 1U panel."
+    },
+    {
+      "id": "generic-rack-shelf-1u",
+      "manufacturer": "Generic",
+      "model": "Vented shelf (1U)",
+      "category": "other",
+      "dimensions": { "widthMM": 483, "heightMM": 44, "depthMM": 250 },
+      "rackUnits": 1,
+      "weightKG": 1.2,
+      "notes": "A tray for gear that has no rack ears of its own. Put it in the rack, then stand the thing it carries on it: the shelf takes the unit, and what sits on it is a separate placement at the shelf's height."
+    },
+    {
+      "id": "generic-rack-shelf-2u",
+      "manufacturer": "Generic",
+      "model": "Vented shelf (2U)",
+      "category": "other",
+      "dimensions": { "widthMM": 483, "heightMM": 89, "depthMM": 300 },
+      "rackUnits": 2,
+      "weightKG": 1.8,
+      "notes": "A deeper tray for something with a bit more to it. See the 1U shelf."
+    },
+    {
+      "id": "generic-rack-drawer-2u",
+      "manufacturer": "Generic",
+      "model": "Drawer (2U)",
+      "category": "other",
+      "dimensions": { "widthMM": 483, "heightMM": 89, "depthMM": 350 },
+      "rackUnits": 2,
+      "weightKG": 4.0,
+      "notes": "Where the adaptors live. Worth drawing because it takes two units that then are not available for anything else."
+    }
+  ]
+}
